@@ -1,11 +1,12 @@
 # This code uses the asyncio library to achieve asyncronous task processing.
 # v0: testing the concept updating only direction and communicating it using lights
 
+# Developed by Ben the greatest!
 
 import asyncio
 import board
 import digitalio
-from time import monotonic as mt
+from time import monotonic as mono
 
 class encoderStatus:
     """Simple class to hold values used between functions."""
