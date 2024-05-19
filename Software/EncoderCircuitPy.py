@@ -6,7 +6,7 @@
 import asyncio
 import board
 import digitalio
-from time import monotonic as mono
+from time import monotonic as mt
 
 class encoderStatus:
     """Simple class to hold values used between functions."""
