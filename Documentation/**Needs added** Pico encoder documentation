@@ -69,11 +69,20 @@ To enhance the position feedback capability, the position is scaled by a factor 
 ### Testing results
 #### TS-25GA370H-20 (Small Gear Motor)
 This small motor’s gearbox results in excellent position feedback making it ideal for any precision application. The motor vendor stated a pulse resolution of 240 pulses per revolution and the the initial motor testing demonstrated a similar value (values from section 2.1.1):
-$$\frac{1.111Kcyles}{Second}=\frac{4.608 revolutions}{Second}$$
+$$\frac{1.111\ Kcyles}{second}=\frac{4.608\ revolutions}{second}$$
 Solving for cycles per second yields: 
 $$\frac{1,111\ cycles}{4.608\ revolutions}=241.1\frac{cycles}{revolutions}$$
 
 Our initial testing is mostly consistent with the vendor provided spec, but when utilizing the encoder as described above, a state change per revolution number is needed. The cycles per second recorded during initial testing are for a single encoder signal. When reading the encoder using state changes, a resolution of four times the signal frequency is achieved. The result is that the the motor should have $$(240\times4)=960$$ state changes per revolution. The motor position accuracy was tested over ten rotations and it was found that the zero position drifted by almost 90° indicating that our 960 state changes per revolution value was inaccurate. Through trial and error, a value of 980 state changes per revolution was determined to be accurate across 10 turns. This means there is likely 245 pulses per revolution for each encoder signal. This error could be attributed to the vendor reporting a round value for the 20:1 gear reduction which may be actually closer to 20.4:1.
 
-When measuring the speed, a max of 4700 state changes per second was recorded. This number is an approximation and could vary between motors. For this reason, a speed adustment will be provided to allow maximizing the resolution of the speed feedback to the PLC.
+A maximum speed of 4700 state changes per second was recorded for this motor. This number is an approximation and could vary between motors. For this reason, a speed adustment will be provided to allow maximizing the resolution of the speed feedback to the PLC.
 #### RS775-125 (Bare Motor)
+This larger motor has significantly less encoder resolution because it does not have a gear reduction and because it it has almost half the resolution with the encoder itself. The motor vendor stated a pulse resolution of 240 pulses per revolution and the the initial motor testing demonstrated a similar value (values from section 1.2.1):
+$$\frac{641\ cyles}{second}=\frac{91.667\  revolutions}{second}$$
+Solving for cycles per second yields: 
+$$\frac{641\ cycles}{91.667\ revolutions}=6.99\frac{cycles}{revolutions}$$
+This tested value is much more consistent with the vendor’s specification than the gear motor. As described with the gear motor, the Pico counts the state changes per revolution which is four times the signal frequency. The result is 28 state changes per revolution. The resolution per state change is calculated as follows:
+$$\frac{360\degree}{7\ pulses}\times\frac{pulses}{4\ state\ changes}=\frac{12.9\degree}{state\ change}$$
+With this low resolution, it was simple to verify at the bench by checking that the feedback PWM signal returns to 0% duty cycle at the same point on each revolution. Because the resolution is so poor for this motor it will be better used for speed control applications instead of position control.
+
+A maximum speed of less than 2700 state changes per second was recorded for this motor. As described previously, an adjustment potentiometer on the controller board will allow the speed signal to be set appropriately for each individual motor.
