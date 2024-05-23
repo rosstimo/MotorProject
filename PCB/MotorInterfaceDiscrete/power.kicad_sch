@@ -2,7 +2,13 @@
 
   (uuid 6594998a-af08-4136-94e8-0e266da3c92a)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "Motor Interface - Discrete Logic")
+    (date "2024-05-22")
+    (rev "1")
+  )
 
   (lib_symbols
     (symbol "00TJR:74xx_74LS76" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
@@ -989,7 +995,7 @@
   (symbol (lib_id "F2018-cache:GND") (at 46.99 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 144b249e-466e-47b3-a02c-df0fb88bb619)
-    (property "Reference" "#PWR03" (at 46.99 82.55 0)
+    (property "Reference" "#PWR014" (at 46.99 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 81.28 0)
@@ -1005,7 +1011,7 @@
     (instances
       (project "MotorInterface"
         (path "/18987dfd-1111-4fcd-8666-686e24f32049/09eca958-6e6a-489b-8565-6fc4aa47d77e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1014,7 +1020,7 @@
   (symbol (lib_id "00TJR:74xx_74LS76") (at 95.25 58.42 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50db1006-4351-408b-808b-654602722a2b)
-    (property "Reference" "U5" (at 88.9 52.07 0)
+    (property "Reference" "U2" (at 88.9 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS76" (at 96.52 52.07 0)
@@ -1045,7 +1051,7 @@
     (instances
       (project "MotorInterface"
         (path "/18987dfd-1111-4fcd-8666-686e24f32049/09eca958-6e6a-489b-8565-6fc4aa47d77e"
-          (reference "U5") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -1054,7 +1060,7 @@
   (symbol (lib_id "S2020-cache:74xx_74LS14") (at 55.88 60.96 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 658308d0-fc44-4a6c-adcd-4b5fec414365)
-    (property "Reference" "U2" (at 50.8 52.07 0)
+    (property "Reference" "U3" (at 50.8 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS14" (at 60.96 52.07 0)
@@ -1083,7 +1089,7 @@
     (instances
       (project "MotorInterface"
         (path "/18987dfd-1111-4fcd-8666-686e24f32049/09eca958-6e6a-489b-8565-6fc4aa47d77e"
-          (reference "U2") (unit 7)
+          (reference "U3") (unit 7)
         )
       )
     )
@@ -1092,7 +1098,7 @@
   (symbol (lib_id "BJT-Amps-cache:power_VCC") (at 46.99 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9533042-1c35-49f7-b2d4-898f393d4021)
-    (property "Reference" "#PWR01" (at 46.99 49.53 0)
+    (property "Reference" "#PWR013" (at 46.99 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "power_VCC" (at 46.99 40.64 0)
@@ -1108,7 +1114,7 @@
     (instances
       (project "MotorInterface"
         (path "/18987dfd-1111-4fcd-8666-686e24f32049/09eca958-6e6a-489b-8565-6fc4aa47d77e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1117,7 +1123,7 @@
   (symbol (lib_id "TFlipFlop-cache:74xx_74LS08") (at 76.2 60.96 0) (mirror y) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d81752ec-6cd5-49c4-a619-1da76ac23824)
-    (property "Reference" "U3" (at 69.85 52.07 0)
+    (property "Reference" "U4" (at 69.85 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS08" (at 81.28 52.07 0)
@@ -1146,7 +1152,7 @@
     (instances
       (project "MotorInterface"
         (path "/18987dfd-1111-4fcd-8666-686e24f32049/09eca958-6e6a-489b-8565-6fc4aa47d77e"
-          (reference "U3") (unit 5)
+          (reference "U4") (unit 5)
         )
       )
     )
