@@ -1,0 +1,3 @@
+[submodule "Documentation/EncoderInterfaceDiscrete/.template"]
+	path = Documentation/EncoderInterfaceDiscrete/.template
+	url = https://github.com/rosstimo/lessonPlanTemplate.git

@@ -1,16 +1,13 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 172c29f3-38ba-4d20-9e23-f481cc1e3448)
-
-  (paper "USLetter")
-
-  (title_block
-    (title "Motor Interface - Discrete Logic")
-    (date "2024-05-22")
-    (rev "1")
-  )
-
-  (lib_symbols
-  )
-
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "172c29f3-38ba-4d20-9e23-f481cc1e3448")
+	(paper "USLetter")
+	(title_block
+		(title "Motor Interface - Discrete Logic")
+		(date "2024-05-22")
+		(rev "1")
+	)
+	(lib_symbols)
 )
