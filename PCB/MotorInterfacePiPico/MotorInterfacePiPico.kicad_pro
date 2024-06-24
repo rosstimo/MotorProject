@@ -383,7 +383,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -397,6 +397,10 @@
     [
       "6bcc676d-adc4-400e-9d1b-3d3d9a13d83a",
       "Root"
+    ],
+    [
+      "bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5",
+      "Power"
     ]
   ],
   "text_variables": {}
