@@ -398,6 +398,958 @@
 				)
 			)
 		)
+		(symbol "C_10"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_14"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_14_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_14_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_15"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_15_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_15_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_3_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_5"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_5_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_5_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_7"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_7_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_7_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_9"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_9_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_9_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -759,7 +1711,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM79L05_TO92"
+		(symbol "Regulator_Linear:LM78L05_TO92"
 			(pin_names
 				(offset 0.254)
 			)
@@ -767,15 +1719,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 -3.175 0)
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM79L05_TO92"
-				(at 0 -3.175 0)
+			(property "Value" "LM78L05_TO92"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -784,7 +1736,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 -5.08 0)
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -793,7 +1745,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm79l.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,16 +1763,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3-Terminal Negative Regulator, -5V, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "negative regulatpr"
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -829,10 +1781,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM79L05_TO92_0_1"
+			(symbol "LM78L05_TO92_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -1.905)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -842,9 +1794,27 @@
 					)
 				)
 			)
-			(symbol "LM79L05_TO92_1_1"
+			(symbol "LM78L05_TO92_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -853,7 +1823,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -871,7 +1841,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -879,17 +1849,167 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
+			)
+		)
+		(symbol "TJR:C_Polarized_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C4"
+				(at -4.064 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100uF"
+				(at -6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TJR:C_Radial_D8.0mm_H13mm_P3.5mm"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -1.27)
+					(mid 0 -0.5572)
+					(end -2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1139,6 +2259,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1273,6 +2513,12 @@
 		(uuid "146266f0-6f67-47a2-b7f2-c5c4809b17e5")
 	)
 	(junction
+		(at 66.04 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15a601ac-bb67-4a1b-9eed-45b3ea81bcc3")
+	)
+	(junction
 		(at 40.64 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1289,6 +2535,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22edc994-a392-49b5-9265-a16ec0645f62")
+	)
+	(junction
+		(at 53.34 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260ee652-0ea8-46e6-b885-dfdc68248006")
+	)
+	(junction
+		(at 78.74 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4477414b-f3a7-4127-be4a-2d945c814efc")
+	)
+	(junction
+		(at 40.64 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e5fe4ca-69cc-44a4-acf3-d4e09ce9d0cf")
 	)
 	(junction
 		(at 78.74 106.68)
@@ -1345,6 +2609,12 @@
 		(uuid "b507fa47-424e-48e2-8aad-7f25b3804963")
 	)
 	(junction
+		(at 66.04 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c370e499-6015-4cab-8f95-e4ea8b66432b")
+	)
+	(junction
 		(at 66.04 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1363,6 +2633,12 @@
 		(uuid "e421ab33-da9b-480a-a87e-c41a0fba48d4")
 	)
 	(junction
+		(at 53.34 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75cce40-fada-4e20-8986-d801049cbe18")
+	)
+	(junction
 		(at 40.64 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1374,6 +2650,18 @@
 		(color 0 0 0 0)
 		(uuid "eca27a75-9465-4a83-a95c-a5157419a187")
 	)
+	(no_connect
+		(at 148.59 39.37)
+		(uuid "30883b5b-df6e-4982-a13a-9085e789e174")
+	)
+	(no_connect
+		(at 148.59 34.29)
+		(uuid "77c85167-ec8f-4b85-83b0-f63e566230ca")
+	)
+	(no_connect
+		(at 163.83 36.83)
+		(uuid "e9062771-0015-42ea-8cba-ed40f5cf62a7")
+	)
 	(wire
 		(pts
 			(xy 38.1 26.67) (xy 38.1 33.02)
@@ -1383,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "01a309c3-a36e-413b-91a7-dc4866d064d8")
+	)
+	(wire
+		(pts
+			(xy 53.34 166.37) (xy 66.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039f8e5c-cc08-49cb-afa7-32969b06b78f")
 	)
 	(wire
 		(pts
@@ -1536,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 156.21) (xy 40.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d900aa-5b3b-4586-bb52-b05a02d734f8")
+	)
+	(wire
+		(pts
 			(xy 66.04 144.78) (xy 66.04 142.24)
 		)
 		(stroke
@@ -1543,6 +2851,16 @@
 			(type default)
 		)
 		(uuid "35743134-8fa7-4758-905f-c8b1f0f5708e")
+	)
+	(wire
+		(pts
+			(xy 40.64 166.37) (xy 53.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afec51e-ff9d-429d-a7b7-560c80117446")
 	)
 	(wire
 		(pts
@@ -1576,6 +2894,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 166.37) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0a1ea6-05ae-4700-a459-dcd435b87a1a")
+	)
+	(wire
+		(pts
 			(xy 50.8 40.64) (xy 50.8 41.91)
 		)
 		(stroke
@@ -1606,6 +2934,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 156.21) (xy 53.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e05fbd-2879-4e42-b304-07e218a5e491")
+	)
+	(wire
+		(pts
 			(xy 78.74 132.08) (xy 78.74 134.62)
 		)
 		(stroke
@@ -1613,6 +2951,16 @@
 			(type default)
 		)
 		(uuid "5c30d58e-d73c-4aa4-962b-a03f44800236")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 78.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff857c3-9223-4830-8003-505b88e7c11a")
 	)
 	(wire
 		(pts
@@ -1636,6 +2984,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 166.37) (xy 66.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c195f2-72e0-4d1c-86a3-60cfe1b08181")
+	)
+	(wire
+		(pts
 			(xy 40.64 144.78) (xy 40.64 142.24)
 		)
 		(stroke
@@ -1653,6 +3011,16 @@
 			(type default)
 		)
 		(uuid "75d83ff1-88a8-478f-af9f-ac3bd6b2d3f0")
+	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3c6f3e-5c84-4a12-ad33-52c744f5c49f")
 	)
 	(wire
 		(pts
@@ -1686,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 166.37) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8463af40-9030-4af2-9f3f-82c780160eac")
+	)
+	(wire
+		(pts
 			(xy 74.93 40.64) (xy 74.93 41.91)
 		)
 		(stroke
@@ -1716,7 +3094,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 153.67) (xy 80.01 153.67)
+			(xy 38.1 172.974) (xy 80.01 172.974)
 		)
 		(stroke
 			(width 0)
@@ -1786,6 +3164,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 166.37) (xy 53.34 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa84af4-dd6f-4dfa-a387-219aa2b12c14")
+	)
+	(wire
+		(pts
 			(xy 66.04 125.73) (xy 66.04 123.19)
 		)
 		(stroke
@@ -1814,6 +3202,36 @@
 		)
 		(uuid "bccbf0ce-0bf6-4c27-a4f7-964d15861727")
 	)
+	(wire
+		(pts
+			(xy 78.74 166.37) (xy 78.74 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33b609b-a8c0-426b-9396-cd5da92b9ad6")
+	)
+	(wire
+		(pts
+			(xy 78.74 166.37) (xy 66.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f9b1da-d049-4076-b082-e7ee6a958cbe")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 78.74 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3cdcf2-0309-4fbf-8f79-587880d7bbd3")
+	)
 	(polyline
 		(pts
 			(xy 38.1 50.8) (xy 80.01 50.8)
@@ -1823,6 +3241,26 @@
 			(type solid)
 		)
 		(uuid "d2003ac1-374a-4bf2-9b2b-d0ea20e97c1f")
+	)
+	(wire
+		(pts
+			(xy 53.34 153.67) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a260c1-68cc-474a-8248-144c6caf4e65")
+	)
+	(wire
+		(pts
+			(xy 40.64 153.67) (xy 53.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bcac20-e7ed-4c62-ba78-913135f556c4")
 	)
 	(wire
 		(pts
@@ -1975,7 +3413,7 @@
 		)
 		(uuid "56983262-8d20-4947-a47c-c4adb022bf65")
 	)
-	(text "Op-Amp Power\nNote: 0-10V nominal output rail voltage swing"
+	(text "Op-Amp Power\nNote: 0-10V nominal output rail voltage swing\nNote: Device D not used"
 		(exclude_from_sim no)
 		(at 120.65 51.816 0)
 		(effects
@@ -1988,7 +3426,7 @@
 	)
 	(text "Decoupling Networks\nNote: Place nearest component power pins"
 		(exclude_from_sim no)
-		(at 38.1 154.686 0)
+		(at 38.1 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1998,6 +3436,7 @@
 		(uuid "f624084e-ac9a-42e9-9b65-5365067991e6")
 	)
 	(symbol
+		(lib_name "C_3")
 		(lib_id "Device:C")
 		(at 53.34 119.38 0)
 		(unit 1)
@@ -2024,7 +3463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 54.3052 123.19 0)
 			(effects
 				(font
@@ -2067,7 +3506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "TJR:C_Polarized_US")
 		(at 40.64 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2076,7 +3515,7 @@
 		(dnp no)
 		(uuid "091fc1b5-7fe8-434a-88b3-8c179040addf")
 		(property "Reference" "C4"
-			(at 36.576 98.044 0)
+			(at 35.814 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +3523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 34.29 102.87 0)
 			(effects
 				(font
@@ -2093,7 +3532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
 			(at 41.6052 104.14 0)
 			(effects
 				(font
@@ -2102,7 +3541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
 			(at 40.64 100.33 0)
 			(effects
 				(font
@@ -2111,7 +3550,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 40.64 100.33 0)
 			(effects
 				(font
@@ -2163,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -2242,6 +3690,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_7")
 		(lib_id "Device:C")
 		(at 78.74 100.33 0)
 		(unit 1)
@@ -2268,7 +3717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 79.7052 104.14 0)
 			(effects
 				(font
@@ -2375,7 +3824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "TJR:C_Polarized_US")
 		(at 40.64 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2384,7 +3833,7 @@
 		(dnp no)
 		(uuid "30f0af7d-d613-41c7-b3fc-53fc0fdab16f")
 		(property "Reference" "C5"
-			(at 36.576 117.094 0)
+			(at 35.814 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +3841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -2401,7 +3850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
 			(at 41.6052 123.19 0)
 			(effects
 				(font
@@ -2410,7 +3859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -2419,7 +3868,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -2444,6 +3902,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_9")
 		(lib_id "Device:C")
 		(at 53.34 138.43 0)
 		(unit 1)
@@ -2470,7 +3929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 54.3052 142.24 0)
 			(effects
 				(font
@@ -2641,6 +4100,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_14")
 		(lib_id "Device:C")
 		(at 78.74 138.43 0)
 		(unit 1)
@@ -2667,7 +4127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 79.7052 142.24 0)
 			(effects
 				(font
@@ -2775,6 +4235,188 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA4197xPW")
+		(at 156.21 36.83 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561d07ba-808a-4557-be65-6d3c35ce6161")
+		(property "Reference" "U2"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA4197"
+			(at 156.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa4197.pdf"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14"
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "8f2ee455-ff07-41a0-8bbe-9c8214794e02")
+		)
+		(pin "9"
+			(uuid "71dc537d-c065-40e3-9a2b-301a9714bfac")
+		)
+		(pin "2"
+			(uuid "d92ec1f5-d4e4-4400-8f5e-f66227d80ffd")
+		)
+		(pin "14"
+			(uuid "1461f631-8aa9-4da1-841b-9afcd6896e7f")
+		)
+		(pin "12"
+			(uuid "7e46a3a9-6c9d-462a-be20-ada3d5f485d6")
+		)
+		(pin "7"
+			(uuid "cffe6e73-e4f7-462d-9427-7abd2c2d074d")
+		)
+		(pin "3"
+			(uuid "1e6a2df4-411b-4c0d-89ba-5ad32eba193e")
+		)
+		(pin "13"
+			(uuid "afce0ca8-3158-4863-bfb5-5b24412e44a9")
+		)
+		(pin "1"
+			(uuid "2fcfcccd-ae17-40d7-a1a7-10951025aadf")
+		)
+		(pin "8"
+			(uuid "e0cff0ee-144b-4c3a-ac1c-ef1c7f72953a")
+		)
+		(pin "10"
+			(uuid "cebaa107-8f48-40b1-b860-f42ea2901544")
+		)
+		(pin "11"
+			(uuid "8584be39-613a-49af-b08a-3e98308b33ea")
+		)
+		(pin "4"
+			(uuid "5927ff52-b417-4a03-bd47-8115dd864e26")
+		)
+		(pin "5"
+			(uuid "4ad5ba48-5452-4fb3-b81e-cb927de344b2")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:C_Polarized_US")
+		(at 66.04 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5672e8cf-f310-44a1-aa26-b8c3eb11abae")
+		(property "Reference" "C18"
+			(at 59.944 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 59.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+			(at 67.0052 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 66.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa6b06f2-8bf7-45fe-a173-220a721a35ba")
+		)
+		(pin "2"
+			(uuid "41c9d703-7988-4a3c-8b78-51d90c7c0151")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 88.9 26.67 0)
 		(unit 1)
@@ -2867,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 79.7052 123.19 0)
 			(effects
 				(font
@@ -3042,6 +4684,69 @@
 	)
 	(symbol
 		(lib_id "F2018-cache:GND")
+		(at 78.74 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71901f2a-c39e-413b-8ba3-902a68f67b58")
+		(property "Reference" "#PWR041"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.042 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b0c5f1-0e36-41b6-8737-623e4adf7d21")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "F2018-cache:GND")
 		(at 78.74 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3104,16 +4809,17 @@
 		)
 	)
 	(symbol
+		(lib_name "C_5")
 		(lib_id "Device:C")
-		(at 66.04 100.33 0)
+		(at 53.34 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7b1f3e30-3945-4f19-aeb3-9fb1b100ca93")
-		(property "Reference" "C10"
-			(at 61.976 98.044 0)
+		(uuid "79d491b6-dfad-410e-a0b3-e59605beff34")
+		(property "Reference" "C17"
+			(at 49.022 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,8 +4827,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
-			(at 59.69 102.87 0)
+		(property "Value" "0.1uF"
+			(at 47.752 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,8 +4836,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.0052 104.14 0)
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
+			(at 54.3052 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 100.33 0)
+			(at 53.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,6 +4855,84 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e08040dd-da80-46ad-9ef3-da2ba879557b")
+		)
+		(pin "2"
+			(uuid "5615a815-747b-40a2-b3f8-b6eaea78f1cd")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:C_Polarized_US")
+		(at 66.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b1f3e30-3945-4f19-aeb3-9fb1b100ca93")
+		(property "Reference" "C10"
+			(at 59.944 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+			(at 67.0052 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -3238,6 +5022,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_10")
 		(lib_id "Device:C")
 		(at 53.34 100.33 0)
 		(unit 1)
@@ -3264,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
 			(at 54.3052 104.14 0)
 			(effects
 				(font
@@ -3291,6 +5076,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32529C0104K189/1089746"
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d65f23e6-f475-499e-8dc9-a853c28169d0")
 		)
@@ -3307,16 +5101,17 @@
 		)
 	)
 	(symbol
+		(lib_name "C_15")
 		(lib_id "Device:C")
-		(at 66.04 138.43 0)
+		(at 78.74 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa8ad5b7-f42a-46cd-848a-686f0d0f3646")
-		(property "Reference" "C12"
-			(at 61.976 136.144 0)
+		(uuid "947773c0-ae96-499e-b106-55bd69940ebc")
+		(property "Reference" "C19"
+			(at 74.422 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,8 +5119,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
-			(at 59.69 140.97 0)
+		(property "Value" "0.1uF"
+			(at 73.152 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,8 +5128,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.0052 142.24 0)
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
+			(at 79.7052 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +5138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 138.43 0)
+			(at 78.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,6 +5147,162 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1090c49f-f621-4389-82fc-d00f710f1287")
+		)
+		(pin "2"
+			(uuid "8d2b54c3-fb18-43ac-95be-d186ee212ea6")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:C_Polarized_US")
+		(at 40.64 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "956f3b07-8fa8-43af-a132-7a8b61246e45")
+		(property "Reference" "C16"
+			(at 34.544 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 34.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+			(at 41.6052 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 40.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "207947f6-b3af-42e3-ba18-0a09cec5bd5c")
+		)
+		(pin "2"
+			(uuid "cf9e21fa-cee6-4ad6-b449-9f9c5be4121e")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:C_Polarized_US")
+		(at 66.04 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa8ad5b7-f42a-46cd-848a-686f0d0f3646")
+		(property "Reference" "C12"
+			(at 59.69 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 59.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+			(at 67.0052 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 66.04 138.43 0)
 			(effects
 				(font
@@ -3439,6 +5390,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20557e3-c6ea-4bcd-b07b-d4cefd479533")
+		(property "Reference" "#PWR040"
+			(at 40.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 40.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c511f5d-9d1e-42d7-8d3f-887b4f01daa7")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "F2018-cache:GND")
 		(at 74.93 41.91 0)
 		(unit 1)
@@ -3503,7 +5520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "TJR:C_Polarized_US")
 		(at 66.04 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3512,7 +5529,7 @@
 		(dnp no)
 		(uuid "c3c96460-a87a-46d9-bae7-fbb2ee4f05d9")
 		(property "Reference" "C11"
-			(at 61.976 117.094 0)
+			(at 60.198 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +5537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 59.69 121.92 0)
 			(effects
 				(font
@@ -3529,7 +5546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
 			(at 67.0052 123.19 0)
 			(effects
 				(font
@@ -3538,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -3547,7 +5564,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -3589,7 +5615,7 @@
 				)
 			)
 		)
-		(property "Value" "LM7810_TO220"
+		(property "Value" "LM7810"
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -3644,9 +5670,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM79L05_TO92")
+		(lib_id "Regulator_Linear:LM78L05_TO92")
 		(at 74.93 33.02 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3654,15 +5680,15 @@
 		(dnp no)
 		(uuid "e3090a7f-31de-4187-9297-49d445380629")
 		(property "Reference" "U4"
-			(at 74.93 26.67 0)
+			(at 70.866 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM79L05_TO92"
-			(at 74.93 29.21 0)
+		(property "Value" "LM79L05"
+			(at 80.264 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 74.93 27.94 0)
+			(at 74.93 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,8 +5705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm79l.pdf"
-			(at 74.93 33.02 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3-Terminal Negative Regulator, -5V, TO-92"
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -3716,7 +5742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "TJR:C_Polarized_US")
 		(at 40.64 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3725,7 +5751,7 @@
 		(dnp no)
 		(uuid "e5ab70b8-e390-4531-8d64-612853920e28")
 		(property "Reference" "C6"
-			(at 36.576 136.144 0)
+			(at 35.814 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +5759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 34.29 140.97 0)
 			(effects
 				(font
@@ -3742,7 +5768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
 			(at 41.6052 142.24 0)
 			(effects
 				(font
@@ -3751,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
 			(at 40.64 138.43 0)
 			(effects
 				(font
@@ -3760,7 +5786,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
+			(at 40.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
 			(at 40.64 138.43 0)
 			(effects
 				(font

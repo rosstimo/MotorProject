@@ -12,185 +12,6 @@
 		(comment 1 "Pico/Motor Interface")
 	)
 	(lib_symbols
-		(symbol "00TJR:2N3904"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "TO-92"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "00TJR:GND"
 			(power)
 			(pin_names
@@ -417,118 +238,6 @@
 					(at 0 3.81 270)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "00TJR:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_* Resistor_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.635 1.905) (xy -0.635 1.27) (xy 0.635 0.635) (xy -0.635 0) (xy 0.635 -0.635)
-						(xy -0.635 -1.27) (xy 0.635 -1.905) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -922,6 +631,278 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "C_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2722,6 +2703,307 @@
 				)
 			)
 		)
+		(symbol "TJR:2N3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TO-92"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TJR:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1/2W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* Resistor_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.635 1.905) (xy -0.635 1.27) (xy 0.635 0.635) (xy -0.635 0) (xy 0.635 -0.635)
+						(xy -0.635 -1.27) (xy 0.635 -1.905) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3160,6 +3442,118 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2487761-d00b-4906-834e-1ae4183f7310")
+	)
+	(no_connect
+		(at 104.14 52.07)
+		(uuid "042d00e6-78c8-4e1f-b293-34dbaba42eaf")
+	)
+	(no_connect
+		(at 68.58 52.07)
+		(uuid "09c316d0-5052-4894-9714-33eb37b3cc68")
+	)
+	(no_connect
+		(at 104.14 54.61)
+		(uuid "11c5f898-786f-419b-a4ac-8bceb21bfc5b")
+	)
+	(no_connect
+		(at 86.36 85.09)
+		(uuid "16cf0a51-c0d5-456e-b259-b51e263d9cfa")
+	)
+	(no_connect
+		(at 68.58 57.15)
+		(uuid "1e25bb53-bb47-43aa-b8d9-7903b2da7436")
+	)
+	(no_connect
+		(at 68.58 54.61)
+		(uuid "29e32867-01b0-480c-9a6a-6d0b383af989")
+	)
+	(no_connect
+		(at 68.58 46.99)
+		(uuid "3c23b308-28c2-4fb8-a3b7-d799126af270")
+	)
+	(no_connect
+		(at 68.58 34.29)
+		(uuid "5aa293c0-2b3b-4bbc-9dc5-6f75dcea03c1")
+	)
+	(no_connect
+		(at 68.58 62.23)
+		(uuid "638d88fe-0623-483e-a2ee-4fffd34546f4")
+	)
+	(no_connect
+		(at 68.58 31.75)
+		(uuid "67e6dd7d-2913-49a8-809f-bd2661b56c49")
+	)
+	(no_connect
+		(at 68.58 77.47)
+		(uuid "68d1dee2-f6a2-42b3-88b7-8bcf922c4829")
+	)
+	(no_connect
+		(at 88.9 85.09)
+		(uuid "779f75f1-6754-4381-9d24-46bdd6028cb0")
+	)
+	(no_connect
+		(at 68.58 80.01)
+		(uuid "821b7c7f-f01c-48e3-8787-b2b7b8bc0f3f")
+	)
+	(no_connect
+		(at 104.14 62.23)
+		(uuid "8f63037a-21c6-4ce8-b1e7-2c132b8aa9b0")
+	)
+	(no_connect
+		(at 68.58 36.83)
+		(uuid "99654f49-11e4-40d6-951b-7a3bfab8126a")
+	)
+	(no_connect
+		(at 104.14 31.75)
+		(uuid "a5837987-2837-401e-822f-a7818f1a7c0a")
+	)
+	(no_connect
+		(at 104.14 39.37)
+		(uuid "a5f29cf8-1bbb-4e27-a734-d048c1c680b0")
+	)
+	(no_connect
+		(at 104.14 44.45)
+		(uuid "a85c3d25-574b-4b65-a498-ef98fa694e9d")
+	)
+	(no_connect
+		(at 68.58 69.85)
+		(uuid "b8fea46e-7071-45fb-8b38-77f0649ef8e0")
+	)
+	(no_connect
+		(at 68.58 44.45)
+		(uuid "bac42c67-d326-45ff-b07d-dd92e941ba92")
+	)
+	(no_connect
+		(at 68.58 67.31)
+		(uuid "bafbb6f4-c419-4e55-af93-8238ef1cb881")
+	)
+	(no_connect
+		(at 104.14 49.53)
+		(uuid "bcada461-2883-454a-835a-f04fb1ea9b0f")
+	)
+	(no_connect
+		(at 104.14 46.99)
+		(uuid "c35ca304-e519-405a-8131-b1f179ad4ac3")
+	)
+	(no_connect
+		(at 68.58 72.39)
+		(uuid "d685c213-6053-485f-be5d-36e264258368")
+	)
+	(no_connect
+		(at 104.14 57.15)
+		(uuid "ee950459-22e6-4565-9980-1f0408e0dd04")
+	)
+	(no_connect
+		(at 83.82 85.09)
+		(uuid "f7822334-3a3b-4001-93c9-5a8d41204cde")
+	)
+	(no_connect
+		(at 68.58 64.77)
+		(uuid "fa66d30e-5b92-4307-854f-7e13346057d7")
+	)
+	(no_connect
+		(at 104.14 59.69)
+		(uuid "fad79a83-99a1-40a9-a9cb-1e1d76530046")
 	)
 	(wire
 		(pts
@@ -4925,7 +5319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W4.5_H9.5mm_P5.0mmx"
 			(at 230.8352 38.1 0)
 			(effects
 				(font
@@ -5059,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal"
 			(at 154.94 142.24 0)
 			(effects
 				(font
@@ -5307,7 +5701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 226.06 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5333,23 +5727,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 224.282 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 226.06 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -5374,7 +5779,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 193.04 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5400,23 +5805,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 193.04 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -5441,7 +5857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 199.39 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5467,23 +5883,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 197.612 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 199.39 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 199.39 67.31 0)
 			(effects
 				(font
@@ -5508,6 +5935,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_2")
 		(lib_id "Device:C")
 		(at 229.87 99.06 0)
 		(unit 1)
@@ -5535,7 +5963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W4.5_H9.5mm_P5.0mmx"
 			(at 230.8352 102.87 0)
 			(effects
 				(font
@@ -5562,6 +5990,15 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32529C0105K189/1089751"
+			(at 229.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25cc83ce-d918-4a56-9329-40f0362bcd3a")
 		)
@@ -5578,7 +6015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 199.39 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5604,23 +6041,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 197.612 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 199.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 199.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 199.39 35.56 0)
 			(effects
 				(font
@@ -5669,7 +6117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "TJR:RPi_Pico_SMD_TH"
 			(at 86.36 55.88 90)
 			(effects
 				(font
@@ -5835,7 +6283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 38.1 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5861,23 +6309,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 36.322 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 38.1 27.94 0)
 			(effects
 				(font
@@ -6283,7 +6742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 193.04 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6309,23 +6768,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 193.04 93.98 0)
 			(effects
 				(font
@@ -6413,7 +6883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 45.72 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6439,23 +6909,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 43.942 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 45.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -6543,7 +7024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 223.52 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6569,23 +7050,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 223.52 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -6738,8 +7230,7 @@
 		)
 	)
 	(symbol
-		(lib_name "00TJR:2N3904")
-		(lib_id "00TJR:2N3904")
+		(lib_id "TJR:2N3904")
 		(at 218.44 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6763,7 +7254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-92"
+		(property "Footprint" "TJR:TO-92-3_Formed_Leads"
 			(at 216.535 154.94 0)
 			(effects
 				(font
@@ -6793,13 +7284,13 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin "3"
 			(uuid "4535bcbc-1afb-4922-bd39-e6f20be9ee34")
 		)
-		(pin "~"
+		(pin "2"
 			(uuid "0c5fa49e-ebe6-412c-9261-a26b82777271")
 		)
-		(pin "~"
+		(pin "1"
 			(uuid "fe0a1849-a88f-450e-8f51-6ef9416b7e1f")
 		)
 		(instances
@@ -6812,7 +7303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 224.79 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6838,23 +7329,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 224.79 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 224.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -6879,7 +7381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 193.04 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6905,23 +7407,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 193.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 193.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 193.04 29.21 0)
 			(effects
 				(font
@@ -6946,8 +7459,7 @@
 		)
 	)
 	(symbol
-		(lib_name "00TJR:2N3904")
-		(lib_id "00TJR:2N3904")
+		(lib_id "TJR:2N3904")
 		(at 38.1 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6971,7 +7483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-92"
+		(property "Footprint" "TJR:TO-92-3_Formed_Leads"
 			(at 36.195 41.91 0)
 			(effects
 				(font
@@ -7001,13 +7513,13 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin "3"
 			(uuid "f05f302f-dc08-42f2-9f7a-b2bb3ffc7154")
 		)
-		(pin "~"
+		(pin "2"
 			(uuid "e9053aa6-87e5-498e-b39b-ed40d483881b")
 		)
-		(pin "~"
+		(pin "1"
 			(uuid "110c1d1c-3ae5-43d8-bc8c-ab1cd3f1c3d6")
 		)
 		(instances
@@ -7149,8 +7661,8 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
-		(at 115.57 96.52 0)
+		(lib_id "TJR:R")
+		(at 115.57 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7158,7 +7670,7 @@
 		(dnp no)
 		(uuid "9f21e813-3ccd-4e5a-bd8f-702af9511622")
 		(property "Reference" "R6"
-			(at 116.84 95.2499 0)
+			(at 116.84 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7679,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 116.84 97.7899 0)
+			(at 116.84 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,24 +7687,35 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.792 96.52 90)
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 113.792 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 96.52 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 96.52 0)
+		(property "Description" "1/2W"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,6 +7739,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 229.87 66.04 0)
 		(unit 1)
@@ -7243,7 +7767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:C_Rect_L7.3mm_W4.5_H9.5mm_P5.0mmx"
 			(at 230.8352 69.85 0)
 			(effects
 				(font
@@ -7351,7 +7875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 218.44 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7377,23 +7901,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 216.662 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 218.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 218.44 140.97 0)
 			(effects
 				(font
@@ -7546,8 +8081,8 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
-		(at 109.22 96.52 0)
+		(lib_id "TJR:R")
+		(at 109.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7555,7 +8090,7 @@
 		(dnp no)
 		(uuid "ae068d33-7233-4921-8f55-16a4bd74135c")
 		(property "Reference" "R5"
-			(at 110.49 95.2499 0)
+			(at 110.49 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +8099,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 110.49 97.7899 0)
+			(at 110.49 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,24 +8107,35 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.442 96.52 90)
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 107.442 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 96.52 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 96.52 0)
+		(property "Description" "1/2W"
+			(at 109.22 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +8159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 199.39 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7639,23 +8185,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 197.612 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 199.39 100.33 0)
 			(effects
 				(font
@@ -7680,7 +8237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 223.52 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7706,23 +8263,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 223.52 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 223.52 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 223.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -7747,7 +8315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 45.72 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7773,23 +8341,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 43.942 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 45.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 45.72 58.42 0)
 			(effects
 				(font
@@ -7839,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 209.55 91.44 0)
 			(effects
 				(font
@@ -7981,7 +8560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:R")
+		(lib_id "TJR:R")
 		(at 38.1 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8007,23 +8586,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 36.322 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
 			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/2W"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -8049,7 +8639,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 115.57 87.63 0)
+		(at 115.57 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8057,7 +8647,7 @@
 		(dnp no)
 		(uuid "cfefb166-8057-4e0e-875b-6cbace5689db")
 		(property "Reference" "D2"
-			(at 116.078 84.328 0)
+			(at 116.078 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8656,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 116.84 90.424 0)
+			(at 116.84 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,8 +8664,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 87.63 90)
+		(property "Footprint" "TSL:LED_D3.0mm"
+			(at 115.57 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 87.63 90)
+			(at 115.57 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8683,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 115.57 87.63 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -8246,7 +8836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -8430,8 +9020,7 @@
 		)
 	)
 	(symbol
-		(lib_name "00TJR:2N3904")
-		(lib_id "00TJR:2N3904")
+		(lib_id "TJR:2N3904")
 		(at 38.1 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8455,7 +9044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TO-92"
+		(property "Footprint" "TJR:TO-92-3_Formed_Leads"
 			(at 36.195 72.39 0)
 			(effects
 				(font
@@ -8485,13 +9074,13 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin "2"
 			(uuid "50e54e32-06dc-4ab7-96f6-3e475c76b1ed")
 		)
-		(pin "~"
+		(pin "3"
 			(uuid "5daf54e5-5e29-474d-ba08-fd1e188728b3")
 		)
-		(pin "~"
+		(pin "1"
 			(uuid "1f335d4e-5dc3-49d7-af9a-328c70549ca9")
 		)
 		(instances
@@ -8569,7 +9158,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 109.22 87.63 0)
+		(at 109.22 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8577,7 +9166,7 @@
 		(dnp no)
 		(uuid "edb06828-fc08-44e7-8074-03e4d7514a29")
 		(property "Reference" "D1"
-			(at 109.982 84.582 0)
+			(at 109.982 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +9175,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 110.236 90.17 0)
+			(at 110.236 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,8 +9183,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 87.63 90)
+		(property "Footprint" "TSL:LED_D3.0mm"
+			(at 109.22 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +9193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 87.63 90)
+			(at 109.22 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +9202,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 109.22 87.63 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +9251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -8890,7 +9479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "power.kicad_sch"
 			(at -1.27 254.5846 0)
 			(effects
 				(font

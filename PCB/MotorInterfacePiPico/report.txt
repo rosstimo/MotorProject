@@ -1,0 +1,108 @@
+Info: Reading netlist file '/home/tim/Documents/code/repos/MotorProject/PCB/MotorInterfacePiPico/MotorInterfacePiPico.net'.
+
+Info: Using reference designators to match symbols and footprints.
+
+Info: Processing symbol 'U2:Package_SO:TSSOP-14_4.4x5mm_P0.65mm'.
+Info: Processing symbol 'R4:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R3:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R14:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R15:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R16:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R17:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R2:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'U4:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'U3:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'R5:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'C7:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C8:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C9:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'D2:LED_THT:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop'.
+Info: Processing symbol 'D1:LED_THT:LED_D2.0mm_W4.8mm_H2.5mm_FlatTop'.
+Info: Processing symbol 'J1:Connector_JST:JST_EH_S6B-EH_1x06_P2.50mm_Horizontal'.
+Info: Processing symbol 'C1:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C15:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C14:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C13:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'C2:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'Q1:digikey-footprints:TO-92-3_Formed_Leads'.
+Info: Processing symbol 'C4:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'C5:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'Q2:digikey-footprints:TO-92-3_Formed_Leads'.
+Info: Processing symbol 'C6:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'C12:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'C11:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'Q3:digikey-footprints:TO-92-3_Formed_Leads'.
+Info: Processing symbol 'C10:Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm'.
+Info: Processing symbol 'C3:Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm'.
+Info: Processing symbol 'U1:TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree'.
+Info: Processing symbol 'J2:TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree'.
+Info: Processing symbol 'R13:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R12:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R11:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R10:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R9:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R8:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R7:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Info: Processing symbol 'R6:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal'.
+Warning: No net found for component Q1 pad 2 (no pin 2 in symbol).
+Warning: No net found for component U2 pad 13 (no pin 13 in symbol).
+Warning: No net found for component U2 pad 12 (no pin 12 in symbol).
+Warning: No net found for component Q1 pad 3 (no pin 3 in symbol).
+Warning: No net found for component Q1 pad 1 (no pin 1 in symbol).
+Warning: No net found for component Q2 pad 1 (no pin 1 in symbol).
+Warning: No net found for component Q2 pad 3 (no pin 3 in symbol).
+Warning: No net found for component Q3 pad 2 (no pin 2 in symbol).
+Warning: No net found for component Q3 pad 1 (no pin 1 in symbol).
+Warning: No net found for component Q3 pad 3 (no pin 3 in symbol).
+Warning: No net found for component U2 pad 14 (no pin 14 in symbol).
+Warning: No net found for component Q2 pad 2 (no pin 2 in symbol).
+Error: U1 pad 15 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 14 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 11 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 10 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 9 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 7 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 42 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 28 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 13 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 33 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 40 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 35 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 16 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 17 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 19 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 20 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 29 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 31 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 32 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 34 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 30 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 41 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 43 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 12 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: Symbol Q1 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q1 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q1 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q2 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q2 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q2 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q3 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q3 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: Symbol Q3 has pins with no number.  These pins can not be matched to pads in digikey-footprints:TO-92-3_Formed_Leads.
+Error: U1 pad 36 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 39 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 37 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 18 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 23 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 38 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 8 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 27 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 21 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 22 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 24 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 26 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+Error: U1 pad 25 not found in TerminalBlock_WAGO:TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree.
+
+
+Info: Total warnings: 12, errors: 46.
