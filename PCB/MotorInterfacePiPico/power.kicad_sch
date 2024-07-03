@@ -3611,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "TJR:D14_TEX"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -4260,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "TJR:D14_TEX"
 			(at 156.21 36.83 0)
 			(effects
 				(font
