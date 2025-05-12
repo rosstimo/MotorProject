@@ -28,6 +28,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!BOM.csv #allow BOM.csv to be tracked
 #### Ignore LaTeX template files ####
 .template
 common
