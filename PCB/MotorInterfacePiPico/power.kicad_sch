@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "5ca2b0ee-f3ec-44ab-9d94-8603e2fd0f16")
 	(paper "USLetter")
 	(title_block
@@ -100,17 +100,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -136,17 +136,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -254,24 +254,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
@@ -283,6 +265,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -361,24 +361,6 @@
 			)
 			(symbol "OPA4197xPW_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -396,10 +378,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_10"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -472,7 +475,7 @@
 			(symbol "C_10_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -484,7 +487,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -533,9 +536,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_14"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -608,7 +614,7 @@
 			(symbol "C_14_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -620,7 +626,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -669,9 +675,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_15"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -744,7 +753,7 @@
 			(symbol "C_15_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -756,7 +765,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -805,9 +814,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_3"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -880,7 +892,7 @@
 			(symbol "C_3_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -892,7 +904,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -941,9 +953,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_5"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1016,7 +1031,7 @@
 			(symbol "C_5_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1028,7 +1043,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1077,9 +1092,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_7"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1152,7 +1170,7 @@
 			(symbol "C_7_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1164,7 +1182,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1213,9 +1231,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "C_9"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1288,7 +1309,7 @@
 			(symbol "C_9_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1300,7 +1321,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1349,9 +1370,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1424,7 +1448,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1436,7 +1460,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1485,6 +1509,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "F2018-cache:GND"
 			(power)
@@ -1553,7 +1578,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1570,8 +1596,9 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM7810_TO220"
+		(symbol "Regulator_Linear:L78L10_SO8"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1586,7 +1613,7 @@
 					)
 				)
 			)
-			(property "Value" "LM7810_TO220"
+			(property "Value" "L78L10_SO8"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1595,8 +1622,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1605,8 +1632,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1614,147 +1641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM7810_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7810_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:LM78L05_TO92"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM78L05_TO92"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 10V, SO-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1772,7 +1659,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1781,10 +1668,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM78L05_TO92_0_1"
+			(symbol "L78L10_SO8_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1794,18 +1681,94 @@
 					)
 				)
 			)
-			(symbol "LM78L05_TO92_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
+			(symbol "L78L10_SO8_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VO"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1823,6 +1786,186 @@
 							)
 						)
 					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LM78L05_SO8"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM78L05_SO8"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM78L05_SO8_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM78L05_SO8_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "2"
 						(effects
 							(font
@@ -1831,10 +1974,11 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
+				(pin passive line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VI"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1849,12 +1993,91 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TJR:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1968,9 +2191,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -2018,12 +2241,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+10V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2095,7 +2323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2107,7 +2335,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2138,12 +2366,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2215,7 +2448,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2227,7 +2460,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2258,12 +2491,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2335,7 +2573,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2347,7 +2585,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2378,12 +2616,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2455,7 +2698,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2467,7 +2710,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2498,7 +2741,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Voltage Regulation\nNOTE: Place decouple near outputs of each\n\n"
+		(exclude_from_sim no)
+		(at 38.1 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "56983262-8d20-4947-a47c-c4adb022bf65")
+	)
+	(text "Op-Amp Power\nNote: 0-10V nominal output rail voltage swing\nNote: Device D not used"
+		(exclude_from_sim no)
+		(at 120.65 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "df110369-f164-46ba-b7e5-9b86b55b4c15")
+	)
+	(text "Decoupling Networks\nNote: Place nearest component power pins"
+		(exclude_from_sim no)
+		(at 38.1 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f624084e-ac9a-42e9-9b65-5365067991e6")
 	)
 	(junction
 		(at 66.04 125.73)
@@ -2579,12 +2856,6 @@
 		(uuid "8cbd6312-4702-4bd8-89c0-414affc1ce7f")
 	)
 	(junction
-		(at 40.64 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf267db-e40d-49df-8e4e-66a55a79b96d")
-	)
-	(junction
 		(at 78.74 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,6 +2872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ccf3f8-602c-424b-b1bd-42b6721b168e")
+	)
+	(junction
+		(at 40.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9c171d4-8011-405a-86fc-b9f4229618d9")
 	)
 	(junction
 		(at 66.04 93.98)
@@ -2761,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "22cb823e-458e-4b10-bfc2-4909e26cdb5f")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 74.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cf2231-c0cf-451c-882d-2110dca0c42a")
 	)
 	(wire
 		(pts
@@ -3061,16 +3348,6 @@
 			(type default)
 		)
 		(uuid "8463af40-9030-4af2-9f3f-82c780160eac")
-	)
-	(wire
-		(pts
-			(xy 74.93 40.64) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894a9421-1daf-420e-b0d9-b6877671e2df")
 	)
 	(wire
 		(pts
@@ -3402,38 +3679,49 @@
 		)
 		(uuid "feea0515-cb2c-4b69-a5cc-a3972d2cbf4d")
 	)
-	(text "Voltage Regulation\nNOTE: Place decouple near outputs of each\n\n"
-		(exclude_from_sim no)
-		(at 38.1 51.816 0)
+	(global_label "S0"
+		(shape input)
+		(at 135.89 92.71 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right)
 		)
-		(uuid "56983262-8d20-4947-a47c-c4adb022bf65")
+		(uuid "2220ba27-8ca4-40df-bb73-a47b358a5d8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.2942 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(text "Op-Amp Power\nNote: 0-10V nominal output rail voltage swing\nNote: Device D not used"
-		(exclude_from_sim no)
-		(at 120.65 51.816 0)
+	(global_label "S1"
+		(shape input)
+		(at 135.89 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right)
 		)
-		(uuid "df110369-f164-46ba-b7e5-9b86b55b4c15")
-	)
-	(text "Decoupling Networks\nNote: Place nearest component power pins"
-		(exclude_from_sim no)
-		(at 38.1 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "895cebd2-1976-4222-b6ef-6133a4f09919")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.2942 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left top)
 		)
-		(uuid "f624084e-ac9a-42e9-9b65-5365067991e6")
 	)
 	(symbol
 		(lib_name "C_3")
@@ -3445,7 +3733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "085dea0f-5700-4219-b554-3666cfb9cd3f")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 49.022 117.348 0)
 			(effects
 				(font
@@ -3463,7 +3751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Rect_L7.3mm_W2.5_H6.5mm_P5.0mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.3052 123.19 0)
 			(effects
 				(font
@@ -3499,7 +3787,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3532,7 +3820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 41.6052 104.14 0)
 			(effects
 				(font
@@ -3593,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bc5c49f-c3cd-4b49-a7ce-8cac38f09613")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 128.27 34.2899 0)
 			(effects
 				(font
@@ -3611,7 +3899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:D14_TEX"
+		(property "Footprint" "CustomBPA:SO-14_5.4_P1.27"
 			(at 129.54 35.56 0)
 			(effects
 				(font
@@ -3683,7 +3971,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "U2")
+					(reference "U5")
 					(unit 5)
 				)
 			)
@@ -3699,7 +3987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc5efa6-a2c6-480a-9927-0e475b04d8f9")
-		(property "Reference" "C13"
+		(property "Reference" "C7"
 			(at 74.422 98.298 0)
 			(effects
 				(font
@@ -3753,7 +4041,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C13")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3769,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2342807f-2c0a-4f92-95b8-b2d7f55d98c5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR049"
 			(at 50.8 48.26 0)
 			(effects
 				(font
@@ -3817,7 +4105,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR031")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3832,7 +4120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30f0af7d-d613-41c7-b3fc-53fc0fdab16f")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 35.814 117.094 0)
 			(effects
 				(font
@@ -3850,7 +4138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 41.6052 123.19 0)
 			(effects
 				(font
@@ -3895,7 +4183,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3911,7 +4199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35b5d975-31e9-4b3f-ad09-0d7cf81c1212")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 49.022 136.398 0)
 			(effects
 				(font
@@ -3965,7 +4253,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3980,7 +4268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45171dee-4969-4e5f-bf09-16bafcdd5f2e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR051"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -4028,7 +4316,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR039")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac6104a-3f44-4506-a5b9-e1658a8c05fd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR048"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -4093,7 +4381,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR038")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55fa103e-46d2-47c6-9cd4-4048a63b33d7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR054"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -4228,7 +4516,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR029")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "561d07ba-808a-4557-be65-6d3c35ce6161")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 156.21 26.67 0)
 			(effects
 				(font
@@ -4260,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TJR:D14_TEX"
+		(property "Footprint" "CustomBPA:SO-14_5.4_P1.27"
 			(at 156.21 36.83 0)
 			(effects
 				(font
@@ -4332,7 +4620,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "U2")
+					(reference "U5")
 					(unit 4)
 				)
 			)
@@ -4365,7 +4653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 67.0052 163.83 0)
 			(effects
 				(font
@@ -4426,7 +4714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aca903d-b6a2-4803-b065-4cdb2ab29945")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR047"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -4476,7 +4764,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR037")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4491,7 +4779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b72fee7-eb3a-4489-9ece-1fa224d27d2c")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 74.422 117.348 0)
 			(effects
 				(font
@@ -4545,138 +4833,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 40.64 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "609b04e3-d449-498b-9382-1639a873e715")
-		(property "Reference" "#PWR028"
-			(at 40.64 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 37.592 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 40.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06a13678-6d88-4bdb-ba01-b71495713b94")
-		)
-		(instances
-			(project "MotorInterfacePiPico"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 38.1 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61215b57-d210-4736-bba0-785abfefb303")
-		(property "Reference" "#PWR027"
-			(at 38.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 38.1 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd270cb2-aa80-4b10-857f-3efc53e63a40")
-		)
-		(instances
-			(project "MotorInterfacePiPico"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR027")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71901f2a-c39e-413b-8ba3-902a68f67b58")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR059"
 			(at 78.74 173.99 0)
 			(effects
 				(font
@@ -4739,7 +4896,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR041")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4754,7 +4911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78532756-047d-4bc3-9a5e-0cf81233e224")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR053"
 			(at 78.74 114.3 0)
 			(effects
 				(font
@@ -4802,7 +4959,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR034")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4887,7 +5044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b1f3e30-3945-4f19-aeb3-9fb1b100ca93")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 59.944 98.044 0)
 			(effects
 				(font
@@ -4905,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 67.0052 104.14 0)
 			(effects
 				(font
@@ -4950,7 +5107,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4965,7 +5122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83d6d21d-5aa6-48f9-b2c7-ebb84331f880")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR046"
 			(at 63.5 30.48 0)
 			(effects
 				(font
@@ -5015,7 +5172,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR032")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac73b0c-de3e-46d1-83f2-ff945c282941")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 49.022 98.298 0)
 			(effects
 				(font
@@ -5094,7 +5251,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5197,7 +5354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 41.6052 163.83 0)
 			(effects
 				(font
@@ -5257,7 +5414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa8ad5b7-f42a-46cd-848a-686f0d0f3646")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 59.69 136.144 0)
 			(effects
 				(font
@@ -5275,7 +5432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 67.0052 142.24 0)
 			(effects
 				(font
@@ -5320,7 +5477,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1de551a-f190-4576-80ca-ac0d51bb1ef1")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR055"
 			(at 78.74 133.35 0)
 			(effects
 				(font
@@ -5383,7 +5540,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR035")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20557e3-c6ea-4bcd-b07b-d4cefd479533")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR058"
 			(at 40.64 157.48 0)
 			(effects
 				(font
@@ -5449,7 +5606,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR040")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5465,7 +5622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b597018a-7010-4b52-8db0-1bceed18e7ae")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR050"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -5513,7 +5670,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR033")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5528,7 +5685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3c96460-a87a-46d9-bae7-fbb2ee4f05d9")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 60.198 117.094 0)
 			(effects
 				(font
@@ -5546,7 +5703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 67.0052 123.19 0)
 			(effects
 				(font
@@ -5591,14 +5748,14 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7810_TO220")
+		(lib_id "Regulator_Linear:L78L10_SO8")
 		(at 50.8 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5607,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6991e58-7210-47a9-8b90-5757589a1f84")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -5623,8 +5780,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 50.8 27.305 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 53.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,8 +5790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 50.8 34.29 0)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 10V, SO-8"
 			(at 50.8 33.02 0)
 			(effects
 				(font
@@ -5660,82 +5817,25 @@
 		(pin "3"
 			(uuid "b72da4a8-168a-4064-91ab-b905f183334d")
 		)
-		(instances
-			(project "MotorInterfacePiPico"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "U3")
-					(unit 1)
-				)
-			)
+		(pin "6"
+			(uuid "01e1d85c-3b0a-4a31-91fe-b9a8b11fba7d")
 		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM78L05_TO92")
-		(at 74.93 33.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3090a7f-31de-4187-9297-49d445380629")
-		(property "Reference" "U4"
-			(at 70.866 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "7"
+			(uuid "a8292033-7ea9-4086-b0cb-1821f9507448")
 		)
-		(property "Value" "LM79L05"
-			(at 80.264 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "5"
+			(uuid "1383392a-1e04-4576-a08e-a5e44b0809cd")
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 74.93 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
+		(pin "8"
+			(uuid "7c3969d1-29b5-4fef-b092-2180277f452c")
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
-			(at 74.93 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
-			(at 74.93 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1b6a61a7-41f6-44e6-8d50-0f9d2f92ac51")
-		)
-		(pin "1"
-			(uuid "76e2811f-65df-44b0-8e12-676147adec98")
-		)
-		(pin "2"
-			(uuid "68c400ae-6e8f-4e24-a065-65139ab5e7c9")
+		(pin "4"
+			(uuid "ac34a887-7164-4b5d-847a-09289ff1384c")
 		)
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ab70b8-e390-4531-8d64-612853920e28")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 35.814 136.144 0)
 			(effects
 				(font
@@ -5768,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
 			(at 41.6052 142.24 0)
 			(effects
 				(font
@@ -5813,7 +5913,7 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5828,7 +5928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eace9eb9-5f53-4f1a-a4a2-744e1a7b5d51")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR057"
 			(at 78.74 152.4 0)
 			(effects
 				(font
@@ -5876,7 +5976,73 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR036")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 40.64 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee71ce10-62eb-459b-9c95-38adfe4b5b32")
+		(property "Reference" "#PWR045"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Motor_Sup"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+Motor_Sup\""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1dbc6e6-9edb-4641-b429-7e6f4d0832e4")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5891,7 +6057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f41e1f2d-b094-47c2-a9b7-64cba4c7f9a8")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR056"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -5941,7 +6107,160 @@
 		(instances
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "#PWR030")
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 38.1 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc6f089e-21e3-419e-8552-b6ad1e61d5d6")
+		(property "Reference" "#PWR052"
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+Motor_Sup"
+			(at 38.1 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+Motor_Sup\""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46541491-1240-470d-9865-958f8968eab6")
+		)
+		(instances
+			(project "MotorInterfacePiPico"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM78L05_SO8")
+		(at 74.93 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcbceaf0-2cc6-42a2-8073-fde292a435fd")
+		(property "Reference" "U7"
+			(at 74.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM78L05_SO8"
+			(at 74.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf"
+			(at 80.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
+			(at 74.93 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "be1b7b5e-3f1b-4f77-bc71-17494647fb68")
+		)
+		(pin "1"
+			(uuid "d847c437-f3e9-4090-8614-7f19687ae1e0")
+		)
+		(pin "7"
+			(uuid "6f12d8ad-3135-47a1-a377-3f5e9b72f021")
+		)
+		(pin "3"
+			(uuid "1a74d958-5d3b-4561-b6bb-0eeda9fde204")
+		)
+		(pin "6"
+			(uuid "e9363488-d409-4904-b92a-5d14fcdfdade")
+		)
+		(pin "4"
+			(uuid "8d8e6f67-5fe4-4b36-a11d-452358205a72")
+		)
+		(pin "2"
+			(uuid "e4fb9635-5754-4de6-907b-a7abfc8e1df3")
+		)
+		(pin "8"
+			(uuid "65e3c130-f950-4fe0-9bf3-01b12b5c228f")
+		)
+		(instances
+			(project ""
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "U7")
 					(unit 1)
 				)
 			)
