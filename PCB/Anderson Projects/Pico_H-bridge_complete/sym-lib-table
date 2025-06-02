@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "/home/tim/Documents/kiCad/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "TJR")(type "KiCad")(uri "${KICAD_CUSTOM_LIB_DIR}/TJR.kicad_sym")(options "")(descr ""))
+)
