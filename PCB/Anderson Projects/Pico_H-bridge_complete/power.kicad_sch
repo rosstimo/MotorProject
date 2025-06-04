@@ -677,145 +677,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_15"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_15_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_15_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "C_3"
 			(pin_numbers
 				(hide yes)
@@ -2771,6 +2632,16 @@
 		)
 		(uuid "df110369-f164-46ba-b7e5-9b86b55b4c15")
 	)
+	(text "1uF and 0.1uF placed as close to Pico ADC_VREF"
+		(exclude_from_sim no)
+		(at 110.236 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f41f7d58-5f7f-4870-84ec-7c853e4f0491")
+	)
 	(text "Decoupling Networks\nNote: Place nearest component power pins"
 		(exclude_from_sim no)
 		(at 38.1 173.99 0)
@@ -3712,7 +3583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 123.19 0)
 			(effects
 				(font
@@ -3721,7 +3592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -3730,7 +3601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -3781,7 +3652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 41.6052 104.14 0)
 			(effects
 				(font
@@ -3790,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 40.64 100.33 0)
 			(effects
 				(font
@@ -3799,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 40.64 100.33 0)
 			(effects
 				(font
@@ -3966,7 +3837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 104.14 0)
 			(effects
 				(font
@@ -3975,7 +3846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -3984,7 +3855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 78.74 100.33 0)
 			(effects
 				(font
@@ -4099,7 +3970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 41.6052 123.19 0)
 			(effects
 				(font
@@ -4108,7 +3979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -4117,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -4178,7 +4049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 142.24 0)
 			(effects
 				(font
@@ -4187,7 +4058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -4196,7 +4067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -4376,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 142.24 0)
 			(effects
 				(font
@@ -4385,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -4394,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 78.74 138.43 0)
 			(effects
 				(font
@@ -4614,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 67.0052 163.83 0)
 			(effects
 				(font
@@ -4623,7 +4494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -4632,7 +4503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -4758,7 +4629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 123.19 0)
 			(effects
 				(font
@@ -4767,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -4776,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -4954,7 +4825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 163.83 0)
 			(effects
 				(font
@@ -4963,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -4972,7 +4843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -5023,7 +4894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 67.0052 104.14 0)
 			(effects
 				(font
@@ -5032,7 +4903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -5041,7 +4912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 66.04 100.33 0)
 			(effects
 				(font
@@ -5167,7 +5038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.3052 104.14 0)
 			(effects
 				(font
@@ -5176,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -5185,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1591"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -5219,76 +5090,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_15")
-		(lib_id "Device:C")
-		(at 78.74 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "947773c0-ae96-499e-b106-55bd69940ebc")
-		(property "Reference" "C19"
-			(at 74.422 157.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 73.152 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 79.7052 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1090c49f-f621-4389-82fc-d00f710f1287")
-		)
-		(pin "2"
-			(uuid "8d2b54c3-fb18-43ac-95be-d186ee212ea6")
-		)
-		(instances
-			(project "MotorInterfacePiPico"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 40.64 160.02 0)
 		(unit 1)
@@ -5315,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 41.6052 163.83 0)
 			(effects
 				(font
@@ -5324,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -5333,7 +5134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -5367,6 +5168,76 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
+		(lib_id "Device:C")
+		(at 78.74 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9620bbf3-8eed-4a33-ac7d-6f82c6f7324f")
+		(property "Reference" "C21"
+			(at 74.422 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 74.676 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 79.7052 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590163614121426944"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C2167419"
+			(at 78.74 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "134aa9f5-41e6-457c-a307-84f67e76c41f")
+		)
+		(pin "2"
+			(uuid "5968d4fa-29db-4a9a-968d-324094b1a1e3")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/bfb9e9ec-8ee1-4bbc-abc8-fb99e475d9e5"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 66.04 138.43 0)
 		(unit 1)
@@ -5393,7 +5264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 67.0052 142.24 0)
 			(effects
 				(font
@@ -5402,7 +5273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 66.04 138.43 0)
 			(effects
 				(font
@@ -5411,7 +5282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 66.04 138.43 0)
 			(effects
 				(font
@@ -5664,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 67.0052 123.19 0)
 			(effects
 				(font
@@ -5673,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -5682,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -5829,7 +5700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 41.6052 142.24 0)
 			(effects
 				(font
@@ -5838,7 +5709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24478-CL32A107MPVNNNE/C23742"
 			(at 40.64 138.43 0)
 			(effects
 				(font
@@ -5847,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "C23742"
 			(at 40.64 138.43 0)
 			(effects
 				(font
