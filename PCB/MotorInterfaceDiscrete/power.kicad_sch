@@ -3961,6 +3961,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 67.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 67.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8457ba2-0fdf-47ad-9bf0-f576052734c3")
 		)
@@ -4094,6 +4112,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "922788c0-5155-45cc-9684-32285e6f29b1")
 		)
@@ -4203,6 +4239,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 205.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d00fa09-0010-477c-9e59-09abcf43a031")
 		)
@@ -4262,6 +4316,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 140.97 59.69 0)
 			(effects
 				(font
@@ -4337,6 +4409,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "628fff29-2b25-45b7-9d1d-fc46c956a46c")
 		)
@@ -4398,6 +4488,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -4516,6 +4624,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1041b904-9d00-4655-a29e-f7d6c3953438")
 		)
@@ -4575,6 +4701,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 54.61 60.96 0)
 			(effects
 				(font
@@ -4686,6 +4830,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6739be8c-bc27-41ea-9b57-cb51f234aa7b")
 		)
@@ -4754,6 +4916,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9bf748a-84c2-463f-84a5-bc605a597572")
 		)
@@ -4813,6 +4993,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -4946,6 +5144,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 219.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 219.71 66.04 0)
 			(effects
 				(font
@@ -5131,6 +5347,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "0d9c2cf2-980b-4455-9ec7-a695194f888c")
 		)
@@ -5240,6 +5474,24 @@
 				(hide yes)
 			)
 		)
+		(property "Cost (ea.)" ""
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9eb6d9c3-cf09-46d9-a3a6-b61696c9b6f0")
 		)
@@ -5300,6 +5552,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 87.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 87.63 60.96 0)
 			(effects
 				(font
@@ -5403,6 +5673,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
 			(at 198.12 59.69 0)
 			(effects
 				(font
