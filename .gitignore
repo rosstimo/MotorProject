@@ -28,8 +28,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-#### Ignore LaTeX template files ####
-.template
-common
-useTemplate.sh
-texcompile.sh
+# Explicitly allow BOM.csv in any directory
+!BOM.csv
+
+
+
