@@ -21,6 +21,9 @@ fp-info-cache
 # Netlist files (exported from Eeschema)
 *.net
 
+# macOS system files
+.DS_Store
+
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
@@ -28,8 +31,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-# Explicitly allow BOM.csv in any directory
-!BOM.csv
 
-
-
+!BOM.csv #allow BOM.csv to be tracked
