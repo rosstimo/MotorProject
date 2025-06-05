@@ -3947,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 110.49) (xy 410.21 111.76)
+			(xy 149.86 151.13) (xy 149.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +3967,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 119.38) (xy 416.56 120.65)
+			(xy 156.21 160.02) (xy 156.21 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 96.52) (xy 416.56 102.87)
+			(xy 156.21 137.16) (xy 156.21 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4497,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 119.38) (xy 410.21 120.65)
+			(xy 149.86 160.02) (xy 149.86 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4537,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 100.33) (xy 410.21 100.33)
+			(xy 147.32 140.97) (xy 149.86 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 96.52) (xy 416.56 96.52)
+			(xy 147.32 137.16) (xy 156.21 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 100.33) (xy 410.21 102.87)
+			(xy 149.86 140.97) (xy 149.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5107,7 +5107,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 110.49) (xy 416.56 111.76)
+			(xy 156.21 151.13) (xy 156.21 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5629,7 +5629,7 @@
 	)
 	(global_label "PIN_REV"
 		(shape input)
-		(at 407.67 96.52 180)
+		(at 147.32 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5639,7 +5639,7 @@
 		)
 		(uuid "c34a7a4e-0ce7-4f4c-a035-2010a4bbe0ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.0043 96.52 0)
+			(at 136.6543 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5827,7 @@
 	)
 	(global_label "PIN_FWD"
 		(shape input)
-		(at 407.67 100.33 180)
+		(at 147.32 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5837,7 +5837,7 @@
 		)
 		(uuid "df3da183-874d-4e6a-956c-0d29e04ab0a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.7019 100.33 0)
+			(at 136.3519 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6060,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "1uF"
@@ -6070,7 +6069,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "TJR:C_Rect_L7.3mm_W4.5_H9.5mm_P5.0mmx"
@@ -8875,7 +8873,7 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 416.56 106.68 0)
+		(at 156.21 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8883,7 +8881,7 @@
 		(dnp no)
 		(uuid "9f21e813-3ccd-4e5a-bd8f-702af9511622")
 		(property "Reference" "R6"
-			(at 417.83 105.4099 0)
+			(at 157.48 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8890,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 417.83 107.9499 0)
+			(at 157.48 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8899,7 @@
 			)
 		)
 		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 414.782 106.68 90)
+			(at 154.432 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +8908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8917,7 @@
 			)
 		)
 		(property "Description" "1/2W"
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8926,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +8935,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8945,7 +8943,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +8951,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +8959,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 416.56 106.68 0)
+			(at 156.21 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9273,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 416.56 120.65 0)
+		(at 156.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9283,7 +9281,7 @@
 		(dnp no)
 		(uuid "abccce45-74d5-452b-b13f-262aae83980b")
 		(property "Reference" "#PWR013"
-			(at 416.56 127 0)
+			(at 156.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 416.56 124.46 0)
+			(at 156.21 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 416.56 120.65 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 120.65 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 416.56 120.65 0)
+			(at 156.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9404,7 +9402,7 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 410.21 106.68 0)
+		(at 149.86 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9412,7 +9410,7 @@
 		(dnp no)
 		(uuid "ae068d33-7233-4921-8f55-16a4bd74135c")
 		(property "Reference" "R5"
-			(at 411.48 105.4099 0)
+			(at 151.13 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9421,7 +9419,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 411.48 107.9499 0)
+			(at 151.13 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,7 +9428,7 @@
 			)
 		)
 		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 408.432 106.68 90)
+			(at 148.082 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,7 +9437,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +9446,7 @@
 			)
 		)
 		(property "Description" "1/2W"
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9455,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +9464,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +9472,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9482,7 +9480,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9488,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 410.21 106.68 0)
+			(at 149.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10125,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 416.56 115.57 0)
+		(at 156.21 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10135,7 +10133,7 @@
 		(dnp no)
 		(uuid "cfefb166-8057-4e0e-875b-6cbace5689db")
 		(property "Reference" "D2"
-			(at 417.068 112.268 0)
+			(at 156.718 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +10142,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 417.83 118.364 0)
+			(at 157.48 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10152,7 @@
 			)
 		)
 		(property "Footprint" "TSL:LED_D3.0mm"
-			(at 416.56 115.57 90)
+			(at 156.21 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 416.56 115.57 90)
+			(at 156.21 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,7 +10170,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 416.56 115.57 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10179,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 416.56 115.57 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10187,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 416.56 115.57 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10195,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 416.56 115.57 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10203,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 416.56 115.57 0)
+			(at 156.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10664,7 +10662,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 410.21 120.65 0)
+		(at 149.86 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10672,7 +10670,7 @@
 		(dnp no)
 		(uuid "db23b10a-7760-46ca-9cd6-660bcd5a0027")
 		(property "Reference" "#PWR011"
-			(at 410.21 127 0)
+			(at 149.86 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,7 +10679,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 410.21 124.46 0)
+			(at 149.86 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 120.65 0)
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 120.65 0)
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 410.21 120.65 0)
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,7 +10854,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 410.21 115.57 0)
+		(at 149.86 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10864,7 +10862,7 @@
 		(dnp no)
 		(uuid "edb06828-fc08-44e7-8074-03e4d7514a29")
 		(property "Reference" "D1"
-			(at 410.972 112.522 0)
+			(at 150.622 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10871,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 411.226 118.11 0)
+			(at 150.876 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10881,7 @@
 			)
 		)
 		(property "Footprint" "TSL:LED_D3.0mm"
-			(at 410.21 115.57 90)
+			(at 149.86 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 115.57 90)
+			(at 149.86 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10899,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 410.21 115.57 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10908,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 410.21 115.57 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10916,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 410.21 115.57 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +10924,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 410.21 115.57 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10934,7 +10932,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 410.21 115.57 0)
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
