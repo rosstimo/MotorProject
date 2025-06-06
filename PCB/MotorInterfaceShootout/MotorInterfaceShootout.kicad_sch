@@ -4967,7 +4967,7 @@
 		)
 		(uuid "ff607e86-eaae-4b7c-84ef-927140b3996e")
 	)
-	(global_label "A1"
+	(global_label "S1_PLC"
 		(shape output)
 		(at 85.09 179.07 0)
 		(fields_autoplaced yes)
@@ -4979,7 +4979,7 @@
 		)
 		(uuid "01b95ccb-eb6f-4ec2-a735-37ccebc51766")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3733 179.07 0)
+			(at 95.0299 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5363,7 @@
 			)
 		)
 	)
-	(global_label "A0"
+	(global_label "S0_PLC"
 		(shape output)
 		(at 85.09 166.37 0)
 		(fields_autoplaced yes)
@@ -5375,7 +5375,7 @@
 		)
 		(uuid "96e516ed-1d8a-4a3a-9fdd-4e12d7d92a77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3733 166.37 0)
+			(at 95.0299 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
