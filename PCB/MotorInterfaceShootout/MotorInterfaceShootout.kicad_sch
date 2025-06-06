@@ -3490,12 +3490,6 @@
 		(uuid "15b53d45-bbfa-4ea4-85af-014d633c06cb")
 	)
 	(junction
-		(at 199.39 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ad0ab28-2dcf-418f-887c-72aad434d059")
-	)
-	(junction
 		(at 72.39 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3508,12 +3502,6 @@
 		(uuid "4cd7c089-a486-4164-9a88-741aec2c01ee")
 	)
 	(junction
-		(at 199.39 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f20f65f-d02f-46dd-bd38-0bb36d08c4f6")
-	)
-	(junction
 		(at 229.87 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,12 +3512,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "656521e8-e5eb-492c-8f3e-86225da5dc3f")
-	)
-	(junction
-		(at 199.39 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa957f52-4257-4ea0-a3d6-686b6eaf8802")
 	)
 	(junction
 		(at 229.87 91.44)
@@ -3697,16 +3679,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 60.96) (xy 199.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096eb21c-6007-499f-8862-a9d86a729afe")
-	)
-	(wire
-		(pts
 			(xy 229.87 38.1) (xy 229.87 40.64)
 		)
 		(stroke
@@ -3747,13 +3719,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 21.59) (xy 199.39 24.13)
+			(xy 199.39 29.21) (xy 201.93 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "137cda39-7f26-41fa-8c62-cea7934b478c")
+		(uuid "14533bf5-a4b3-4669-a2a8-ade21d43e4e1")
 	)
 	(wire
 		(pts
@@ -3827,6 +3799,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 93.98) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204a963d-c738-4f26-b020-9367dcf35cd3")
+	)
+	(wire
+		(pts
 			(xy 229.87 58.42) (xy 232.41 58.42)
 		)
 		(stroke
@@ -3867,16 +3849,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 104.14) (xy 199.39 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e1debb-41e0-4580-bc63-b4fdf48c4cb4")
-	)
-	(wire
-		(pts
 			(xy 104.14 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -3884,16 +3856,6 @@
 			(type default)
 		)
 		(uuid "28e695e2-be8b-431c-822f-f7023fa730ce")
-	)
-	(wire
-		(pts
-			(xy 196.85 60.96) (xy 199.39 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a001aa2-cff7-44bb-aaac-25515b5d942a")
 	)
 	(wire
 		(pts
@@ -3934,16 +3896,6 @@
 			(type default)
 		)
 		(uuid "310c6729-bf54-42bb-a97b-67c9faf29c6f")
-	)
-	(wire
-		(pts
-			(xy 196.85 29.21) (xy 199.39 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "321fce99-1b2e-4779-a6b8-2f66b578b795")
 	)
 	(wire
 		(pts
@@ -4007,16 +3959,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 29.21) (xy 189.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d14864f-a697-4dab-9b65-5a12996a2e50")
-	)
-	(wire
-		(pts
 			(xy 217.17 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -4044,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "4127723d-84e6-431e-9810-3693c4c72d1f")
-	)
-	(wire
-		(pts
-			(xy 199.39 71.12) (xy 199.39 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43541c46-e1c5-4f24-857a-7a64592c256f")
 	)
 	(wire
 		(pts
@@ -4094,16 +4026,6 @@
 			(type default)
 		)
 		(uuid "49b4dc9a-c00c-4943-a126-5418c2f3f76b")
-	)
-	(wire
-		(pts
-			(xy 199.39 39.37) (xy 199.39 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b82807e-020e-459b-9548-e93f64e194df")
 	)
 	(wire
 		(pts
@@ -4164,16 +4086,6 @@
 			(type default)
 		)
 		(uuid "530e8d3b-757d-49c2-89a8-e6f9dd843504")
-	)
-	(wire
-		(pts
-			(xy 199.39 93.98) (xy 201.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ee9ec2-e920-4f6e-b6d6-9a302558c469")
 	)
 	(wire
 		(pts
@@ -4257,16 +4169,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 199.39 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a12f2e4-c4f3-4507-a30c-eff7013bf34b")
-	)
-	(wire
-		(pts
 			(xy 229.87 26.67) (xy 229.87 30.48)
 		)
 		(stroke
@@ -4347,16 +4249,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 189.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f34324-3bb6-4381-b80f-2171698c5bc6")
-	)
-	(wire
-		(pts
 			(xy 109.22 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -4397,16 +4289,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 199.39 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d5f7608-8b91-43c4-a664-9a8a46160e81")
-	)
-	(wire
-		(pts
 			(xy 217.17 91.44) (xy 220.98 91.44)
 		)
 		(stroke
@@ -4444,16 +4326,6 @@
 			(type default)
 		)
 		(uuid "84fd0c7f-aac7-4515-8e5c-705874b69946")
-	)
-	(wire
-		(pts
-			(xy 199.39 29.21) (xy 199.39 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "882edec7-59e9-4830-b266-632009f2ef01")
 	)
 	(wire
 		(pts
@@ -4575,16 +4447,6 @@
 		)
 		(uuid "9bf3bf80-dc8a-4792-9290-30bcf252a0ed")
 	)
-	(wire
-		(pts
-			(xy 187.96 60.96) (xy 189.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e71b99d-e667-4d34-847f-eda863b0094b")
-	)
 	(polyline
 		(pts
 			(xy 193.04 158.75) (xy 234.95 158.75)
@@ -4634,16 +4496,6 @@
 			(type default)
 		)
 		(uuid "a50b7be1-307f-4135-9716-c01f0660d11b")
-	)
-	(wire
-		(pts
-			(xy 199.39 53.34) (xy 199.39 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a87600e5-8f66-444c-8db6-69bf68325c4c")
 	)
 	(wire
 		(pts
@@ -4937,16 +4789,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 199.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e07f00b2-df47-429a-8939-5ffc60889b6c")
-	)
-	(wire
-		(pts
 			(xy 72.39 161.29) (xy 64.77 161.29)
 		)
 		(stroke
@@ -5027,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 29.21) (xy 201.93 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec383c40-c9fc-44a9-9665-756c5e18ebae")
-	)
-	(wire
-		(pts
 			(xy 199.39 60.96) (xy 201.93 60.96)
 		)
 		(stroke
@@ -5044,16 +4876,6 @@
 			(type default)
 		)
 		(uuid "ec463a79-86bc-4334-bc1c-0d8785f4858c")
-	)
-	(wire
-		(pts
-			(xy 194.31 53.34) (xy 199.39 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a565ab-5a69-49f1-ac66-5052098ed8b3")
 	)
 	(wire
 		(pts
@@ -5087,16 +4909,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 199.39 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e84f95-2b9e-42b7-9f44-7e91b4fdea64")
-	)
-	(wire
-		(pts
 			(xy 64.77 153.67) (xy 72.39 153.67)
 		)
 		(stroke
@@ -5124,16 +4936,6 @@
 			(type default)
 		)
 		(uuid "fb021ec6-55bb-45cc-83e7-8d7ee88028e7")
-	)
-	(wire
-		(pts
-			(xy 196.85 93.98) (xy 199.39 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc93f55d-438b-4eff-a665-7b53ee91da8f")
 	)
 	(wire
 		(pts
@@ -5227,6 +5029,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COMP_THRES"
+		(shape input)
+		(at 199.39 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a1d5c2-8831-475e-918c-522100d5039f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.1887 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5365,7 +5189,7 @@
 	)
 	(global_label "PIN_PWM_POS"
 		(shape input)
-		(at 194.31 86.36 180)
+		(at 199.39 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5375,7 +5199,7 @@
 		)
 		(uuid "68417101-2564-4d4a-919e-0e676df5c4c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.2015 86.36 0)
+			(at 183.2815 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5321,7 @@
 	)
 	(global_label "PIN_PWM_POSX10"
 		(shape input)
-		(at 194.31 21.59 180)
+		(at 199.39 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5507,7 +5331,7 @@
 		)
 		(uuid "8958e5a3-84de-4731-bbed-69dc85834a3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.573 21.59 0)
+			(at 179.653 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,9 +5429,31 @@
 			)
 		)
 	)
+	(global_label "COMP_THRES"
+		(shape input)
+		(at 199.39 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b392464c-b588-4ab0-865f-045e67535f2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.1887 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PIN_PWM_SPD"
 		(shape input)
-		(at 194.31 53.34 180)
+		(at 199.39 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5617,7 +5463,7 @@
 		)
 		(uuid "be888ad1-8c72-4148-8518-9cd56ee9c0e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.262 53.34 0)
+			(at 183.342 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,6 +5684,28 @@
 		(uuid "df3da183-874d-4e6a-956c-0d29e04ab0a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.3519 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COMP_THRES"
+		(shape input)
+		(at 199.39 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1ce3670-31d2-4f59-9e96-7ee490916642")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.1887 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,69 +6027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "00TJR:GND")
-		(at 199.39 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17a751e9-e8e4-4d1c-9b88-c73f16f731ea")
-		(property "Reference" "#PWR021"
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ca2112d-9681-4208-a854-66f6582edc92")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TJR:ZENER")
 		(at 72.39 144.78 270)
 		(unit 1)
@@ -6285,181 +6090,6 @@
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24d46f61-e2cd-4ae8-8cec-e605eba9bd32")
-		(property "Reference" "#PWR017"
-			(at 187.96 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 184.912 25.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a656fcab-fd19-40fa-8820-0c663f16c848")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 193.04 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2795394a-0a6b-410c-ab02-fce287ce52df")
-		(property "Reference" "R8"
-			(at 194.31 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 194.564 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 193.04 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 193.04 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75ea6bce-05a3-43d8-b901-953e584da5be")
-		)
-		(pin "1"
-			(uuid "964586e6-6415-4324-8823-701459d0bfc0")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6569,120 +6199,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 199.39 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30b94a1c-ab62-4ece-b81f-2dd640bbf29b")
-		(property "Reference" "R11"
-			(at 200.66 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 200.66 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 197.612 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor url" ""
-			(at 199.39 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf2bcb98-e9c8-46f0-b570-89ca4547c8c3")
-		)
-		(pin "1"
-			(uuid "d66faadd-51f8-477c-b137-cf3bcf783ef9")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6928,120 +6444,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 199.39 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e5c47d4-e510-4282-a163-56bb499816d2")
-		(property "Reference" "R10"
-			(at 200.66 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 200.66 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 197.612 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor url" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "273f75a8-6378-4715-af58-998cd2194f40")
-		)
-		(pin "1"
-			(uuid "31fa4cf0-6399-4c06-be16-b8db698fbfe2")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7851,179 +7253,6 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 199.39 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6917c0d8-e1b2-4301-93a1-5e7d49e22eee")
-		(property "Reference" "#PWR022"
-			(at 199.39 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73253c6e-278e-475a-8837-cd4333e7227f")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 193.04 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec58834-6ef2-4bfc-be5e-5ac1ec8ff055")
-		(property "Reference" "R9"
-			(at 194.31 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 194.564 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 193.04 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 193.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "72f8f203-9672-4b73-bcd0-b0dc05769c45")
-		)
-		(pin "1"
-			(uuid "996d56d9-b62d-45b9-a24c-f4df58dac30d")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00TJR:GND")
 		(at 229.87 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8699,116 +7928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:R")
-		(at 193.04 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94fff040-c5b5-49d1-bb29-2a9f1a7f5de1")
-		(property "Reference" "R7"
-			(at 194.31 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 194.564 31.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 193.04 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e781caa-6630-42ea-8681-3285b5da2470")
-		)
-		(pin "1"
-			(uuid "316807ee-5b17-4412-a5ba-e2799de87c00")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00TJR:GND")
 		(at 229.87 105.41 0)
 		(unit 1)
@@ -9207,71 +8326,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a62d6ca4-c476-48d1-a982-0babb452273d")
-		(property "Reference" "#PWR019"
-			(at 187.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 184.912 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12dc85c8-f754-4f92-b87b-23e77973896c")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00TJR:GND")
 		(at 156.21 161.29 0)
 		(unit 1)
@@ -9330,71 +8384,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abed2610-8544-4ec0-b1d2-f84e58a49839")
-		(property "Reference" "#PWR018"
-			(at 187.96 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 184.912 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "722b5268-05b7-494a-91b6-0291052a1758")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9614,116 +8603,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 199.39 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b948f2cd-b6ea-4e6f-8d56-9f68cd25338d")
-		(property "Reference" "R12"
-			(at 200.66 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 200.66 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 197.612 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 199.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1b14a69d-69a1-4f6a-bc93-cc6a221681b1")
-		)
-		(pin "1"
-			(uuid "a24b6c46-8c5b-45a2-b7f8-97301ea6011e")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11163,69 +10042,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00TJR:GND")
-		(at 199.39 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbef6528-ee10-4537-9481-5af3314716df")
-		(property "Reference" "#PWR020"
-			(at 199.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96a9df67-e0aa-41c9-b750-7eaa9b20212c")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
