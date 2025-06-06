@@ -3188,6 +3188,369 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "device:R_Potentiometer_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3502,6 +3865,12 @@
 		(uuid "4cd7c089-a486-4164-9a88-741aec2c01ee")
 	)
 	(junction
+		(at 116.84 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9d6d1c-7350-4935-b9dc-4e2011e0d6fa")
+	)
+	(junction
 		(at 229.87 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3514,6 +3883,12 @@
 		(uuid "656521e8-e5eb-492c-8f3e-86225da5dc3f")
 	)
 	(junction
+		(at 106.68 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98ad230e-57d8-4196-bdf2-cf35262de8c0")
+	)
+	(junction
 		(at 229.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,6 +3899,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8500901-4f08-4c4c-933d-97be003b7980")
+	)
+	(junction
+		(at 116.84 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5cb88b7-3938-4dda-a6ce-af029b4679f1")
 	)
 	(junction
 		(at 72.39 166.37)
@@ -3610,10 +3991,6 @@
 	(no_connect
 		(at 68.58 54.61)
 		(uuid "b8ad0481-5e4b-4eec-8897-a9fd31da4b56")
-	)
-	(no_connect
-		(at 104.14 44.45)
-		(uuid "d5aa2411-84b0-43dd-a9fd-9c75ab4905a3")
 	)
 	(no_connect
 		(at 68.58 34.29)
@@ -4029,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 41.91) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4d1edc-9214-4f1f-b90a-3d1523c82b4d")
+	)
+	(wire
+		(pts
 			(xy 119.38 69.85) (xy 121.92 69.85)
 		)
 		(stroke
@@ -4066,6 +4453,16 @@
 			(type default)
 		)
 		(uuid "4fd7769f-41aa-4110-9fcc-34956e04bc4b")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511ec7ae-7cde-4eb8-b422-ab7d69bb22e8")
 	)
 	(wire
 		(pts
@@ -4116,6 +4513,16 @@
 			(type default)
 		)
 		(uuid "6155b9c7-2b53-4fd9-9217-4cfa5d08e566")
+	)
+	(wire
+		(pts
+			(xy 124.46 49.53) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6206a6a5-6008-4026-9a97-ccb3b420b8dc")
 	)
 	(wire
 		(pts
@@ -4219,6 +4626,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 44.45) (xy 106.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70799940-c0bc-450f-bafe-486719190069")
+	)
+	(wire
+		(pts
 			(xy 104.14 69.85) (xy 116.84 69.85)
 		)
 		(stroke
@@ -4249,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 53.34) (xy 121.92 53.34)
+			(xy 109.22 53.34) (xy 128.27 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4519,6 +4936,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 45.72) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a291e5-4c3b-455b-9c6e-593617fbee89")
+	)
+	(wire
+		(pts
 			(xy 49.53 135.89) (xy 49.53 166.37)
 		)
 		(stroke
@@ -4569,7 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 41.91) (xy 116.84 41.91)
+			(xy 104.14 41.91) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4689,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 111.76 49.53)
+			(xy 104.14 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4789,6 +5216,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 44.45) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34d9a56-7659-4bc9-aaae-1c4203beccbd")
+	)
+	(wire
+		(pts
 			(xy 72.39 161.29) (xy 64.77 161.29)
 		)
 		(stroke
@@ -4876,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "ec463a79-86bc-4334-bc1c-0d8785f4858c")
+	)
+	(wire
+		(pts
+			(xy 124.46 41.91) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1df77e-98d2-4220-9c8c-6e196ed1567e")
 	)
 	(wire
 		(pts
@@ -5407,28 +5854,6 @@
 			)
 		)
 	)
-	(global_label "PIN_MOTOR_SEL"
-		(shape input)
-		(at 58.42 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b37c760c-4871-4837-a368-b74f0e6b1385")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.5577 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COMP_THRES"
 		(shape input)
 		(at 199.39 60.96 180)
@@ -5728,28 +6153,6 @@
 		(uuid "f016cb59-b000-41fe-a1f9-8b446e2b4115")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.827 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PIN_SPD_CAL_ADC"
-		(shape input)
-		(at 121.92 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f15211a2-2644-4cfb-b6ad-e5fe2fcb29ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.7781 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,6 +6499,78 @@
 		)
 	)
 	(symbol
+		(lib_id "device:R_Potentiometer_US")
+		(at 124.46 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2056461e-81ee-42c3-9a81-b3432ef167aa")
+		(property "Reference" "R?"
+			(at 132.588 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.842 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2fed618-4082-440c-8a1e-41480f3c3154")
+		)
+		(pin "1"
+			(uuid "2ff8b209-e82d-40fa-95db-33a0af7b6fea")
+		)
+		(pin "3"
+			(uuid "bbd883f7-a70e-47e4-bef1-b9f877bdacba")
+		)
+		(instances
+			(project ""
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TJR:R")
 		(at 66.04 179.07 90)
 		(unit 1)
@@ -6375,6 +6850,74 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jumper:Jumper_2_Open")
+		(at 53.34 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7833c9-f026-4e39-b789-3367d5827bba")
+		(property "Reference" "JP1"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f50defbf-3829-4c37-b89c-d311963fc610")
+		)
+		(pin "2"
+			(uuid "93887fa2-a64b-4c21-ac31-28873fd0f234")
+		)
+		(instances
+			(project ""
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6682,7 +7225,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.84 41.91 0)
+		(at 116.84 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6690,7 +7233,7 @@
 		(dnp no)
 		(uuid "50d368a2-9799-463c-aa08-24a8fca8b83a")
 		(property "Reference" "#PWR012"
-			(at 116.84 45.72 0)
+			(at 116.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +7242,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 120.142 39.37 0)
+			(at 120.142 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 41.91 0)
+			(at 116.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +7259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 41.91 0)
+			(at 116.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +7268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 41.91 0)
+			(at 116.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +8032,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 111.76 49.53 0)
+		(at 116.84 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7497,7 +8040,7 @@
 		(dnp no)
 		(uuid "7e39c0aa-de84-48af-b5a9-483f1f5875a2")
 		(property "Reference" "#PWR042"
-			(at 111.76 55.88 0)
+			(at 116.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +8049,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 53.086 0)
+			(at 116.84 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +8058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 49.53 0)
+			(at 116.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +8066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 49.53 0)
+			(at 116.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +8074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 49.53 0)
+			(at 116.84 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,6 +10141,70 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00TJR:GND")
+		(at 48.26 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbfc0160-9774-42ed-8869-88c75003032a")
+		(property "Reference" "#PWR015"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef39dd8-e3bc-43ee-881a-0223291bff41")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
