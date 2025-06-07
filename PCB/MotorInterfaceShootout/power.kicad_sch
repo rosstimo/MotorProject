@@ -566,147 +566,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM7810_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7810_TO220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM7810_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7810_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:LM78L05_TO92"
 			(pin_names
 				(offset 0.254)
@@ -2684,6 +2543,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor electrolytic "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+10V"
 			(power)
 			(pin_numbers
@@ -2981,6 +2988,24 @@
 		(uuid "01c11a0b-8a78-49f3-ae72-1e222e34812c")
 	)
 	(junction
+		(at 232.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19993867-c8a0-4e29-8519-a263a3008e79")
+	)
+	(junction
+		(at 232.41 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eed79ea-0405-4e71-8a41-db99a9fd8f87")
+	)
+	(junction
+		(at 208.28 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce86e61-3b89-41f7-bfb1-cd35003d5650")
+	)
+	(junction
 		(at 101.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3005,10 +3030,40 @@
 		(uuid "a61ed2ff-bcf6-48cb-9d4f-c063634a6f50")
 	)
 	(junction
+		(at 139.7 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90a2edf-a95b-4aaf-8902-2e1c460c4803")
+	)
+	(junction
+		(at 218.44 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1fcaa29-9e82-4b96-8b41-4551e838f64a")
+	)
+	(junction
+		(at 218.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc0f5df3-302f-4316-9948-c1f2474a73cb")
+	)
+	(junction
+		(at 139.7 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a87625-5d6a-4cb6-814d-6a945b9bd8fd")
+	)
+	(junction
 		(at 87.63 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd7c7986-5255-4535-9b90-ff55a7ebfc7a")
+	)
+	(junction
+		(at 208.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4bfada4-a2f6-4a46-924a-8e619ec2b23b")
 	)
 	(junction
 		(at 220.98 31.75)
@@ -3027,6 +3082,26 @@
 	(no_connect
 		(at 161.29 39.37)
 		(uuid "b2ddcba5-5320-49ed-9fd3-f66f949ebf8e")
+	)
+	(wire
+		(pts
+			(xy 208.28 93.98) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cf9e49-2c4e-492c-b6d8-e5c5f14c68de")
+	)
+	(wire
+		(pts
+			(xy 218.44 67.31) (xy 218.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02961609-b8f2-4534-99ad-0b640933921a")
 	)
 	(wire
 		(pts
@@ -3057,6 +3132,26 @@
 			(type default)
 		)
 		(uuid "0e53c4c5-16c4-48a9-ac26-8aae692fc970")
+	)
+	(wire
+		(pts
+			(xy 128.27 27.94) (xy 139.7 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119f068a-a2be-48a6-8471-54cf51fedea1")
+	)
+	(wire
+		(pts
+			(xy 218.44 85.09) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a92707-653d-4ab9-b835-1b67b7e52b4e")
 	)
 	(wire
 		(pts
@@ -3130,6 +3225,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 85.09) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d1ce83-81de-468b-92b7-320e8d792f13")
+	)
+	(wire
+		(pts
+			(xy 232.41 67.31) (xy 242.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df0f270-8b21-48fd-a520-8591e75cdfe0")
+	)
+	(wire
+		(pts
 			(xy 220.98 40.64) (xy 220.98 41.91)
 		)
 		(stroke
@@ -3170,6 +3285,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 93.98) (xy 232.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6411d2fb-f290-48aa-ab2c-d6c26d178550")
+	)
+	(wire
+		(pts
+			(xy 128.27 31.75) (xy 128.27 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69644adb-46ea-4f1f-a3c1-4862f02ff4fe")
+	)
+	(wire
+		(pts
 			(xy 95.25 33.02) (xy 101.6 33.02)
 		)
 		(stroke
@@ -3177,6 +3312,26 @@
 			(type default)
 		)
 		(uuid "6f8d7511-f396-4bd7-a502-c1551af7eb63")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d63cb7-10f0-4a3d-b34e-b38f10ecbc3a")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b34d546-3af7-4875-915e-941c64717370")
 	)
 	(wire
 		(pts
@@ -3220,6 +3375,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 68.58) (xy 232.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981c42eb-fc08-4440-a94e-36e67c10eb1b")
+	)
+	(wire
+		(pts
 			(xy 220.98 31.75) (xy 227.33 31.75)
 		)
 		(stroke
@@ -3227,6 +3392,36 @@
 			(type default)
 		)
 		(uuid "a0e595a5-9dc9-4f95-a71a-58c3192c9df3")
+	)
+	(wire
+		(pts
+			(xy 218.44 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b398bf5d-dae3-47d7-9950-e503808be8f8")
+	)
+	(wire
+		(pts
+			(xy 232.41 67.31) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9b6f22-9a98-449c-84ad-375c17533f40")
+	)
+	(wire
+		(pts
+			(xy 128.27 43.18) (xy 139.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0740a08-34f4-428f-bcec-13f92fd54e4e")
 	)
 	(wire
 		(pts
@@ -3268,6 +3463,16 @@
 		)
 		(uuid "cb7b4e3d-97e1-4554-ac17-28b09876cbb1")
 	)
+	(wire
+		(pts
+			(xy 242.57 77.47) (xy 242.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4d06c6-7ebc-4bba-8280-eb0b50dcf5b1")
+	)
 	(polyline
 		(pts
 			(xy 209.55 50.8) (xy 251.46 50.8)
@@ -3277,6 +3482,16 @@
 			(type solid)
 		)
 		(uuid "cd518668-321e-4eb8-b746-957295611645")
+	)
+	(wire
+		(pts
+			(xy 128.27 39.37) (xy 128.27 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d390fffb-9501-43de-b662-54b65e5850f1")
 	)
 	(wire
 		(pts
@@ -3411,7 +3626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" ""
 			(at 51.7652 41.91 0)
 			(effects
 				(font
@@ -3420,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -3429,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -3438,7 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -3496,16 +3711,16 @@
 	)
 	(symbol
 		(lib_id "TFlipFlop-cache:74xx_74LS08")
-		(at 110.49 82.55 0)
-		(mirror x)
+		(at 232.41 81.28 0)
+		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1342d6e8-fd98-49b7-a936-2c62f851a190")
-		(property "Reference" "U9"
-			(at 109.22 87.63 0)
+		(property "Reference" "U6"
+			(at 227.584 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3728,7 @@
 			)
 		)
 		(property "Value" "74LS08"
-			(at 110.49 88.9 0)
+			(at 232.41 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 82.55 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,8 +3745,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 82.55 0)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc08"
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,8 +3754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 82.55 0)
+		(property "Description" "IC GATE AND 4CH 2-INP 14SOIC"
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3764,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 110.49 82.55 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3773,16 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 110.49 82.55 0)
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC08DR/276834"
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,8 +3835,86 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "U9")
+					(reference "U6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:C")
+		(at 242.57 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e6dc785-c977-4427-a9e2-0455bd3bb082")
+		(property "Reference" "C9"
+			(at 245.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 245.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.5352 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d60cb3ac-8928-45c5-b495-8157d65b00cf")
+		)
+		(pin "1"
+			(uuid "1c31a66e-09b1-4855-b740-2dcb522933a9")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "C9")
+					(unit 1)
 				)
 			)
 		)
@@ -3626,7 +3928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45171dee-4969-4e5f-bf09-16bafcdd5f2e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR028"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -3675,7 +3977,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR039")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3839,7 +4141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac6104a-3f44-4506-a5b9-e1658a8c05fd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR027"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -3889,7 +4191,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR038")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3922,7 +4224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" ""
 			(at 77.1652 41.91 0)
 			(effects
 				(font
@@ -3931,7 +4233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -3940,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -3949,7 +4251,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -4166,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aca903d-b6a2-4803-b065-4cdb2ab29945")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR026"
 			(at 101.6 30.48 0)
 			(effects
 				(font
@@ -4216,7 +4518,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR037")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6917c0d8-e1b2-4301-93a1-5e7d49e22eee")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 220.98 48.26 0)
 			(effects
 				(font
@@ -4280,7 +4582,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4288,8 +4590,8 @@
 	)
 	(symbol
 		(lib_id "S2020-cache:74xx_74LS14")
-		(at 92.71 80.01 0)
-		(mirror x)
+		(at 208.28 81.28 0)
+		(mirror y)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4297,7 +4599,7 @@
 		(dnp no)
 		(uuid "7fb133b8-98c9-44bd-8c3f-5c388cfdc033")
 		(property "Reference" "U5"
-			(at 94.488 77.216 0)
+			(at 203.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4607,7 @@
 			)
 		)
 		(property "Value" "74LS14"
-			(at 92.71 86.36 0)
+			(at 208.28 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +4616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 80.01 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,8 +4624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 80.01 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf?ts=1638587495517"
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,8 +4633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 80.01 0)
+		(property "Description" "IC INVERT SCHMITT 6CH 1IN 14SOIC"
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4643,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 92.71 80.01 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4652,16 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 92.71 80.01 0)
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC14DR/276837"
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83d6d21d-5aa6-48f9-b2c7-ebb84331f880")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR024"
 			(at 76.2 30.48 0)
 			(effects
 				(font
@@ -4468,7 +4779,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR032")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4484,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ab0a029-5d31-4064-967a-b28183ef7eae")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR031"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -4534,7 +4845,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR01")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4549,7 +4860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad223166-8204-4b79-922b-5d0957cfaa24")
-		(property "Reference" "R1"
+		(property "Reference" "R15"
 			(at 222.25 25.3999 0)
 			(effects
 				(font
@@ -4567,7 +4878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 219.202 26.67 90)
 			(effects
 				(font
@@ -4576,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -4585,7 +4896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -4594,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -4644,7 +4955,123 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R1")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM78L05_TO92")
+		(at 63.5 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b503f332-8709-4bce-aa9e-1dc3ef820201")
+		(property "Reference" "U3"
+			(at 58.674 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L78L10ACUTR"
+			(at 68.072 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC REG LINEAR 10V 100MA SOT89-3"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor url" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L10ACUTR/1038281"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "124b928c-bc4f-42e9-b99f-e4a8d5219eed")
+		)
+		(pin "1"
+			(uuid "21c5baae-4279-463c-bddb-c41cb5812f45")
+		)
+		(pin "2"
+			(uuid "519c3736-d998-4b6a-9b01-e89a99600d4d")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4660,7 +5087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b597018a-7010-4b52-8db0-1bceed18e7ae")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR025"
 			(at 87.63 50.8 0)
 			(effects
 				(font
@@ -4709,7 +5136,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR033")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4724,7 +5151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b948f2cd-b6ea-4e6f-8d56-9f68cd25338d")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 222.25 35.5599 0)
 			(effects
 				(font
@@ -4742,7 +5169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 219.202 36.83 90)
 			(effects
 				(font
@@ -4751,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -4760,7 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -4769,7 +5196,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -4819,50 +5246,42 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM7810_TO220")
-		(at 63.5 33.02 0)
+		(lib_id "device:C")
+		(at 128.27 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6991e58-7210-47a9-8b90-5757589a1f84")
-		(property "Reference" "U3"
-			(at 63.5 26.67 0)
+		(uuid "d43f32c7-30ca-455e-8626-fc08ed25eab7")
+		(property "Reference" "C7"
+			(at 132.08 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LM7810"
-			(at 63.5 29.21 0)
+		(property "Value" "0.1uF"
+			(at 132.08 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 63.5 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2940-n.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1747033346982&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Flm2940-n"
-			(at 63.5 34.29 0)
+		(property "Footprint" ""
+			(at 129.2352 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,8 +5289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220"
-			(at 63.5 33.02 0)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,8 +5298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Cost (ea.)" ""
-			(at 63.5 33.02 0)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,8 +5307,8 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "LM7810 obsolete"
-			(at 63.5 33.02 0)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,8 +5316,32 @@
 				(hide yes)
 			)
 		)
-		(property "Vender Part Number" ""
-			(at 63.5 33.02 0)
+		(pin "2"
+			(uuid "68f451dc-c7ad-4168-a9b2-2903468daac4")
+		)
+		(pin "1"
+			(uuid "c1939147-134d-4004-9cdb-b019b3892a82")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00TJR:GND")
+		(at 208.28 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4b2e00d-e829-469e-9cac-0f2c76dc589a")
+		(property "Reference" "#PWR030"
+			(at 208.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,8 +5349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor url" ""
-			(at 63.5 33.02 0)
+		(property "Value" "GND"
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,8 +5358,24 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LM2940T-10-0-NOPB/148141"
-			(at 63.5 33.02 0)
+		(property "Footprint" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,18 +5384,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a20df11-9a72-43c4-98cb-aa4b0a4f34f0")
-		)
-		(pin "2"
-			(uuid "97bedf9b-1b7f-4222-b758-d33e9e05ae23")
-		)
-		(pin "3"
-			(uuid "b72da4a8-168a-4064-91ab-b905f183334d")
+			(uuid "86adce76-85be-46a3-98af-3f74fd9aad64")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "U3")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:C")
+		(at 218.44 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e060bfb2-327e-40a2-889e-bed72dc936cd")
+		(property "Reference" "C8"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.4052 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a7a5086-dca0-49a9-8ccb-1a22d1bdf3e9")
+		)
+		(pin "1"
+			(uuid "96d52842-2bc5-4602-a0eb-a4f3cb82d651")
+		)
+		(instances
+			(project ""
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4945,7 +5476,6 @@
 	(symbol
 		(lib_id "Regulator_Linear:LM78L05_TO92")
 		(at 87.63 33.02 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4953,22 +5483,22 @@
 		(dnp no)
 		(uuid "e3090a7f-31de-4187-9297-49d445380629")
 		(property "Reference" "U4"
-			(at 83.566 29.718 0)
+			(at 82.804 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM79L05"
-			(at 88.392 16.256 0)
+		(property "Value" "L78L05ABUTR"
+			(at 91.948 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" ""
 			(at 87.63 27.305 0)
 			(effects
 				(font
@@ -4978,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm78l"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
 			(at 87.63 34.29 0)
 			(effects
 				(font
@@ -4987,7 +5517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+		(property "Description" "IC REG LINEAR 5V 100MA SOT89-3"
 			(at 87.63 33.02 0)
 			(effects
 				(font
@@ -5032,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LM78L05ACZ-NOPB/6333"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L05ABUTR/585705"
 			(at 87.63 33.02 0)
 			(effects
 				(font
@@ -5086,7 +5616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:C_Radial_D5.00mm_H12.5mm_P2.00mm"
+		(property "Footprint" ""
 			(at 102.5652 41.91 0)
 			(effects
 				(font
@@ -5095,7 +5625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLH.pdf"
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -5104,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -5113,7 +5643,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -5164,6 +5694,72 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.28 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc7f42ff-e82c-4a2a-b359-ceff448db4f7")
+		(property "Reference" "#PWR029"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 208.28 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "698ddb4c-33c6-45ea-9aa2-91edf86ee697")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

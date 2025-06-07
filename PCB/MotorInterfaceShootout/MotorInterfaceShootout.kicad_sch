@@ -3853,6 +3853,12 @@
 		(uuid "15b53d45-bbfa-4ea4-85af-014d633c06cb")
 	)
 	(junction
+		(at 256.54 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be449c7-7ddc-4a67-ad47-31eba210ad1e")
+	)
+	(junction
 		(at 72.39 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3881,6 +3887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "656521e8-e5eb-492c-8f3e-86225da5dc3f")
+	)
+	(junction
+		(at 256.54 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87170e23-2f43-4d7b-b43e-2641bb0a09a4")
 	)
 	(junction
 		(at 106.68 41.91)
@@ -3965,10 +3977,6 @@
 		(uuid "8af3abcb-9d6d-47a8-ab98-ff3fc5798fdf")
 	)
 	(no_connect
-		(at 68.58 36.83)
-		(uuid "928bacba-735a-4e23-ba21-955202db3f5f")
-	)
-	(no_connect
 		(at 68.58 46.99)
 		(uuid "983617b5-9749-4905-984d-0644d1b8029e")
 	)
@@ -3977,7 +3985,7 @@
 		(uuid "aa1d3263-9648-4fb3-bade-1337dd601466")
 	)
 	(no_connect
-		(at 68.58 62.23)
+		(at 68.58 59.69)
 		(uuid "aae62e67-b70c-4cfe-8794-0968b82f3ba5")
 	)
 	(no_connect
@@ -4076,6 +4084,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 151.13) (xy 246.38 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdb1ef6-8e31-452d-9f90-4dc8a88d726c")
+	)
+	(wire
+		(pts
 			(xy 104.14 74.93) (xy 111.76 74.93)
 		)
 		(stroke
@@ -4103,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "14533bf5-a4b3-4669-a2a8-ade21d43e4e1")
+	)
+	(wire
+		(pts
+			(xy 237.49 152.4) (xy 237.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a733e3-3cbd-4acf-9b33-a8eda8774db6")
 	)
 	(wire
 		(pts
@@ -4156,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 66.04 43.18)
+			(xy 58.42 44.45) (xy 66.04 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4214,6 +4242,16 @@
 		)
 		(uuid "25f344ce-613e-49e9-a0bf-1892aa460b66")
 	)
+	(wire
+		(pts
+			(xy 243.84 154.94) (xy 243.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268b70df-606b-4156-a483-431849a5e7ee")
+	)
 	(polyline
 		(pts
 			(xy 52.07 190.754) (xy 93.98 190.754)
@@ -4243,6 +4281,16 @@
 			(type default)
 		)
 		(uuid "2b406a01-344e-4adf-8fdc-350f660331c6")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 68.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb0eb86-76e2-4122-a0c0-d30f713bed33")
 	)
 	(wire
 		(pts
@@ -4276,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 151.13) (xy 149.86 152.4)
+			(xy 148.59 95.25) (xy 148.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 160.02) (xy 156.21 161.29)
+			(xy 154.94 104.14) (xy 154.94 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4316,17 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 151.13) (xy 223.52 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb2cc2b-10d4-4d38-906e-734ae12707f1")
-	)
-	(wire
-		(pts
-			(xy 58.42 39.37) (xy 68.58 39.37)
+			(xy 58.42 40.64) (xy 66.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4403,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "49b4dc9a-c00c-4943-a126-5418c2f3f76b")
+	)
+	(wire
+		(pts
+			(xy 66.04 40.64) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a44a98a-9d9c-4004-a3cd-217f80b07a78")
 	)
 	(wire
 		(pts
@@ -4483,6 +4531,16 @@
 			(type default)
 		)
 		(uuid "530e8d3b-757d-49c2-89a8-e6f9dd843504")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 246.38 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d5e5c6-6c45-4774-8465-feec29652d7d")
 	)
 	(wire
 		(pts
@@ -4596,13 +4654,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 152.4) (xy 219.71 151.13)
+			(xy 68.58 36.83) (xy 63.5 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ceae71c-ab5e-46ee-98d5-3d9af0e7dc46")
+		(uuid "6ee2146a-a0c6-4fef-805e-05eabd03aaf7")
 	)
 	(wire
 		(pts
@@ -4666,6 +4724,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 151.13) (xy 269.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a363ac-154a-490e-9d93-0aa64d622368")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 128.27 53.34)
 		)
 		(stroke
@@ -4693,6 +4761,16 @@
 			(type default)
 		)
 		(uuid "796bfb45-27a2-4325-ae54-28c8cd1ecd28")
+	)
+	(wire
+		(pts
+			(xy 254 151.13) (xy 256.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a139766-d6c7-4938-840c-7d1e75c4ec33")
 	)
 	(wire
 		(pts
@@ -4746,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 137.16) (xy 156.21 143.51)
+			(xy 154.94 81.28) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 160.02) (xy 149.86 161.29)
+			(xy 148.59 104.14) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 66.04 41.91)
+			(xy 66.04 44.45) (xy 66.04 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4826,13 +4904,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 140.97) (xy 149.86 140.97)
+			(xy 146.05 85.09) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99970b68-0846-4f5b-b07b-43771bc5a195")
+	)
+	(wire
+		(pts
+			(xy 254 138.43) (xy 256.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ada3e1c-3697-40a6-8bd5-4ca567d4e627")
 	)
 	(wire
 		(pts
@@ -4976,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 137.16) (xy 156.21 137.16)
+			(xy 146.05 81.28) (xy 154.94 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 68.58 59.69)
+			(xy 63.5 62.23) (xy 68.58 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5026,7 +5114,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 154.94) (xy 223.52 154.94)
+			(xy 203.2 154.94) (xy 243.84 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5146,13 +5234,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 152.4) (xy 203.2 152.4)
+			(xy 203.2 152.4) (xy 237.49 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6c390b6-e231-463d-84ac-98c0f49b3eba")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94e12ee-ef94-416d-907b-b3c415912387")
 	)
 	(wire
 		(pts
@@ -5256,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 149.86 143.51)
+			(xy 148.59 85.09) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5366,7 +5464,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 151.13) (xy 156.21 152.4)
+			(xy 154.94 95.25) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5658,7 +5756,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 58.42 43.18 180)
+		(at 58.42 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5668,7 +5766,7 @@
 		)
 		(uuid "6b40115d-b5de-4191-a9d2-068641774d27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.1648 43.18 0)
+			(at 54.1648 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5822,7 @@
 	)
 	(global_label "B"
 		(shape output)
-		(at 223.52 154.94 0)
+		(at 269.24 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5734,7 +5832,7 @@
 		)
 		(uuid "7feab57f-ef32-4d1f-90e3-5c3341d7664c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.7752 154.94 0)
+			(at 273.4952 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5844,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 58.42 39.37 180)
+		(at 58.42 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5756,7 +5854,7 @@
 		)
 		(uuid "8493d209-37d6-4c95-ac1d-82ecfe78751a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3462 39.37 0)
+			(at 54.3462 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5998,7 @@
 	)
 	(global_label "PIN_REV"
 		(shape input)
-		(at 147.32 137.16 180)
+		(at 146.05 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5910,7 +6008,7 @@
 		)
 		(uuid "c34a7a4e-0ce7-4f4c-a035-2010a4bbe0ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6543 137.16 0)
+			(at 135.3843 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6042,7 @@
 	)
 	(global_label "A"
 		(shape output)
-		(at 223.52 151.13 0)
+		(at 269.24 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5954,7 +6052,7 @@
 		)
 		(uuid "c4a849c0-596a-43fc-8294-e5bcb36bb372")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5938 151.13 0)
+			(at 273.3138 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6196,7 @@
 	)
 	(global_label "PIN_FWD"
 		(shape input)
-		(at 147.32 140.97 180)
+		(at 146.05 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6108,7 +6206,7 @@
 		)
 		(uuid "df3da183-874d-4e6a-956c-0d29e04ab0a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.3519 140.97 0)
+			(at 135.0819 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01d9495f-0b32-42d8-92a1-386ef7d33384")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 72.39 167.64 0)
 			(effects
 				(font
@@ -6308,7 +6406,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6360,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP FILM 1UF 10% 63VDC RADIAL"
 			(at 229.87 34.29 0)
 			(effects
 				(font
@@ -6430,6 +6528,70 @@
 		)
 	)
 	(symbol
+		(lib_id "F2018-cache:GND")
+		(at 256.54 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d783183-1447-401e-a273-c884be6143b4")
+		(property "Reference" "#PWR022"
+			(at 256.54 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.588 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08032f98-cf3b-4aaa-b8fc-f48e649ad6f6")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TJR:ZENER")
 		(at 72.39 144.78 270)
 		(unit 1)
@@ -6438,7 +6600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b9426a9-6ce8-4c21-93c2-f97b811279e8")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 73.914 143.764 90)
 			(effects
 				(font
@@ -6474,8 +6636,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
 			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 72.39 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,7 +6663,7 @@
 		(instances
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6507,7 +6678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2056461e-81ee-42c3-9a81-b3432ef167aa")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 132.588 42.418 0)
 			(effects
 				(font
@@ -6534,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -6543,7 +6714,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer, US symbol"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -6564,7 +6744,7 @@
 		(instances
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6579,7 +6759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aef4ed4-c3c3-4837-8321-d4cab169598f")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 68.072 177.292 90)
 			(effects
 				(font
@@ -6588,7 +6768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3k"
+		(property "Value" "6.8k"
 			(at 68.072 181.102 90)
 			(effects
 				(font
@@ -6597,7 +6777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 66.04 180.848 90)
 			(effects
 				(font
@@ -6606,7 +6786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 66.04 179.07 0)
 			(effects
 				(font
@@ -6615,15 +6795,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 66.294 183.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K30/2240340"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
 			(at 66.04 179.07 0)
 			(effects
 				(font
@@ -6673,7 +6854,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6688,7 +6869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3341d8e8-001a-4bbf-b9d8-9eaa7eec9321")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR06"
 			(at 72.39 142.24 0)
 			(effects
 				(font
@@ -6737,7 +6918,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR046")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6790,7 +6971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP FILM 1UF 10% 63VDC RADIAL"
 			(at 229.87 99.06 0)
 			(effects
 				(font
@@ -6899,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -6932,7 +7113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c170354-5838-404f-8357-bec589e06b7e")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 73.914 156.464 90)
 			(effects
 				(font
@@ -6968,8 +7149,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
 			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 72.39 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7176,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7224,6 +7414,84 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:ZENER")
+		(at 256.54 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb6ceda-8bdd-4c45-abf8-b4544dd61d60")
+		(property "Reference" "D8"
+			(at 258.064 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V"
+			(at 258.064 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 256.54 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30e6fb91-7513-45f7-a2a8-a1fb222df800")
+		)
+		(pin "1"
+			(uuid "d1359c7d-c1d3-40e6-956b-a6b27b2e1b26")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 116.84 40.64 0)
 		(unit 1)
@@ -7232,7 +7500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50d368a2-9799-463c-aa08-24a8fca8b83a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 116.84 44.45 0)
 			(effects
 				(font
@@ -7282,7 +7550,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7297,7 +7565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523b1b12-2416-49da-9db4-be3e6b0a11ed")
-		(property "Reference" "R22"
+		(property "Reference" "R1"
 			(at 60.452 151.892 90)
 			(effects
 				(font
@@ -7315,7 +7583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 58.42 155.448 90)
 			(effects
 				(font
@@ -7333,7 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 58.674 157.734 90)
 			(effects
 				(font
@@ -7392,7 +7660,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R22")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7407,7 +7675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "539da7fc-ad4b-4014-992b-a8fa53d2b5fc")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 111.76 81.28 0)
 			(effects
 				(font
@@ -7456,7 +7724,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7538,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5befdd72-19ae-47aa-9a56-4a1132527afe")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 39.37 111.76 0)
 			(effects
 				(font
@@ -7615,7 +7883,7 @@
 		(instances
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61e2c973-07d0-4cfc-a865-20954ca49abf")
-		(property "Reference" "R19"
+		(property "Reference" "R3"
 			(at 68.072 126.492 90)
 			(effects
 				(font
@@ -7639,7 +7907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3k"
+		(property "Value" "6.8k"
 			(at 68.072 130.302 90)
 			(effects
 				(font
@@ -7648,7 +7916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 66.04 130.048 90)
 			(effects
 				(font
@@ -7657,7 +7925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -7666,15 +7934,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 66.294 132.334 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K30/2240340"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -7724,7 +7993,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R19")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7739,7 +8008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63c257c7-1bb5-4f94-8896-1481d8702c1c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR09"
 			(at 72.39 180.34 0)
 			(effects
 				(font
@@ -7788,7 +8057,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR047")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7803,7 +8072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "740209a6-e831-402d-afe6-ecfc1644a615")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 229.87 46.99 0)
 			(effects
 				(font
@@ -7818,6 +8087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7851,7 +8121,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7866,7 +8136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79b6bae4-527c-4082-8482-9013d0e54de8")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 229.87 78.74 0)
 			(effects
 				(font
@@ -7881,6 +8151,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7914,7 +8185,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7929,7 +8200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a2c2ed3-78e2-43ed-ab8d-c04abc78c807")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 224.79 56.388 90)
 			(effects
 				(font
@@ -7947,7 +8218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 223.52 60.198 90)
 			(effects
 				(font
@@ -7965,7 +8236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -8024,7 +8295,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8039,7 +8310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e39c0aa-de84-48af-b5a9-483f1f5875a2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR016"
 			(at 116.84 55.88 0)
 			(effects
 				(font
@@ -8088,7 +8359,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR042")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8303aa69-dfe3-49e8-a034-d1a42aab928d")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 73.914 131.064 90)
 			(effects
 				(font
@@ -8139,8 +8410,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
 			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 72.39 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,7 +8437,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84862dfe-6910-4d50-a287-4d8babe32213")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -8221,7 +8501,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8229,7 +8509,7 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 63.5 59.69 0)
+		(at 63.5 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8237,7 +8517,7 @@
 		(dnp no)
 		(uuid "8b61953d-521b-4dec-8962-be9890fe62b5")
 		(property "Reference" "#PWR04"
-			(at 63.5 66.04 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 63.246 0)
+			(at 63.5 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 59.69 0)
+			(at 63.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +8543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 59.69 0)
+			(at 63.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 59.69 0)
+			(at 63.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f28d864-ff74-4e10-9aa0-deecde81164d")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 226.06 89.408 90)
 			(effects
 				(font
@@ -8318,7 +8598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 224.79 93.218 90)
 			(effects
 				(font
@@ -8336,7 +8616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -8395,7 +8675,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8410,7 +8690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "903f2734-d2ac-49ba-9278-070c051d121c")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 73.914 181.864 90)
 			(effects
 				(font
@@ -8446,8 +8726,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
 			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 72.39 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8753,117 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D6")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 250.19 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99e75c1c-54da-4514-8f47-72289ee87e09")
+		(property "Reference" "R13"
+			(at 252.222 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 252.222 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.444 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "055ea422-0fa5-4dba-9a3c-3df0fff7b94c")
+		)
+		(pin "1"
+			(uuid "cab7bd73-8e65-43dd-bbf7-129e80b72a24")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8479,7 +8878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bd230ea-c242-41af-9133-7a37e8e73a73")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR021"
 			(at 229.87 111.76 0)
 			(effects
 				(font
@@ -8494,6 +8893,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8527,7 +8927,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR026")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8535,15 +8935,15 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 156.21 147.32 0)
+		(at 154.94 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9f21e813-3ccd-4e5a-bd8f-702af9511622")
-		(property "Reference" "R6"
-			(at 157.48 146.0499 0)
+		(property "Reference" "R9"
+			(at 156.21 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8952,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 157.48 148.5899 0)
+			(at 156.21 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,8 +8960,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 154.432 147.32 90)
+		(property "Footprint" ""
+			(at 153.162 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,8 +8978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
-			(at 156.21 147.32 0)
+		(property "Description" ""
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8988,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,7 +8997,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +9005,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +9013,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +9021,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 156.21 147.32 0)
+			(at 154.94 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +9037,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8690,7 +9090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP FILM 1UF 10% 63VDC RADIAL"
 			(at 229.87 66.04 0)
 			(effects
 				(font
@@ -8768,7 +9168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5893df0-1e60-4651-a335-0d9f4620e26b")
-		(property "Reference" "R18"
+		(property "Reference" "R4"
 			(at 68.072 139.192 90)
 			(effects
 				(font
@@ -8777,7 +9177,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3k"
+		(property "Value" "6.8k"
 			(at 68.072 143.002 90)
 			(effects
 				(font
@@ -8786,7 +9186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 66.04 142.748 90)
 			(effects
 				(font
@@ -8795,7 +9195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -8804,15 +9204,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 66.294 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K30/2240340"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -8862,7 +9263,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R18")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8870,15 +9271,15 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 156.21 161.29 0)
+		(at 154.94 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "abccce45-74d5-452b-b13f-262aae83980b")
-		(property "Reference" "#PWR013"
-			(at 156.21 167.64 0)
+		(property "Reference" "#PWR018"
+			(at 154.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +9288,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 165.1 0)
+			(at 154.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 161.29 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +9305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 161.29 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +9313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 161.29 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9327,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8934,15 +9335,15 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 149.86 147.32 0)
+		(at 148.59 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ae068d33-7233-4921-8f55-16a4bd74135c")
-		(property "Reference" "R5"
-			(at 151.13 146.0499 0)
+		(property "Reference" "R8"
+			(at 149.86 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9352,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 151.13 148.5899 0)
+			(at 149.86 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,8 +9360,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 148.082 147.32 90)
+		(property "Footprint" ""
+			(at 146.812 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +9370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,8 +9378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
-			(at 149.86 147.32 0)
+		(property "Description" ""
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9388,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +9397,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9405,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9413,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9421,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 149.86 147.32 0)
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9437,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6462c78-0ce3-4c3c-81d4-61fc9c7780e4")
-		(property "Reference" "R20"
+		(property "Reference" "R5"
 			(at 68.072 164.592 90)
 			(effects
 				(font
@@ -9060,7 +9461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3k"
+		(property "Value" "6.8k"
 			(at 68.072 168.402 90)
 			(effects
 				(font
@@ -9069,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 66.04 168.148 90)
 			(effects
 				(font
@@ -9078,7 +9479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -9087,15 +9488,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 66.294 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K30/2240340"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -9145,7 +9547,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R20")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be0a0af8-1ee7-42f6-9c3c-12eef367fec8")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 224.79 24.638 90)
 			(effects
 				(font
@@ -9178,7 +9580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 223.52 28.448 90)
 			(effects
 				(font
@@ -9196,7 +9598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -9255,7 +9657,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9306,8 +9708,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
 			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 72.39 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,6 +9891,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 250.19 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb3cd1bf-8822-4de4-8d9e-8df7eeed1021")
+		(property "Reference" "R14"
+			(at 252.222 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 252.222 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.444 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3b743bb-7897-472d-a0ad-f6e3313b52d1")
+		)
+		(pin "1"
+			(uuid "cae177a6-821d-4440-8d27-757d7008aa3f")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00TJR:GND")
 		(at 63.5 49.53 0)
 		(unit 1)
@@ -9547,15 +10068,15 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 156.21 156.21 0)
+		(at 154.94 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cfefb166-8057-4e0e-875b-6cbace5689db")
-		(property "Reference" "D2"
-			(at 156.718 152.908 0)
+		(property "Reference" "D7"
+			(at 155.448 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,8 +10084,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 157.48 159.004 0)
+		(property "Value" "Green"
+			(at 156.21 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,8 +10094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TSL:LED_D3.0mm"
-			(at 156.21 156.21 90)
+		(property "Footprint" ""
+			(at 154.94 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9582,8 +10103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 156.21 90)
+		(property "Datasheet" "https://look.ams-osram.com/m/2da6f2ceeebf8fac/original/LG-R971.pdf"
+			(at 154.94 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9591,8 +10112,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 156.21 156.21 0)
+		(property "Description" "LED GREEN DIFFUSED 0805 SMD"
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,7 +10122,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 156.21 156.21 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +10130,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 156.21 156.21 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +10138,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 156.21 156.21 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,11 +10146,20 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 156.21 156.21 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LG-R971-KN-1-0-20-R18/1227925"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9641,7 +10171,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9806,7 +10336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6865a71-de3f-44be-a0e9-ebe2705b849a")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 198.755 137.16 0)
 			(effects
 				(font
@@ -9902,7 +10432,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9917,7 +10447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7844451-9a84-4c6e-bcf9-852d01679b10")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR010"
 			(at 72.39 193.04 0)
 			(effects
 				(font
@@ -9966,7 +10496,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR048")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9981,7 +10511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9043766-3c60-4adb-8392-829a32071a3a")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 66.04 156.2099 0)
 			(effects
 				(font
@@ -9999,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TJR:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" ""
 			(at 62.992 157.48 90)
 			(effects
 				(font
@@ -10017,7 +10547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" ""
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -10076,7 +10606,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R23")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10084,15 +10614,15 @@
 	)
 	(symbol
 		(lib_id "00TJR:GND")
-		(at 149.86 161.29 0)
+		(at 148.59 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "db23b10a-7760-46ca-9cd6-660bcd5a0027")
-		(property "Reference" "#PWR011"
-			(at 149.86 167.64 0)
+		(property "Reference" "#PWR017"
+			(at 148.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 165.1 0)
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 161.29 0)
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 161.29 0)
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,7 +10656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 161.29 0)
+			(at 148.59 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10670,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR011")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10155,7 +10685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbfc0160-9774-42ed-8869-88c75003032a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -10204,7 +10734,71 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR015")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "F2018-cache:GND")
+		(at 256.54 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2671037-39b6-43bc-857f-824261ccfb68")
+		(property "Reference" "#PWR023"
+			(at 256.54 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.588 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5bbe33-eed1-4c98-aaa1-35e18961010f")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10219,7 +10813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6315ac0-3d3e-4ce8-a088-7e0fa434c61e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -10268,7 +10862,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10283,7 +10877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e66ca719-3073-4aaf-962a-0779ed48d8ff")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR07"
 			(at 72.39 154.94 0)
 			(effects
 				(font
@@ -10332,7 +10926,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR045")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10340,15 +10934,15 @@
 	)
 	(symbol
 		(lib_id "00TJR:LED")
-		(at 149.86 156.21 0)
+		(at 148.59 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "edb06828-fc08-44e7-8074-03e4d7514a29")
-		(property "Reference" "D1"
-			(at 150.622 153.162 0)
+		(property "Reference" "D6"
+			(at 149.352 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,8 +10950,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 150.876 158.75 0)
+		(property "Value" "Red"
+			(at 149.606 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,8 +10960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TSL:LED_D3.0mm"
-			(at 149.86 156.21 90)
+		(property "Footprint" ""
+			(at 148.59 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,8 +10969,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 149.86 156.21 90)
+		(property "Datasheet" "https://look.ams-osram.com/m/330c725e4ebb09ab/original/LS-R976.pdf"
+			(at 148.59 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,8 +10978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 156.21 0)
+		(property "Description" "LED RED DIFFUSED 0805 SMD"
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10988,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 149.86 156.21 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10996,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 149.86 156.21 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +11004,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 149.86 156.21 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,11 +11012,20 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 149.86 156.21 0)
+			(at 148.59 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/ams-osram-usa-inc/LS-R976-NR-1-0-20-R18/1227987"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10434,7 +11037,85 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D1")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:ZENER")
+		(at 256.54 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edf35834-9c32-4413-88cd-0f775098c41f")
+		(property "Reference" "D9"
+			(at 258.064 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V"
+			(at 258.064 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE ZENER 3V 500MW SOD123"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
+			(at 256.54 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7def70e5-8b0c-4b62-9f73-36af8d3e399d")
+		)
+		(pin "1"
+			(uuid "e5ac6829-c9db-429e-88c2-802ed0f853e9")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -10598,7 +11279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f744df2a-fa73-4cc2-a614-686a53d98af4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR014"
 			(at 116.84 36.83 0)
 			(effects
 				(font
@@ -10648,7 +11329,73 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "#PWR09")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00TJR:GND")
+		(at 63.5 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa07b32e-9613-4c60-a330-786d9a6d04aa")
+		(property "Reference" "#PWR02"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba27099b-6d32-4be6-b862-48fa6e93f886")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
