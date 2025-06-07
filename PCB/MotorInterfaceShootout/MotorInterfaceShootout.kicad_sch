@@ -6687,7 +6687,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kp"
 			(at 132.842 45.212 0)
 			(effects
 				(font
@@ -6705,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+		(property "Datasheet" "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/23.pdf"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+		(property "Description" "TRIMMER 10K OHM 0.25W GW TOP ADJ"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -6723,7 +6723,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
+		(property "digikey" "https://www.digikey.com/en/products/detail/tt-electronics-bi/23BR10KLFTR/2408592"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -6795,7 +6795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 66.294 183.134 90)
 			(effects
 				(font
@@ -6804,7 +6804,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 66.04 179.07 0)
 			(effects
 				(font
@@ -7071,7 +7071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE128-129%20.100%20JUMPER.pdf"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -7080,7 +7080,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN JUMPER SHORTING .100\" GOLD"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/QPC02SXGN-RC/2618262"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -7592,7 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rncp.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -7601,7 +7610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 58.674 157.734 90)
 			(effects
 				(font
@@ -7610,7 +7619,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD1K30/2240340"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -7934,7 +7943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 66.294 132.334 90)
 			(effects
 				(font
@@ -7943,7 +7952,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 66.04 128.27 0)
 			(effects
 				(font
@@ -8227,7 +8236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -8236,7 +8245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 47K OHM 1% 1/8W 0805"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -8245,7 +8254,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT47K0/1760299"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -8607,7 +8616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -8616,7 +8625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -8625,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
 			(at 224.79 91.44 0)
 			(effects
 				(font
@@ -8804,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 250.444 142.494 90)
 			(effects
 				(font
@@ -8813,7 +8822,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 250.19 138.43 0)
 			(effects
 				(font
@@ -8969,7 +8978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -8978,7 +8987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 330 OHM 1% 1/8W 0805"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -8987,7 +8996,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -9204,7 +9213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 66.294 145.034 90)
 			(effects
 				(font
@@ -9213,7 +9222,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 66.04 140.97 0)
 			(effects
 				(font
@@ -9369,7 +9378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -9378,7 +9387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 330 OHM 1% 1/8W 0805"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -9387,7 +9396,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -9488,7 +9497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 66.294 170.434 90)
 			(effects
 				(font
@@ -9497,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -9589,7 +9598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -9598,7 +9607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -9607,7 +9616,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
 			(at 223.52 26.67 0)
 			(effects
 				(font
@@ -9935,7 +9944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
 			(at 250.444 155.194 90)
 			(effects
 				(font
@@ -9944,7 +9953,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT6K80/1757931"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
 			(at 250.19 151.13 0)
 			(effects
 				(font
@@ -10538,7 +10547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -10547,7 +10556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/8W 0805"
 			(at 64.77 157.48 0)
 			(effects
 				(font
@@ -10556,7 +10565,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1K00/1760090"
 			(at 64.77 157.48 0)
 			(effects
 				(font
