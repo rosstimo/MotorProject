@@ -6592,6 +6592,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 66.04 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ee1bf5-4b90-4ac1-b10f-f35773a9b074")
+		(property "Reference" "R1"
+			(at 67.31 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 67.564 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58f8cbc0-178f-41dc-a8a1-19169d22a154")
+		)
+		(pin "1"
+			(uuid "813a4d73-f1cb-4dba-a8a5-bdfe86e96bb8")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TJR:ZENER")
 		(at 72.39 144.78 270)
 		(unit 1)
@@ -6745,116 +6855,6 @@
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 66.04 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2aef4ed4-c3c3-4837-8321-d4cab169598f")
-		(property "Reference" "R6"
-			(at 68.072 177.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 68.072 181.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 66.294 183.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 66.04 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d25930e5-d195-4f14-97e5-c4fb93513426")
-		)
-		(pin "1"
-			(uuid "cba41050-458e-4a9e-83bb-660b23810404")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7192,6 +7192,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 66.04 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43bb3b85-22ef-401c-8f11-75267b65fe8b")
+		(property "Reference" "R24"
+			(at 67.31 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 67.564 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0512fa2-e184-4852-a5dc-81853058b1a5")
+		)
+		(pin "1"
+			(uuid "fc7e19c9-fdd7-456d-a9c1-2bd9d711e0b5")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
 		(at 86.36 55.88 0)
 		(unit 1)
@@ -7501,6 +7611,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 250.19 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50013117-4cb8-4886-ad61-ddb2cb480255")
+		(property "Reference" "R6"
+			(at 251.46 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 251.714 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8a2c690-ae5a-4473-97d6-66f5ef2656be")
+		)
+		(pin "1"
+			(uuid "def51afc-738e-406d-b416-3a0638181ff2")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 116.84 40.64 0)
 		(unit 1)
@@ -7560,116 +7780,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 58.42 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "523b1b12-2416-49da-9db4-be3e6b0a11ed")
-		(property "Reference" "R1"
-			(at 60.452 151.892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 60.452 155.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 58.674 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "63106115-66c4-484f-9800-1cd2606de6a2")
-		)
-		(pin "1"
-			(uuid "91776e4e-fadd-458b-8bf1-93e57c62a218")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7899,116 +8009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:R")
-		(at 66.04 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61e2c973-07d0-4cfc-a865-20954ca49abf")
-		(property "Reference" "R3"
-			(at 68.072 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 68.072 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 66.294 132.334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 66.04 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fe8070fd-a9a2-4cd6-bf7b-58776948d52f")
-		)
-		(pin "1"
-			(uuid "b60a6d7d-6ce8-418a-8df3-98f038d35a22")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "F2018-cache:GND")
 		(at 72.39 173.99 0)
 		(unit 1)
@@ -8131,6 +8131,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 58.42 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75843297-b009-44be-9fc6-68fd507b6d91")
+		(property "Reference" "R3"
+			(at 59.69 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 59.944 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 58.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7966eab1-6c86-4745-9749-a7ef82e4502c")
+		)
+		(pin "1"
+			(uuid "f4fea934-c174-4275-b29b-c86f0a0d0f84")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8305,6 +8415,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 250.19 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d27db43-ff1f-490b-b0f0-dc9995625c4c")
+		(property "Reference" "R13"
+			(at 251.46 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 251.714 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 250.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7d9ef54-e530-452d-8bfd-491d8992d0fa")
+		)
+		(pin "1"
+			(uuid "6a0f7423-854d-45ee-bfe8-72314cf9e4ff")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8769,116 +8989,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:R")
-		(at 250.19 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99e75c1c-54da-4514-8f47-72289ee87e09")
-		(property "Reference" "R13"
-			(at 252.222 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 252.222 140.462 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 250.444 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 250.19 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "055ea422-0fa5-4dba-9a3c-3df0fff7b94c")
-		)
-		(pin "1"
-			(uuid "cab7bd73-8e65-43dd-bbf7-129e80b72a24")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00TJR:GND")
 		(at 229.87 105.41 0)
 		(unit 1)
@@ -9053,6 +9163,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 66.04 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a02b3042-2690-42fb-a537-34643e995eda")
+		(property "Reference" "R4"
+			(at 67.31 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 67.564 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 168.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac001836-5e0a-4097-928e-43917fb46d0e")
+		)
+		(pin "1"
+			(uuid "69b46ca9-a81f-4ab7-89aa-25d7107b647d")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 229.87 66.04 0)
@@ -9163,116 +9383,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 66.04 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5893df0-1e60-4651-a335-0d9f4620e26b")
-		(property "Reference" "R4"
-			(at 68.072 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 68.072 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 142.748 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 66.294 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 66.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dbb334ea-2cda-484d-840f-1b4ea4ed7262")
-		)
-		(pin "1"
-			(uuid "aa493d30-8ade-4390-a70e-458263fe2f6b")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9454,116 +9564,6 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 66.04 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6462c78-0ce3-4c3c-81d4-61fc9c7780e4")
-		(property "Reference" "R5"
-			(at 68.072 164.592 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 68.072 168.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 66.294 170.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 66.04 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "32f7cbf2-146a-478e-88bf-8d486badf574")
-		)
-		(pin "1"
-			(uuid "3c8052f6-f44e-43df-9033-fff5f5a9d035")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
 		(at 223.52 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9667,6 +9667,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 66.04 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c262dd0d-e8a4-4786-9d8c-34b4702ef836")
+		(property "Reference" "R5"
+			(at 67.31 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 67.564 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f535e5d2-76bb-4985-85fc-953434d9e309")
+		)
+		(pin "1"
+			(uuid "a3a7db25-07e2-4a46-a480-b18ebd6e9974")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9895,116 +10005,6 @@
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "U2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 250.19 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb3cd1bf-8822-4de4-8d9e-8df7eeed1021")
-		(property "Reference" "R14"
-			(at 252.222 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8k"
-			(at 252.222 153.162 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 6.8K OHM 1% 1/8W 0805"
-			(at 250.444 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT6K80/1760356"
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 250.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f3b743bb-7897-472d-a0ad-f6e3313b52d1")
-		)
-		(pin "1"
-			(uuid "cae177a6-821d-4440-8d27-757d7008aa3f")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "R14")
-					(unit 1)
 				)
 			)
 		)
