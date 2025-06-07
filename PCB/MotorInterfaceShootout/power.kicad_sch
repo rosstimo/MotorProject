@@ -2976,13 +2976,13 @@
 		(uuid "eb2b5405-965f-4dd2-be6c-e9184632e429")
 	)
 	(junction
-		(at 50.8 33.02)
+		(at 43.18 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00937e4c-e5fc-4349-93e2-476a9b8e9431")
 	)
 	(junction
-		(at 50.8 44.45)
+		(at 43.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01c11a0b-8a78-49f3-ae72-1e222e34812c")
@@ -3000,34 +3000,34 @@
 		(uuid "1eed79ea-0405-4e71-8a41-db99a9fd8f87")
 	)
 	(junction
+		(at 68.58 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee6632a-8cdf-4cc2-941c-9154c7c582fe")
+	)
+	(junction
 		(at 208.28 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ce86e61-3b89-41f7-bfb1-cd35003d5650")
 	)
 	(junction
-		(at 101.6 33.02)
+		(at 81.28 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cd90892-fe04-4434-9ffb-ca2fda9898e2")
+	)
+	(junction
+		(at 110.49 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b5d74a8-3039-4369-b461-f44f6a18d9ec")
 	)
 	(junction
-		(at 76.2 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8be7561e-5974-4bb0-a55d-4eeeb48673a8")
-	)
-	(junction
-		(at 63.5 44.45)
+		(at 55.88 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "926474d7-a42a-4877-bcd2-c3271436cd07")
-	)
-	(junction
-		(at 76.2 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a61ed2ff-bcf6-48cb-9d4f-c063634a6f50")
 	)
 	(junction
 		(at 139.7 27.94)
@@ -3042,6 +3042,18 @@
 		(uuid "b1fcaa29-9e82-4b96-8b41-4551e838f64a")
 	)
 	(junction
+		(at 68.58 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b25a15ce-82ef-4dd2-b952-f0644cd6170f")
+	)
+	(junction
+		(at 81.28 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba6bd90a-0b7b-4398-b633-bc16b2588940")
+	)
+	(junction
 		(at 218.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3054,7 +3066,7 @@
 		(uuid "c2a87625-5d6a-4cb6-814d-6a945b9bd8fd")
 	)
 	(junction
-		(at 87.63 44.45)
+		(at 96.52 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd7c7986-5255-4535-9b90-ff55a7ebfc7a")
@@ -3115,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 101.6 26.67)
+			(xy 110.49 33.02) (xy 110.49 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3155,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 26.67) (xy 76.2 33.02)
+			(xy 68.58 26.67) (xy 68.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 40.64) (xy 63.5 44.45)
+			(xy 55.88 40.64) (xy 55.88 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 33.02) (xy 76.2 34.29)
+			(xy 81.28 33.02) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 44.45) (xy 63.5 44.45)
+			(xy 55.88 44.45) (xy 68.58 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 50.8 34.29)
+			(xy 43.18 33.02) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3217,7 @@
 	)
 	(polyline
 		(pts
-			(xy 50.8 50.8) (xy 92.71 50.8)
+			(xy 59.69 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 50.8 33.02)
+			(xy 36.83 33.02) (xy 43.18 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3267,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 41.91) (xy 101.6 44.45)
+			(xy 110.49 41.91) (xy 110.49 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3265,13 +3277,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 44.45) (xy 87.63 44.45)
+			(xy 110.49 44.45) (xy 96.52 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f44e96d-ebc1-477a-9b42-aaa75ef427a4")
+	)
+	(wire
+		(pts
+			(xy 81.28 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca73598-e64d-483e-9b37-d00856cad30c")
 	)
 	(polyline
 		(pts
@@ -3295,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 41.91) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6472b313-47e9-4e4f-aab2-049adddefe6d")
+	)
+	(wire
+		(pts
 			(xy 128.27 31.75) (xy 128.27 27.94)
 		)
 		(stroke
@@ -3305,13 +3337,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 101.6 33.02)
+			(xy 104.14 33.02) (xy 110.49 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f8d7511-f396-4bd7-a502-c1551af7eb63")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701f9edb-6efd-4bc8-b1f0-c96a9db4b07d")
 	)
 	(wire
 		(pts
@@ -3345,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 50.8 44.45)
+			(xy 36.83 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3362,16 +3404,6 @@
 			(type default)
 		)
 		(uuid "7f93fd96-1586-4de8-9845-3bdf8d87fabc")
-	)
-	(wire
-		(pts
-			(xy 76.2 33.02) (xy 80.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874ed07a-5a00-4b4b-87ae-6989db9fa590")
 	)
 	(wire
 		(pts
@@ -3425,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 50.8 41.91)
+			(xy 43.18 44.45) (xy 43.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 41.91) (xy 76.2 44.45)
+			(xy 81.28 41.91) (xy 81.28 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 40.64) (xy 87.63 44.45)
+			(xy 96.52 40.64) (xy 96.52 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 44.45) (xy 50.8 44.45)
+			(xy 55.88 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3495,7 +3527,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 101.6 34.29)
+			(xy 68.58 33.02) (xy 81.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c74f4b-6250-47aa-86d2-4ce91610f702")
+	)
+	(wire
+		(pts
+			(xy 110.49 33.02) (xy 110.49 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3505,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 76.2 33.02)
+			(xy 63.5 33.02) (xy 68.58 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 33.02) (xy 55.88 33.02)
+			(xy 43.18 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3525,13 +3567,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 44.45) (xy 76.2 44.45)
+			(xy 96.52 44.45) (xy 81.28 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efce4249-8708-4592-82a0-afcb7725a5fb")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4b9e94-b588-4ccc-8816-72564610258e")
 	)
 	(global_label "COMP_THRES"
 		(shape output)
@@ -3557,7 +3609,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 44.45 44.45 180)
+		(at 36.83 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3567,7 +3619,7 @@
 		)
 		(uuid "52a32596-08fc-4028-ba10-1d262fe60241")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.5943 44.45 0)
+			(at 29.9743 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,7 +3631,7 @@
 	)
 	(global_label "VSYS"
 		(shape input)
-		(at 44.45 33.02 180)
+		(at 36.83 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3589,7 +3641,7 @@
 		)
 		(uuid "cce34276-bebb-4899-9d5d-142bb76cfe15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.8686 33.02 0)
+			(at 29.2486 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3653,7 @@
 	)
 	(symbol
 		(lib_id "TJR:C_Polarized_US")
-		(at 50.8 38.1 0)
+		(at 43.18 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3609,7 +3661,7 @@
 		(dnp no)
 		(uuid "091fc1b5-7fe8-434a-88b3-8c179040addf")
 		(property "Reference" "C4"
-			(at 45.974 35.814 0)
+			(at 38.354 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3670,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 44.45 40.64 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 51.7652 41.91 0)
+			(at 44.1452 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3688,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3697,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3706,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3715,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3723,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3731,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3739,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 50.8 38.1 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,6 +3966,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 220.98 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3069b9bc-8b97-43d1-8eef-98f1897fd611")
+		(property "Reference" "R18"
+			(at 219.71 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 220.218 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.758 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7d40aa6-47d3-4508-b661-3418bca318ff")
+		)
+		(pin "1"
+			(uuid "ce0092e5-f9e3-4b35-b1df-c49573ea9586")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4198,116 +4360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:C_Polarized_US")
-		(at 76.2 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ea0c584-bc04-4b46-b1b7-2fb048f2eef2")
-		(property "Reference" "C5"
-			(at 71.374 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 69.85 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.1652 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 76.2 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c3a6ec4-a8a4-4b50-8f1d-a3f2a3b4e977")
-		)
-		(pin "2"
-			(uuid "ae284ff9-eab7-4c0d-b592-68079f9d3c3a")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA4197xPW")
 		(at 142.24 35.56 0)
 		(unit 5)
@@ -4460,7 +4512,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 26.67 0)
+		(at 110.49 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4469,7 +4521,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aca903d-b6a2-4803-b065-4cdb2ab29945")
 		(property "Reference" "#PWR026"
-			(at 101.6 30.48 0)
+			(at 110.49 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4530,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 101.6 21.59 0)
+			(at 110.49 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 26.67 0)
+			(at 110.49 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 26.67 0)
+			(at 110.49 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4556,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 26.67 0)
+			(at 110.49 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,6 +4571,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 220.98 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f0eea14-89b5-4e10-8c04-d663c7dbc3ba")
+		(property "Reference" "R20"
+			(at 219.71 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 220.218 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.758 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "23d4ec79-5ac8-4821-8ada-5c6b5281a6b6")
+		)
+		(pin "1"
+			(uuid "032a0982-ffcb-48bd-b04c-090a60838293")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4722,7 +4884,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 76.2 26.67 0)
+		(at 68.58 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4730,7 +4892,7 @@
 		(dnp no)
 		(uuid "83d6d21d-5aa6-48f9-b2c7-ebb84331f880")
 		(property "Reference" "#PWR024"
-			(at 76.2 30.48 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4901,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 76.2 21.59 0)
+			(at 68.58 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 26.67 0)
+			(at 68.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 26.67 0)
+			(at 68.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 76.2 26.67 0)
+			(at 68.58 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,6 +4942,84 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:C")
+		(at 68.58 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8798d00e-5b73-4f06-a1c2-7499b740c37b")
+		(property "Reference" "C5"
+			(at 71.12 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 71.12 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaf3a69c-7ad4-4e44-b83b-82e86eb931e8")
+		)
+		(pin "1"
+			(uuid "6b7db77a-f52e-4baf-8061-06d730586db3")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4852,118 +5092,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:R")
-		(at 220.98 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad223166-8204-4b79-922b-5d0957cfaa24")
-		(property "Reference" "R15"
-			(at 222.25 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 222.25 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.202 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 220.98 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0a7d274-568e-4af1-89aa-343ce9ddc92a")
-		)
-		(pin "1"
-			(uuid "553be8f7-0338-4a3f-92b2-f45076346f4a")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM78L05_TO92")
-		(at 63.5 33.02 0)
+		(at 55.88 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4971,7 +5101,7 @@
 		(dnp no)
 		(uuid "b503f332-8709-4bce-aa9e-1dc3ef820201")
 		(property "Reference" "U3"
-			(at 58.674 29.464 0)
+			(at 51.054 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5109,7 @@
 			)
 		)
 		(property "Value" "L78L10ACUTR"
-			(at 68.072 29.464 0)
+			(at 60.452 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 27.305 0)
+			(at 55.88 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
-			(at 63.5 34.29 0)
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5136,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 10V 100MA SOT89-3"
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5145,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5154,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5163,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5172,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5181,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L10ACUTR/1038281"
-			(at 63.5 33.02 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5209,7 @@
 	)
 	(symbol
 		(lib_id "F2018-cache:GND")
-		(at 87.63 44.45 0)
+		(at 96.52 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5088,7 +5218,7 @@
 		(fields_autoplaced yes)
 		(uuid "b597018a-7010-4b52-8db0-1bceed18e7ae")
 		(property "Reference" "#PWR025"
-			(at 87.63 50.8 0)
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 49.53 0)
+			(at 96.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 44.45 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,7 +5244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 44.45 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 44.45 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,116 +5267,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 220.98 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b948f2cd-b6ea-4e6f-8d56-9f68cd25338d")
-		(property "Reference" "R16"
-			(at 222.25 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 222.25 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.202 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1b14a69d-69a1-4f6a-bc93-cc6a221681b1")
-		)
-		(pin "1"
-			(uuid "a24b6c46-8c5b-45a2-b7f8-97301ea6011e")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5495,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM78L05_TO92")
-		(at 87.63 33.02 0)
+		(at 96.52 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5483,7 +5503,7 @@
 		(dnp no)
 		(uuid "e3090a7f-31de-4187-9297-49d445380629")
 		(property "Reference" "U4"
-			(at 82.804 29.718 0)
+			(at 91.694 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5511,7 @@
 			)
 		)
 		(property "Value" "L78L05ABUTR"
-			(at 91.948 29.718 0)
+			(at 100.838 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 27.305 0)
+			(at 96.52 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/l78l.pdf"
-			(at 87.63 34.29 0)
+			(at 96.52 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5538,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 5V 100MA SOT89-3"
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5547,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5556,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5565,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5574,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5583,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stmicroelectronics/L78L05ABUTR/585705"
-			(at 87.63 33.02 0)
+			(at 96.52 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,16 +5610,16 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:C_Polarized_US")
-		(at 101.6 38.1 0)
+		(lib_id "device:C")
+		(at 81.28 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9ba7923-b78b-491a-9cf5-c8a190b4083a")
-		(property "Reference" "C6"
-			(at 96.774 35.814 0)
+		(uuid "ecf72fd7-f769-4d66-a5f3-4af748bd15db")
+		(property "Reference" "C12"
+			(at 83.82 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,8 +5627,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 95.25 40.64 0)
+		(property "Value" "0.1uF"
+			(at 83.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.5652 41.91 0)
+			(at 82.2452 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,8 +5645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uwt.pdf"
-			(at 101.6 38.1 0)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,8 +5654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM 100UF 20% 35V SMD"
-			(at 101.6 38.1 0)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,52 +5663,99 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/nichicon/UWT1V101MCL1GS/589944"
-			(at 101.6 38.1 0)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Cost (ea.)" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5aa4a60-cb5c-42c3-a394-af9b37c9c973")
 		)
 		(pin "2"
-			(uuid "3ca10c6a-41ba-4d6d-b983-fffa80cb756f")
+			(uuid "243a9543-8b70-4611-9ba2-843c4ccaac29")
+		)
+		(pin "1"
+			(uuid "7ddb745b-67b0-4da4-8d01-4145d611b219")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "device:C")
+		(at 110.49 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9597239-96d7-429a-a8ab-88656675e0c0")
+		(property "Reference" "C6"
+			(at 114.3 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 114.3 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.4552 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP0805 X7R .1UF 20% 50V"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R104M50NTD/25672179"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34528b91-d439-4136-bbd4-7ae0667c7db9")
+		)
+		(pin "1"
+			(uuid "b8cc0ff5-622e-45ff-84db-0b2be56864ed")
 		)
 		(instances
 			(project "MotorInterfaceShootout"

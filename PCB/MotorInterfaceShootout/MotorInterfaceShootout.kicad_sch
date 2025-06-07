@@ -2447,133 +2447,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TJR:ZENER"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D3"
-				(at -0.3048 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZENER"
-				(at -0.3048 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D? SO* SM*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ZENER_0_1"
-				(polyline
-					(pts
-						(xy -1.778 1.27) (xy -1.27 0.762) (xy -1.27 -0.762) (xy -0.762 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "ZENER_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "connector:Screw_Terminal_01x10"
 			(pin_names
 				(offset 1.016)
@@ -3847,28 +3720,10 @@
 		(uuid "83df4ca1-a7fb-4469-ae0e-3e15f6e75aa7")
 	)
 	(junction
-		(at 72.39 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15b53d45-bbfa-4ea4-85af-014d633c06cb")
-	)
-	(junction
 		(at 256.54 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3be449c7-7ddc-4a67-ad47-31eba210ad1e")
-	)
-	(junction
-		(at 72.39 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "434cb1b1-7adc-4f70-b67a-561d02d102b4")
-	)
-	(junction
-		(at 72.39 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cd7c089-a486-4164-9a88-741aec2c01ee")
+		(uuid "1d26ef90-fbd3-4f6c-b1b6-7f5218ad0d09")
 	)
 	(junction
 		(at 116.84 49.53)
@@ -3883,16 +3738,16 @@
 		(uuid "622f603d-4a14-44d6-9626-3d80b2484c23")
 	)
 	(junction
-		(at 72.39 179.07)
+		(at 72.39 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "656521e8-e5eb-492c-8f3e-86225da5dc3f")
+		(uuid "718b221a-0e20-4713-b842-381c38703c2b")
 	)
 	(junction
-		(at 256.54 151.13)
+		(at 72.39 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87170e23-2f43-4d7b-b43e-2641bb0a09a4")
+		(uuid "81f56e4a-1458-40db-9570-1e321b7089a6")
 	)
 	(junction
 		(at 106.68 41.91)
@@ -3901,16 +3756,28 @@
 		(uuid "98ad230e-57d8-4196-bdf2-cf35262de8c0")
 	)
 	(junction
+		(at 72.39 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2605172-bd0b-4bcc-bc53-f2ca49150353")
+	)
+	(junction
+		(at 72.39 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a86fc29b-d9fe-474b-bc7c-90cbe2075ab8")
+	)
+	(junction
 		(at 229.87 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab4ffa3d-fe9f-4684-aaa1-6de8c1457822")
 	)
 	(junction
-		(at 64.77 153.67)
+		(at 256.54 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8500901-4f08-4c4c-933d-97be003b7980")
+		(uuid "aba91067-cbe4-4297-b627-8574b579109e")
 	)
 	(junction
 		(at 116.84 41.91)
@@ -3919,22 +3786,16 @@
 		(uuid "d5cb88b7-3938-4dda-a6ce-af029b4679f1")
 	)
 	(junction
-		(at 72.39 166.37)
+		(at 72.39 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd384265-48b7-46ef-8340-89ec772d050e")
+		(uuid "e5a18ae5-82d8-4710-b600-4b9fcd979e0e")
 	)
 	(junction
 		(at 229.87 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8741be6-daba-4f51-8c09-00726dc36b67")
-	)
-	(junction
-		(at 72.39 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec5aa026-14b3-4a17-b6fd-8dc56fa2f02e")
 	)
 	(no_connect
 		(at 68.58 44.45)
@@ -4154,16 +4015,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 140.97) (xy 85.09 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183145cf-eb83-47f5-99be-9b67a3a60d61")
-	)
-	(wire
-		(pts
 			(xy 44.45 133.35) (xy 52.07 133.35)
 		)
 		(stroke
@@ -4314,6 +4165,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 153.67) (xy 85.09 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30027895-a071-4503-82e0-64e028f143ef")
+	)
+	(wire
+		(pts
 			(xy 104.14 77.47) (xy 109.22 77.47)
 		)
 		(stroke
@@ -4401,16 +4262,6 @@
 			(type default)
 		)
 		(uuid "4127723d-84e6-431e-9810-3693c4c72d1f")
-	)
-	(wire
-		(pts
-			(xy 72.39 128.27) (xy 85.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44942471-1316-4e53-87ba-408667fda6cb")
 	)
 	(wire
 		(pts
@@ -4544,7 +4395,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 153.67) (xy 64.77 153.67)
+			(xy 69.85 153.67) (xy 72.39 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4584,13 +4435,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 179.07) (xy 85.09 179.07)
+			(xy 72.39 140.97) (xy 85.09 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6461b9f9-aad0-4fd4-b580-0dfb233477df")
+		(uuid "6322d7a0-4265-455c-bfb7-9d6c38ff3563")
 	)
 	(wire
 		(pts
@@ -4724,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 151.13) (xy 269.24 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a363ac-154a-490e-9d93-0aa64d622368")
-	)
-	(wire
-		(pts
 			(xy 109.22 53.34) (xy 128.27 53.34)
 		)
 		(stroke
@@ -4754,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 151.13) (xy 256.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e2ce74-7ad7-4dbd-8a0d-782cb5313700")
+	)
+	(wire
+		(pts
 			(xy 66.04 78.74) (xy 66.04 77.47)
 		)
 		(stroke
@@ -4764,23 +4615,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 151.13) (xy 256.54 151.13)
+			(xy 72.39 179.07) (xy 85.09 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a139766-d6c7-4938-840c-7d1e75c4ec33")
-	)
-	(wire
-		(pts
-			(xy 72.39 153.67) (xy 85.09 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ab5835c-b656-4c74-a16b-290ad42e7730")
+		(uuid "802409c7-435a-4177-bcca-a541ba3866da")
 	)
 	(wire
 		(pts
@@ -5074,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 128.27) (xy 85.09 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba475faf-bbb1-4281-88b1-1766190e6ed7")
+	)
+	(wire
+		(pts
 			(xy 63.5 62.23) (xy 68.58 62.23)
 		)
 		(stroke
@@ -5194,6 +5045,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 151.13) (xy 269.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f1fb61-37ed-4b65-9a93-e0cea18d498f")
+	)
+	(wire
+		(pts
 			(xy 52.07 120.65) (xy 44.45 120.65)
 		)
 		(stroke
@@ -5241,16 +5102,6 @@
 			(type default)
 		)
 		(uuid "d6c390b6-e231-463d-84ac-98c0f49b3eba")
-	)
-	(wire
-		(pts
-			(xy 256.54 138.43) (xy 269.24 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94e12ee-ef94-416d-907b-b3c415912387")
 	)
 	(wire
 		(pts
@@ -5314,6 +5165,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 166.37) (xy 85.09 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22c1aa5-569a-4528-9025-ec3a47f7ab0f")
+	)
+	(wire
+		(pts
 			(xy 106.68 44.45) (xy 106.68 41.91)
 		)
 		(stroke
@@ -5321,16 +5182,6 @@
 			(type default)
 		)
 		(uuid "e34d9a56-7659-4bc9-aaae-1c4203beccbd")
-	)
-	(wire
-		(pts
-			(xy 72.39 161.29) (xy 64.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c39594-7052-475e-b61a-8e66284ef87f")
 	)
 	(wire
 		(pts
@@ -5344,13 +5195,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 153.67) (xy 54.61 153.67)
+			(xy 52.07 153.67) (xy 62.23 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e50b129e-c984-4f3b-ad86-3eb109be57c3")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 269.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e595de79-18e2-4627-aab9-edf2200b4325")
 	)
 	(wire
 		(pts
@@ -5391,16 +5252,6 @@
 			(type default)
 		)
 		(uuid "e8c97c06-4534-4874-bfb9-57c231b29fdc")
-	)
-	(wire
-		(pts
-			(xy 72.39 166.37) (xy 85.09 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabe5cfc-f26e-4193-9dbe-5701e8a4788a")
 	)
 	(wire
 		(pts
@@ -5451,16 +5302,6 @@
 			(type default)
 		)
 		(uuid "f311922e-6573-44b2-a37a-88ed0882652c")
-	)
-	(wire
-		(pts
-			(xy 64.77 153.67) (xy 72.39 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ba84a7-d7aa-47e2-96b5-77eebc71c524")
 	)
 	(wire
 		(pts
@@ -6702,84 +6543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:ZENER")
-		(at 72.39 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b9426a9-6ce8-4c21-93c2-f97b811279e8")
-		(property "Reference" "D2"
-			(at 73.914 143.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 73.914 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 72.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 72.39 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 72.39 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1d0982e-9bb5-44c5-98c8-98e48e8a6ae6")
-		)
-		(pin "1"
-			(uuid "5e7e2df1-6668-45b8-8217-3e4aba7c2107")
-		)
-		(instances
-			(project ""
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "device:R_Potentiometer_US")
 		(at 124.46 45.72 0)
 		(unit 1)
@@ -6861,6 +6624,226 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 72.39 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25a1af79-8bee-422d-8c43-76816911c1ef")
+		(property "Reference" "R16"
+			(at 73.66 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 73.66 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.612 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 820 OHM 1% 1/8W 0805"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT820R/1760419"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "963a9f66-0070-4c8b-b849-37d0099fb434")
+		)
+		(pin "1"
+			(uuid "66cf143b-76a0-4f58-8476-b70ee57bf3c3")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 72.39 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "314c53dd-2774-4e8c-9822-b46f4a1c3107")
+		(property "Reference" "R22"
+			(at 73.66 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 73.66 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.612 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 820 OHM 1% 1/8W 0805"
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT820R/1760419"
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "856e39b1-34ce-40fe-b994-23c05b08fc41")
+		)
+		(pin "1"
+			(uuid "e7ed8403-b027-4809-a95d-5ec17b9d53f3")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "F2018-cache:GND")
 		(at 72.39 135.89 0)
 		(unit 1)
@@ -6919,6 +6902,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 72.39 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33dc10d0-d8e6-4415-9c47-025064172f55")
+		(property "Reference" "R21"
+			(at 73.66 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 73.66 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.612 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 820 OHM 1% 1/8W 0805"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT820R/1760419"
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 72.39 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "366cf19d-82da-4652-a7da-6a0bbf9006d5")
+		)
+		(pin "1"
+			(uuid "500ab3c4-3825-4ebe-8a34-fe9dac7bc542")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7108,84 +7201,6 @@
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:ZENER")
-		(at 72.39 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c170354-5838-404f-8357-bec589e06b7e")
-		(property "Reference" "D3"
-			(at 73.914 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 73.914 158.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 72.39 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb121275-df19-465d-97c0-b8369163e8df")
-		)
-		(pin "1"
-			(uuid "b4178a0e-cc33-49e4-92a5-6e5d442c33e0")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7385,7 +7400,7 @@
 				)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/texas-instruments/LM2940T-10-0-NOPB/148141"
+		(property "digikey" ""
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -7527,84 +7542,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:ZENER")
-		(at 256.54 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bb6ceda-8bdd-4c45-abf8-b4544dd61d60")
-		(property "Reference" "D8"
-			(at 258.064 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 258.064 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 256.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 256.54 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 256.54 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30e6fb91-7513-45f7-a2a8-a1fb222df800")
-		)
-		(pin "1"
-			(uuid "d1359c7d-c1d3-40e6-956b-a6b27b2e1b26")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8009,6 +7946,116 @@
 		)
 	)
 	(symbol
+		(lib_id "TJR:R")
+		(at 256.54 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d759310-abc5-4ca5-9c3c-9e6c0234d7cb")
+		(property "Reference" "R31"
+			(at 261.112 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 261.62 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 258.318 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 256.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7b14e49-98a6-4d2a-b1fe-ea168ee51d3d")
+		)
+		(pin "1"
+			(uuid "253c92b5-3725-48ed-b9d5-0122ae7f3b3f")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "F2018-cache:GND")
 		(at 72.39 173.99 0)
 		(unit 1)
@@ -8138,7 +8185,7 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 58.42 153.67 90)
+		(at 66.04 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8146,7 +8193,7 @@
 		(dnp no)
 		(uuid "75843297-b009-44be-9fc6-68fd507b6d91")
 		(property "Reference" "R3"
-			(at 59.69 151.638 90)
+			(at 67.31 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8202,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 59.944 155.702 90)
+			(at 67.564 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 155.448 90)
+			(at 66.04 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8229,7 @@
 			)
 		)
 		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8238,7 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8247,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8255,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8263,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8271,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 58.42 153.67 0)
+			(at 66.04 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,84 +8642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:ZENER")
-		(at 72.39 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8303aa69-dfe3-49e8-a034-d1a42aab928d")
-		(property "Reference" "D1"
-			(at 73.914 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 73.914 132.842 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 72.39 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09b02905-0a77-4940-97bc-2ddc953d53f7")
-		)
-		(pin "1"
-			(uuid "7a4ccf02-ce63-466a-bd6b-03ff14ebb149")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00TJR:GND")
 		(at 111.76 62.23 0)
 		(unit 1)
@@ -8911,84 +8880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:ZENER")
-		(at 72.39 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "903f2734-d2ac-49ba-9278-070c051d121c")
-		(property "Reference" "D5"
-			(at 73.914 181.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 73.914 183.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 72.39 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6084e882-7208-4f05-9df7-18b63e4e1a91")
-		)
-		(pin "1"
-			(uuid "e9764d7b-bd31-4b37-a035-d5a56986bc72")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00TJR:GND")
 		(at 229.87 105.41 0)
 		(unit 1)
@@ -9157,6 +9048,116 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 256.54 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0004587-2b03-416d-85ea-c7f9397bfea3")
+		(property "Reference" "R30"
+			(at 261.112 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 261.62 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 258.318 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 256.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49ade8df-7547-414f-80ec-fd93fdc20e35")
+		)
+		(pin "1"
+			(uuid "c450083e-4762-483d-b166-2d5c557c3e56")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9777,84 +9778,6 @@
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:ZENER")
-		(at 72.39 170.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6450034-b82a-43c9-9190-8c7fbc036735")
-		(property "Reference" "D4"
-			(at 73.914 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 73.914 170.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 72.39 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 72.39 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 72.39 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d714b659-64ad-4849-a5ec-82ef87d14115")
-		)
-		(pin "1"
-			(uuid "846ffa3b-f5ce-466c-b471-1829e46e12a9")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10513,7 +10436,7 @@
 	)
 	(symbol
 		(lib_id "TJR:R")
-		(at 64.77 157.48 0)
+		(at 72.39 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10521,7 +10444,7 @@
 		(dnp no)
 		(uuid "d9043766-3c60-4adb-8392-829a32071a3a")
 		(property "Reference" "R2"
-			(at 66.04 156.2099 0)
+			(at 73.66 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10529,8 +10452,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 66.04 158.7499 0)
+		(property "Value" "2.55k"
+			(at 73.66 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.992 157.48 90)
+			(at 70.612 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +10471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 64.77 157.48 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,8 +10479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/8W 0805"
-			(at 64.77 157.48 0)
+		(property "Description" "RES 2.55K OHM 1% 1/8W 0805"
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,8 +10488,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT1K00/1760090"
-			(at 64.77 157.48 0)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FG2K55/1712818"
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10498,7 @@
 			)
 		)
 		(property "Cost (ea.)" ""
-			(at 64.77 157.48 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10506,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 64.77 157.48 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10514,7 @@
 			)
 		)
 		(property "Vender Part Number" ""
-			(at 64.77 157.48 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10522,7 @@
 			)
 		)
 		(property "Vendor url" ""
-			(at 64.77 157.48 0)
+			(at 72.39 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,16 +10976,16 @@
 		)
 	)
 	(symbol
-		(lib_id "TJR:ZENER")
-		(at 256.54 154.94 270)
+		(lib_id "TJR:R")
+		(at 72.39 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "edf35834-9c32-4413-88cd-0f775098c41f")
-		(property "Reference" "D9"
-			(at 258.064 153.924 90)
+		(uuid "f20d9c19-2626-40c9-b523-06a59d5f4595")
+		(property "Reference" "R15"
+			(at 73.66 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11070,8 +10993,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V"
-			(at 258.064 155.702 90)
+		(property "Value" "820"
+			(at 73.66 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +11003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 154.94 0)
+			(at 70.612 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,8 +11011,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ5225B-5267B.PDF"
-			(at 256.54 154.94 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,8 +11020,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DIODE ZENER 3V 500MW SOD123"
-			(at 256.54 154.94 0)
+		(property "Description" "RES 820 OHM 1% 1/8W 0805"
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,25 +11029,57 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/central-semiconductor-corp/CMHZ5225B-TR-PBFREE/5212664"
-			(at 256.54 154.94 90)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT820R/1760419"
+			(at 72.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
-			(uuid "7def70e5-8b0c-4b62-9f73-36af8d3e399d")
+			(uuid "858020c6-fa88-4330-aa27-806db3c1387c")
 		)
 		(pin "1"
-			(uuid "e5ac6829-c9db-429e-88c2-802ed0f853e9")
+			(uuid "6f2b9cbf-a3f5-4c2b-bf8f-83ead1c5e264")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e"
-					(reference "D9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
