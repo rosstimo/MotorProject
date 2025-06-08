@@ -245,7 +245,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Drivers-rescue:NEMOSFET-00TJR"
+		(symbol "NEMOSFET-00TJR_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -255,8 +255,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 1.524 1.2446 0)
+			(property "Reference" "Q6"
+				(at 1.016 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -264,8 +264,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NEMOSFET-00TJR"
-				(at 1.524 -0.9144 0)
+			(property "Value" "G20N03K"
+				(at 1.016 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -273,7 +273,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "TO_SOT_SMD:TO-252-2"
 				(at 3.81 -4.445 0)
 				(effects
 					(font
@@ -284,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G20N03K.pdf"
 				(at -2.54 -0.6604 0)
 				(effects
 					(font
@@ -294,7 +294,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "N-Channel 30 V 30A (Tc) 33W (Tc) Surface Mount TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G20N03K/16533528"
 				(at 0 0 0)
 				(effects
 					(font
@@ -312,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NEMOSFET-00TJR_0_0"
+			(symbol "NEMOSFET-00TJR_1_0_0"
 				(text "G"
 					(at -3.556 -2.032 0)
 					(effects
@@ -338,7 +347,7 @@
 					)
 				)
 			)
-			(symbol "NEMOSFET-00TJR_0_1"
+			(symbol "NEMOSFET-00TJR_1_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -2.286 -2.54)
@@ -472,7 +481,7 @@
 					)
 				)
 			)
-			(symbol "NEMOSFET-00TJR_1_1"
+			(symbol "NEMOSFET-00TJR_1_1_1"
 				(pin input line
 					(at -5.08 -2.54 0)
 					(length 2.54)
@@ -483,7 +492,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -501,7 +510,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -530,19 +539,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Drivers-rescue:PEMOSFET-00TJR"
+		(symbol "NEMOSFET-00TJR_2"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.54 1.2446 0)
+			(property "Reference" "Q2"
+				(at 1.27 0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -550,8 +558,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PEMOSFET-00TJR"
-				(at 2.54 -0.9144 0)
+			(property "Value" "2N7002"
+				(at 1.27 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -559,18 +567,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "TO_SOT_SMD:SOT-23"
 				(at 3.81 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
 				(at -2.54 -0.6604 0)
 				(effects
 					(font
@@ -580,7 +587,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "MOSFET N-CH 60V 190MA TO236AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002NXAKR/10416554"
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,7 +614,302 @@
 					(hide yes)
 				)
 			)
-			(symbol "PEMOSFET-00TJR_0_0"
+			(symbol "NEMOSFET-00TJR_2_0_0"
+				(text "G"
+					(at -3.556 -2.032 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "D"
+					(at 0.508 2.286 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "S"
+					(at 0.508 -3.302 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(symbol "NEMOSFET-00TJR_2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.286 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.2446) (xy -2.286 -2.5654)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.6256) (xy -1.778 0.6096)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.1524) (xy -1.778 -1.1684)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.9304) (xy -1.778 -2.9464)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.4384) (xy 0 -2.4384)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.6604) (xy -0.508 -0.2794) (xy -0.508 -1.0414) (xy -1.524 -0.6604)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.8796) (xy 0 1.1176)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.1176) (xy -1.778 1.1176)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.2004) (xy 0 -0.6604) (xy -1.778 -0.6604)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NEMOSFET-00TJR_2_1_1"
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PEMOSFET-00TJR_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q5"
+				(at 1.27 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G160P03KI"
+				(at 1.27 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "TO_SOT_SMD:TO-252-2"
+				(at 3.81 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G160P03KI.pdf"
+				(at -2.54 -0.6604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-Channel 30 V 30A (Tc) 60W (Tc) Surface Mount TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G160P03KI/17728246"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PEMOSFET-00TJR_1_0_0"
 				(text "S"
 					(at 0.508 2.286 0)
 					(effects
@@ -608,7 +919,7 @@
 					)
 				)
 			)
-			(symbol "PEMOSFET-00TJR_0_1"
+			(symbol "PEMOSFET-00TJR_1_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -2.286 -2.54)
@@ -742,7 +1053,7 @@
 					)
 				)
 			)
-			(symbol "PEMOSFET-00TJR_1_1"
+			(symbol "PEMOSFET-00TJR_1_1_1"
 				(text "G"
 					(at -3.556 -2.032 0)
 					(effects
@@ -769,7 +1080,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -787,7 +1098,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -805,7 +1116,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2777,6 +3088,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2910,16 +3346,16 @@
 		(uuid "00860566-6562-4b81-83fd-c7761af3183d")
 	)
 	(junction
+		(at 228.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a7dbc0-404f-4fa3-8897-7852b9f579fa")
+	)
+	(junction
 		(at 252.73 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13ddadde-e838-44ee-8fd5-72c51dfd70e1")
-	)
-	(junction
-		(at 191.77 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a8cb8d8-4541-49f2-8c05-27664ebdb705")
 	)
 	(junction
 		(at 102.87 45.72)
@@ -3004,6 +3440,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe1ce9bf-aa1e-4302-b3e0-a05746da19dd")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ce5323-349f-48a2-ac65-d3680fe9e549")
 	)
 	(wire
 		(pts
@@ -3237,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 86.36) (xy 252.73 86.36)
+			(xy 203.2 86.36) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3274,6 +3720,16 @@
 			(type default)
 		)
 		(uuid "5b7c0bed-f2c3-465c-92ff-0e33dd4852f7")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 252.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63376dc6-ec35-4fdd-b8d7-59b1131d23b9")
 	)
 	(wire
 		(pts
@@ -3677,16 +4133,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 191.77 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67a65f5-5c8e-4a84-891d-de941cdac926")
-	)
-	(wire
-		(pts
 			(xy 102.87 35.56) (xy 102.87 45.72)
 		)
 		(stroke
@@ -3823,28 +4269,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSYS"
-		(shape input)
-		(at 181.61 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "530b5c63-a639-46df-bea7-0be4dd2100df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0286 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4098,6 +4522,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NEMOSFET-00TJR_1")
 		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
 		(at 203.2 153.67 0)
 		(unit 1)
@@ -4124,7 +4549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:TO-252-2"
 			(at 207.01 158.115 0)
 			(effects
 				(font
@@ -4182,6 +4607,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PEMOSFET-00TJR_1")
 		(lib_id "Drivers-rescue:PEMOSFET-00TJR")
 		(at 203.2 93.98 0)
 		(unit 1)
@@ -4208,7 +4634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:TO-252-2"
 			(at 207.01 98.425 0)
 			(effects
 				(font
@@ -4292,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 63.5 147.32 0)
 			(effects
 				(font
@@ -4393,6 +4819,71 @@
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
 					(reference "U5")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03ca7e37-3cbb-4d67-b42f-9b896258f980")
+		(property "Reference" "#PWR045"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSYS"
+			(at 228.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+5V to +30V"
+			(at 228.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97393eba-c62f-4e06-aff4-58009d7b840c")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
+					(reference "#PWR045")
+					(unit 1)
 				)
 			)
 		)
@@ -4501,7 +4992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -4607,6 +5098,91 @@
 		)
 	)
 	(symbol
+		(lib_name "NEMOSFET-00TJR_1")
+		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
+		(at 262.89 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0af30d2a-5c1e-4153-a2f9-e6c5cb2b9b39")
+		(property "Reference" "Q4"
+			(at 263.906 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G20N03K"
+			(at 263.906 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TO_SOT_SMD:TO-252-2"
+			(at 266.7 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G20N03K.pdf"
+			(at 260.35 154.3304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 30A (Tc) 33W (Tc) Surface Mount TO-252"
+			(at 262.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G20N03K/16533528"
+			(at 262.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf7fc63f-54eb-49af-87cb-184f8f378c55")
+		)
+		(pin "1"
+			(uuid "dd8fbc21-e189-4d3b-b2f0-2ea51faff2ff")
+		)
+		(pin "3"
+			(uuid "d2d5c772-2a98-4023-8680-108493ab5413")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "jumper:Jumper_2_Open")
 		(at 59.69 48.26 0)
 		(unit 1)
@@ -4632,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Header-IDC:PinHeader_1x02_P2.54mm_Vertical"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -4710,7 +5286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 130.81 48.26 0)
 			(effects
 				(font
@@ -4816,90 +5392,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drivers-rescue:PEMOSFET-00TJR")
-		(at 262.89 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "164006e0-2e78-46d4-bcee-4b72aec00fcc")
-		(property "Reference" "Q7"
-			(at 264.16 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G160P03KI"
-			(at 264.16 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G160P03KI.pdf"
-			(at 260.35 94.6404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Channel 30 V 30A (Tc) 60W (Tc) Surface Mount TO-252"
-			(at 262.89 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G160P03KI/17728246"
-			(at 262.89 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46b77d28-8328-4c43-8155-d1657cc0568b")
-		)
-		(pin "1"
-			(uuid "d66bbe94-2048-493f-9eb7-21050e32d584")
-		)
-		(pin "3"
-			(uuid "6a3102d2-cd3a-4586-a2dc-3a01f7796551")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TFlipFlop-cache:74xx_74LS08")
 		(at 92.71 60.96 0)
 		(mirror x)
@@ -4926,7 +5418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -5032,6 +5524,7 @@
 		)
 	)
 	(symbol
+		(lib_name "NEMOSFET-00TJR_2")
 		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
 		(at 191.77 110.49 0)
 		(unit 1)
@@ -5096,10 +5589,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "1"
 			(uuid "32eb91b8-a0b5-41d3-ae42-4dfefa975e6f")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "3fb1272d-f0ec-43a5-b0c6-ea221d18d213")
 		)
 		(pin "3"
@@ -5205,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -5337,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 63.5 101.6 0)
 			(effects
 				(font
@@ -5824,6 +6317,91 @@
 		)
 	)
 	(symbol
+		(lib_name "PEMOSFET-00TJR_1")
+		(lib_id "Drivers-rescue:PEMOSFET-00TJR")
+		(at 262.89 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f60605f-a15b-4de0-ac8a-d5be95959dd1")
+		(property "Reference" "Q1"
+			(at 264.16 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G160P03KI"
+			(at 264.16 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TO_SOT_SMD:TO-252-2"
+			(at 266.7 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G160P03KI.pdf"
+			(at 260.35 94.6404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel 30 V 30A (Tc) 60W (Tc) Surface Mount TO-252"
+			(at 262.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G160P03KI/17728246"
+			(at 262.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b4ddf97-e38e-4fa5-b02e-41336c34a726")
+		)
+		(pin "1"
+			(uuid "a99f4ae5-f67b-44fe-92e7-7862ee06a1d2")
+		)
+		(pin "3"
+			(uuid "7e4b46c5-e73b-46b1-a5b4-9f65bdac6efe")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TJR:R")
 		(at 191.77 101.6 180)
 		(unit 1)
@@ -5959,7 +6537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Header-IDC:PinHeader_1x02_P2.54mm_Vertical"
 			(at 223.52 134.62 0)
 			(effects
 				(font
@@ -6037,7 +6615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -6581,90 +7159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
-		(at 262.89 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89130297-13d3-4907-ae26-5c97cdc42b97")
-		(property "Reference" "Q8"
-			(at 263.906 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G20N03K"
-			(at 263.906 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.gofordsemi.com/upload/cn/propdf/G20N03K.pdf"
-			(at 260.35 154.3304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 30 V 30A (Tc) 33W (Tc) Surface Mount TO-252"
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/goford-semiconductor/G20N03K/16533528"
-			(at 262.89 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2daf634a-921a-40d3-9fa1-c0b1369640c2")
-		)
-		(pin "1"
-			(uuid "28b974f9-c9b0-4fca-bcd8-2f4e816d43b2")
-		)
-		(pin "3"
-			(uuid "168a3b73-ecf3-4207-9527-7300930f8672")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "device:C")
 		(at 233.68 144.78 90)
 		(unit 1)
@@ -7146,7 +7640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 63.5 116.84 0)
 			(effects
 				(font
@@ -7362,6 +7856,90 @@
 		)
 	)
 	(symbol
+		(lib_name "NEMOSFET-00TJR_2")
+		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
+		(at 252.73 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a4b999-cd36-4713-86c9-274424bb2456")
+		(property "Reference" "Q3"
+			(at 254 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TO_SOT_SMD:SOT-23"
+			(at 256.54 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
+			(at 250.19 111.1504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 190MA TO236AB"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002NXAKR/10416554"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbfd53ec-9ebb-47bb-833a-6b5416da3332")
+		)
+		(pin "2"
+			(uuid "389c9e56-dc4a-49eb-bbcb-c47e1a569e47")
+		)
+		(pin "3"
+			(uuid "ae5e573c-6851-4077-8987-ea43cfbd8c04")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "S2020-cache:74xx_74LS14")
 		(at 63.5 132.08 0)
 		(mirror x)
@@ -7388,7 +7966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 63.5 132.08 0)
 			(effects
 				(font
@@ -7519,7 +8097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Header-IDC:PinHeader_1x02_P2.54mm_Vertical"
 			(at 223.52 144.78 0)
 			(effects
 				(font
@@ -7791,89 +8369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Drivers-rescue:NEMOSFET-00TJR")
-		(at 252.73 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d82b962d-16c1-4e43-88d2-1c89642fadf5")
-		(property "Reference" "Q3"
-			(at 254 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 254 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO_SOT_SMD:SOT-23"
-			(at 256.54 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
-			(at 250.19 111.1504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 190MA TO236AB"
-			(at 252.73 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002NXAKR/10416554"
-			(at 252.73 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee480369-241d-4115-b8c2-64dd4607c1c5")
-		)
-		(pin "1"
-			(uuid "9aa61c98-5de8-4ae6-8d95-ee2dc7bba6cf")
-		)
-		(pin "3"
-			(uuid "1067369b-fe93-4bd1-87e9-ec2aaa25c28a")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/0acf8530-81b2-4261-9d60-47f6831c6925"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TFlipFlop-cache:74xx_74LS08")
 		(at 93.98 35.56 0)
 		(mirror x)
@@ -7900,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TJR:SOIC-14_3.9x8.7mm_P1.27mm-D14-L"
 			(at 93.98 35.56 0)
 			(effects
 				(font
