@@ -6589,7 +6589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "R_SMD:R_0805_2012Metric"
+		(property "Footprint" "TJR:SOT_10KLFTR_BIT"
 			(at 124.46 45.72 0)
 			(effects
 				(font
