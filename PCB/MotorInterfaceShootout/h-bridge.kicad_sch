@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 81.28 135.89 90)
 			(effects
 				(font
@@ -4556,7 +4556,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d2")
+			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d3")
 		)
 		(pin "13"
 			(uuid "25cb1e69-538e-4ca6-9df6-49d238285b12")
@@ -4565,37 +4565,37 @@
 			(uuid "4a9f5a3e-802e-4bc2-b725-8b7ec1582369")
 		)
 		(pin "7"
-			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bc9")
+			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bca")
 		)
 		(pin "14"
-			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e485")
+			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e486")
 		)
 		(pin "9"
-			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebb")
+			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebc")
 		)
 		(pin "5"
-			(uuid "500fc71f-d128-434f-afd2-51a15181bff8")
+			(uuid "500fc71f-d128-434f-afd2-51a15181bff9")
 		)
 		(pin "10"
-			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0d")
+			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0e")
 		)
 		(pin "8"
-			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2c")
+			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2d")
 		)
 		(pin "3"
-			(uuid "26d359cc-cd47-4a4a-9843-6286f172210e")
+			(uuid "26d359cc-cd47-4a4a-9843-6286f172210f")
 		)
 		(pin "1"
-			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e7")
+			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e8")
 		)
 		(pin "2"
-			(uuid "31312e00-e340-49be-be14-e35c8eefb0af")
+			(uuid "31312e00-e340-49be-be14-e35c8eefb0b0")
 		)
 		(pin "6"
-			(uuid "499faf81-bd86-4def-be80-ac44b855e079")
+			(uuid "499faf81-bd86-4def-be80-ac44b855e07a")
 		)
 		(pin "4"
-			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef14")
+			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef15")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
@@ -5058,7 +5058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:SOT-23"
 			(at 195.58 114.935 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d2")
+			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d4")
 		)
 		(pin "13"
 			(uuid "c2327844-a5d9-41b1-bd18-74610f8233f6")
@@ -5401,37 +5401,37 @@
 			(uuid "11833106-6b72-43a8-ba46-e28eb5f827be")
 		)
 		(pin "7"
-			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bc9")
+			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bcb")
 		)
 		(pin "14"
-			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e485")
+			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e487")
 		)
 		(pin "9"
-			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebb")
+			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebd")
 		)
 		(pin "5"
-			(uuid "500fc71f-d128-434f-afd2-51a15181bff8")
+			(uuid "500fc71f-d128-434f-afd2-51a15181bffa")
 		)
 		(pin "10"
-			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0d")
+			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0f")
 		)
 		(pin "8"
-			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2c")
+			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2e")
 		)
 		(pin "3"
-			(uuid "26d359cc-cd47-4a4a-9843-6286f172210e")
+			(uuid "26d359cc-cd47-4a4a-9843-6286f1722110")
 		)
 		(pin "1"
-			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e7")
+			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e9")
 		)
 		(pin "2"
-			(uuid "31312e00-e340-49be-be14-e35c8eefb0af")
+			(uuid "31312e00-e340-49be-be14-e35c8eefb0b1")
 		)
 		(pin "6"
-			(uuid "499faf81-bd86-4def-be80-ac44b855e079")
+			(uuid "499faf81-bd86-4def-be80-ac44b855e07b")
 		)
 		(pin "4"
-			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef14")
+			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef16")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
@@ -5533,7 +5533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 254.508 91.44 90)
 			(effects
 				(font
@@ -5643,7 +5643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 81.28 105.41 90)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 193.548 101.6 90)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 81.28 120.65 90)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 74.93 149.098 90)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 254.508 101.6 90)
 			(effects
 				(font
@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 237.49 133.6548 0)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 237.49 143.8148 0)
 			(effects
 				(font
@@ -6766,7 +6766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 81.28 151.13 90)
 			(effects
 				(font
@@ -6972,7 +6972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 74.93 103.378 90)
 			(effects
 				(font
@@ -7201,7 +7201,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d2")
+			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d5")
 		)
 		(pin "13"
 			(uuid "8dcc26af-d4b9-43ac-89de-31e25fe3549a")
@@ -7210,37 +7210,37 @@
 			(uuid "155b153f-e965-42ca-b8e2-d76be527b2c8")
 		)
 		(pin "7"
-			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bc9")
+			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bcc")
 		)
 		(pin "14"
-			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e485")
+			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e488")
 		)
 		(pin "9"
-			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebb")
+			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebe")
 		)
 		(pin "5"
-			(uuid "500fc71f-d128-434f-afd2-51a15181bff8")
+			(uuid "500fc71f-d128-434f-afd2-51a15181bffb")
 		)
 		(pin "10"
-			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0d")
+			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d10")
 		)
 		(pin "8"
-			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2c")
+			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2f")
 		)
 		(pin "3"
-			(uuid "26d359cc-cd47-4a4a-9843-6286f172210e")
+			(uuid "26d359cc-cd47-4a4a-9843-6286f1722111")
 		)
 		(pin "1"
-			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e7")
+			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4ea")
 		)
 		(pin "2"
-			(uuid "31312e00-e340-49be-be14-e35c8eefb0af")
+			(uuid "31312e00-e340-49be-be14-e35c8eefb0b2")
 		)
 		(pin "6"
-			(uuid "499faf81-bd86-4def-be80-ac44b855e079")
+			(uuid "499faf81-bd86-4def-be80-ac44b855e07c")
 		)
 		(pin "4"
-			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef14")
+			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef17")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
@@ -7278,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 74.93 118.618 90)
 			(effects
 				(font
@@ -7443,7 +7443,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d2")
+			(uuid "5f6bff86-0735-4d39-8aad-b6ea8ac777d6")
 		)
 		(pin "13"
 			(uuid "b5bc59a8-ba6c-4b1e-b18b-8c0606358e40")
@@ -7452,37 +7452,37 @@
 			(uuid "f47caa16-847c-4ad0-b742-2e2c4a5737a8")
 		)
 		(pin "7"
-			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bc9")
+			(uuid "a38e17ce-94f1-43d6-b6db-f343d5676bcd")
 		)
 		(pin "14"
-			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e485")
+			(uuid "a1c7720d-4137-4702-8c01-1bea1e11e489")
 		)
 		(pin "9"
-			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebb")
+			(uuid "d855d6e7-9020-4eb0-9228-580b8e431ebf")
 		)
 		(pin "5"
-			(uuid "500fc71f-d128-434f-afd2-51a15181bff8")
+			(uuid "500fc71f-d128-434f-afd2-51a15181bffc")
 		)
 		(pin "10"
-			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d0d")
+			(uuid "e5721bb9-e4b6-451a-8fdc-d73ade8a9d11")
 		)
 		(pin "8"
-			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c2c")
+			(uuid "7973d2ba-3a25-4fb7-83fa-a61f9eda2c30")
 		)
 		(pin "3"
-			(uuid "26d359cc-cd47-4a4a-9843-6286f172210e")
+			(uuid "26d359cc-cd47-4a4a-9843-6286f1722112")
 		)
 		(pin "1"
-			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4e7")
+			(uuid "c4c32b46-006a-4c15-9a55-21cb6c74d4eb")
 		)
 		(pin "2"
-			(uuid "31312e00-e340-49be-be14-e35c8eefb0af")
+			(uuid "31312e00-e340-49be-be14-e35c8eefb0b3")
 		)
 		(pin "6"
-			(uuid "499faf81-bd86-4def-be80-ac44b855e079")
+			(uuid "499faf81-bd86-4def-be80-ac44b855e07d")
 		)
 		(pin "4"
-			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef14")
+			(uuid "4d259c3b-9b77-4ff9-9d19-f54449b2ef18")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
@@ -7597,7 +7597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 74.93 133.858 90)
 			(effects
 				(font
@@ -7707,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 72.898 43.18 90)
 			(effects
 				(font
@@ -7817,7 +7817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:SOT-23"
 			(at 256.54 114.935 0)
 			(effects
 				(font
@@ -8096,7 +8096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 193.548 91.44 90)
 			(effects
 				(font

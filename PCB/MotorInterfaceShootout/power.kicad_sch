@@ -3678,7 +3678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:CP_Elec_6.3x7.7"
 			(at 44.1452 41.91 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 243.5352 85.09 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 222.758 26.67 90)
 			(effects
 				(font
@@ -4603,7 +4603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
 			(at 222.758 36.83 90)
 			(effects
 				(font
@@ -4974,7 +4974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 69.5452 41.91 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:SOT-89-3"
 			(at 55.88 27.305 0)
 			(effects
 				(font
@@ -5300,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 129.2352 39.37 0)
 			(effects
 				(font
@@ -5442,7 +5442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 219.4052 85.09 0)
 			(effects
 				(font
@@ -5518,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TO_SOT_SMD:SOT-89-3"
 			(at 96.52 27.305 0)
 			(effects
 				(font
@@ -5636,7 +5636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 82.2452 41.91 0)
 			(effects
 				(font
@@ -5715,7 +5715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_SMD:C_0805_2012Metric"
 			(at 111.4552 41.91 0)
 			(effects
 				(font
