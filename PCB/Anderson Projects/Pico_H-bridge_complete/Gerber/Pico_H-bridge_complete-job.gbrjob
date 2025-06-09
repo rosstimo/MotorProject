@@ -3,21 +3,21 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2024-07-03T09:30:12-06:00"
+    "CreationDate": "2025-06-08T07:26:58-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "MotorInterfacePiPico",
-      "GUID": "4d6f746f-7249-46e7-9465-726661636550",
+      "Name": "Pico_H-bridge_complete",
+      "GUID": "5069636f-5f48-42d6-9272-696467655f63",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 120.3,
+      "X": 103.5,
       "Y": 65.55
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -26,7 +26,16 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": -0.0,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
@@ -34,47 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "MotorInterfacePiPico-F_Cu.gtl",
+      "Path": "Pico_H-bridge_complete-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-B_Cu.gbl",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "Pico_H-bridge_complete-In1_Cu.g1",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-F_Paste.gtp",
+      "Path": "Pico_H-bridge_complete-In2_Cu.g2",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Pico_H-bridge_complete-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Pico_H-bridge_complete-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-B_Paste.gbp",
+      "Path": "Pico_H-bridge_complete-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-F_Silkscreen.gto",
+      "Path": "Pico_H-bridge_complete-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-B_Silkscreen.gbo",
+      "Path": "Pico_H-bridge_complete-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MotorInterfacePiPico-F_Mask.gts",
+      "Path": "Pico_H-bridge_complete-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "MotorInterfacePiPico-B_Mask.gbs",
+      "Path": "Pico_H-bridge_complete-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "MotorInterfacePiPico-Edge_Cuts.gm1",
+      "Path": "Pico_H-bridge_complete-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -100,10 +119,34 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
+      "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.24,
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
