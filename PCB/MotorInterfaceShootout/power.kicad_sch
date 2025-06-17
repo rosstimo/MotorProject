@@ -3257,7 +3257,7 @@
 		)
 		(uuid "a562145c-c24b-45d3-89fe-6423a7ec52fe")
 	)
-	(text "Op-Amp Comparator Threshold Voltage \nNote: must be less digital IO pin voltage out\n"
+	(text "Op-Amp Comparator Threshold Voltage \nNote: must be less digital IO pin voltage out high (Voh)"
 		(exclude_from_sim no)
 		(at 209.55 51.816 0)
 		(effects
@@ -3554,16 +3554,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 41.91) (xy 110.49 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc2688d-847e-44eb-9255-b2ee705969ba")
-	)
-	(wire
-		(pts
 			(xy 110.49 44.45) (xy 96.52 44.45)
 		)
 		(stroke
@@ -3851,6 +3841,16 @@
 			(type default)
 		)
 		(uuid "dffb04b5-2eee-4c3b-a665-cb7f3f622327")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fa5030-75d1-4b6b-b10e-c015a7b3809a")
 	)
 	(wire
 		(pts
@@ -4155,7 +4155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e6dc785-c977-4427-a9e2-0455bd3bb082")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 245.11 80.01 0)
 			(effects
 				(font
@@ -4218,7 +4218,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4234,7 +4234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29921fa7-4832-4e38-9e36-3c7dd1889f1d")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 33.02 27.94 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 		(instances
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4328,7 +4328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3069b9bc-8b97-43d1-8eef-98f1897fd611")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 219.71 24.638 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45171dee-4969-4e5f-bf09-16bafcdd5f2e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 139.7 50.8 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ac6104a-3f44-4506-a5b9-e1658a8c05fd")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 139.7 30.48 0)
 			(effects
 				(font
@@ -4701,7 +4701,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4868,7 +4868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aca903d-b6a2-4803-b065-4cdb2ab29945")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 110.49 30.48 0)
 			(effects
 				(font
@@ -4918,117 +4918,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TJR:R")
-		(at 220.98 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f0eea14-89b5-4e10-8c04-d663c7dbc3ba")
-		(property "Reference" "R20"
-			(at 219.71 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 220.218 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_SMD:R_0805_2012Metric"
-			(at 222.758 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rmef.PDF"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 5.1K OHM 1% 1/8W 0805"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMEF0805FT5K10/16839706"
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost (ea.)" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vender Part Number" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor url" ""
-			(at 220.98 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23d4ec79-5ac8-4821-8ada-5c6b5281a6b6")
-		)
-		(pin "1"
-			(uuid "032a0982-ffcb-48bd-b04c-090a60838293")
-		)
-		(instances
-			(project "MotorInterfaceShootout"
-				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "R20")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5043,7 +4933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6917c0d8-e1b2-4301-93a1-5e7d49e22eee")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 220.98 48.26 0)
 			(effects
 				(font
@@ -5092,7 +4982,118 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR032")
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TJR:R")
+		(at 220.98 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ddf5969-792d-4a68-9aa3-d76400bf08d0")
+		(property "Reference" "R22"
+			(at 219.71 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 219.71 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "R_SMD:R_0805_2012Metric"
+			(at 222.758 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 820 OHM 1% 1/8W 0805"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT820R/1760419"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost (ea.)" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vender Part Number" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor url" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3736b0d4-3af3-4057-ad5e-93552e343654")
+		)
+		(pin "1"
+			(uuid "b364bf51-dd03-45ea-8f23-eebf2c42508b")
+		)
+		(instances
+			(project "MotorInterfaceShootout"
+				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83d6d21d-5aa6-48f9-b2c7-ebb84331f880")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -5289,7 +5290,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5374,16 +5375,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+10V")
 		(at 220.98 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ab0a029-5d31-4064-967a-b28183ef7eae")
-		(property "Reference" "#PWR031"
+		(uuid "aa9ce7b1-3ff3-4862-ac39-212796cf25d0")
+		(property "Reference" "#PWR036"
 			(at 220.98 26.67 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+10V"
 			(at 220.98 17.78 0)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
 			(at 220.98 22.86 0)
 			(effects
 				(font
@@ -5428,12 +5428,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca190f0b-40af-4d98-9363-7986586fc4d0")
+			(uuid "1bc606da-a56d-40f7-8b40-811f567465c5")
 		)
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5448,7 +5448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae629c98-b20b-4e93-a04c-e185a4038f0e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR028"
 			(at 25.4 30.48 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR044")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b597018a-7010-4b52-8db0-1bceed18e7ae")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 96.52 50.8 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5695,7 +5695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d43f32c7-30ca-455e-8626-fc08ed25eab7")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 132.08 34.2899 0)
 			(effects
 				(font
@@ -5758,7 +5758,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5773,7 +5773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b2e00d-e829-469e-9cac-0f2c76dc589a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 208.28 100.33 0)
 			(effects
 				(font
@@ -5822,7 +5822,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5837,7 +5837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e060bfb2-327e-40a2-889e-bed72dc936cd")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 220.98 80.01 0)
 			(effects
 				(font
@@ -5900,7 +5900,7 @@
 		(instances
 			(project ""
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6031,7 +6031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf72fd7-f769-4d66-a5f3-4af748bd15db")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 83.82 36.83 0)
 			(effects
 				(font
@@ -6094,7 +6094,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9597239-96d7-429a-a8ab-88656675e0c0")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 114.3 36.8299 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc7f42ff-e82c-4a2a-b359-ceff448db4f7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -6239,7 +6239,7 @@
 		(instances
 			(project "MotorInterfaceShootout"
 				(path "/00c452e7-2941-4e66-a1a1-d4af87d7e63e/4eca7562-021b-4add-9e83-06681ce2d496"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
