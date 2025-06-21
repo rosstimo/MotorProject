@@ -7889,6 +7889,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2167419"
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8464221-3255-4afd-83b1-5b7456dcae9a")
 		)
@@ -8029,6 +8038,15 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 129.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23742"
 			(at 129.54 149.86 0)
 			(effects
 				(font
@@ -8385,6 +8403,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22797"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e4d3f5e-c899-4b8f-a5a2-33df6913be1f")
 		)
@@ -8456,6 +8483,15 @@
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 49.53 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,6 +8706,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 191.77 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75ea6bce-05a3-43d8-b901-953e584da5be")
 		)
@@ -8730,6 +8775,15 @@
 		)
 		(property "Description" "C19077437 200 mW 3.1-3.5v"
 			(at 92.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077437"
+			(at 92.71 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,6 +8869,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf2bcb98-e9c8-46f0-b570-89ca4547c8c3")
 		)
@@ -8885,6 +8948,15 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23742"
 			(at 154.94 149.86 0)
 			(effects
 				(font
@@ -8973,6 +9045,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2167419"
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25cc83ce-d918-4a56-9329-40f0362bcd3a")
 		)
@@ -9043,6 +9124,15 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -9617,6 +9707,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077437"
+			(at 240.03 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4adf8489-e3c5-4188-a0b1-1b8681350388")
 		)
@@ -9943,6 +10042,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2058532"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "8f2ee455-ff07-41a0-8bbe-9c8214794e02")
 		)
@@ -10050,6 +10158,15 @@
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 241.3 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +10397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k pot"
 			(at 113.03 41.9099 0)
 			(effects
 				(font
@@ -10308,6 +10425,15 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C36376"
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -10527,6 +10653,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 191.77 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72f8f203-9672-4b73-bcd0-b0dc05769c45")
 		)
@@ -10589,6 +10724,15 @@
 			)
 		)
 		(property "Description" "Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2058532"
 			(at 252.73 95.25 0)
 			(effects
 				(font
@@ -10900,6 +11044,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25819"
+			(at 222.25 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b36070a-9b51-4c58-8572-715b30469e2f")
 		)
@@ -11110,6 +11263,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
 			(at 45.72 130.81 0)
 			(effects
 				(font
@@ -11381,6 +11543,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C600988"
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1a73efe-e5dc-46c5-951f-6fbbeacd6f7e")
 		)
@@ -11522,6 +11693,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 223.52 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "08fd11f4-0ce4-42ae-857c-00c41fe104ca")
 		)
@@ -11593,6 +11773,15 @@
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 191.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 191.77 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,6 +11867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 231.14 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef657938-55ae-4349-aeb0-d67886af39a2")
 		)
@@ -11749,6 +11947,15 @@
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
 			(at 49.53 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 49.53 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,6 +12104,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "929d4dc3-463d-4a1c-8305-2d3b8c082eee")
 		)
@@ -11960,6 +12176,15 @@
 			)
 		)
 		(property "Description" "C2167419 - 1uF"
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2167419"
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -12239,6 +12464,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "acbd35c6-7036-472b-b45c-7b2cee868a28")
 		)
@@ -12300,6 +12534,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4260"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -12386,6 +12629,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 83.82 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f284d1e7-26a7-4f16-9020-a74535613570")
 		)
@@ -12456,6 +12708,15 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -12542,6 +12803,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 222.25 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3148e6c4-1ac1-4cab-b1cf-7d2e6401c913")
 		)
@@ -12593,7 +12863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Shikues-78L10/C122848"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -12603,6 +12873,15 @@
 			)
 		)
 		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 10V, SOT-89"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C122848"
 			(at 142.24 146.05 0)
 			(effects
 				(font
@@ -12674,6 +12953,15 @@
 			)
 		)
 		(property "Description" "Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2058532"
 			(at 209.55 71.12 0)
 			(effects
 				(font
@@ -12848,6 +13136,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077437"
+			(at 59.69 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2a842a6-9e62-45c3-8a33-8c1da22e2d62")
 		)
@@ -13007,7 +13304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_W"
 			(at 93.218 94.996 0)
 			(effects
 				(font
@@ -13035,6 +13332,15 @@
 			)
 		)
 		(property "Description" "C2290 - White 0603"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -13103,6 +13409,15 @@
 			)
 		)
 		(property "Description" "Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14"
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2058532"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -13434,6 +13749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 83.82 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6968051c-13c2-491a-9cd2-fb37d6d0310a")
 		)
@@ -13494,6 +13818,15 @@
 		)
 		(property "Description" "C19077437 200 mW 3.1-3.5v"
 			(at 250.19 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077437"
+			(at 250.19 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,6 +13904,15 @@
 			)
 		)
 		(property "digikey" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23742"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -13675,7 +14017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_R"
 			(at 84.582 94.742 0)
 			(effects
 				(font
@@ -13703,6 +14045,15 @@
 			)
 		)
 		(property "Description" "C2286 - Red 0603"
+			(at 87.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -13771,6 +14122,15 @@
 		)
 		(property "Description" "C19077437 200 mW 3.1-3.5v"
 			(at 92.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077437"
+			(at 92.71 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,6 +14268,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077437"
+			(at 59.69 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12ff6b9c-d8df-46a3-a418-7bbadc53428c")
 		)
@@ -13968,6 +14337,15 @@
 			)
 		)
 		(property "Description" "Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2058532"
 			(at 209.55 48.26 0)
 			(effects
 				(font
@@ -14208,6 +14586,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19077437"
+			(at 92.71 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd98d34e-a113-441a-b8a7-c1015628a9cc")
 		)
@@ -14398,6 +14785,15 @@
 			)
 		)
 		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"
+			(at 166.37 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C347258"
 			(at 166.37 146.05 0)
 			(effects
 				(font
