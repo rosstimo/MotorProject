@@ -985,7 +985,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x10"
+		(symbol "Connector:Screw_Terminal_01x09"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1001,8 +1001,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x10"
-				(at 0 -15.24 0)
+			(property "Value" "Screw_Terminal_01x09"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1027,7 +1027,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1054,10 +1054,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x10_1_1"
+			(symbol "Screw_Terminal_01x09_1_1"
 				(rectangle
 					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1176,18 +1176,6 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 -12.3698) (xy 0.3302 -13.208)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.3556 10.668) (xy 0.508 9.8298)
 					)
 					(stroke
@@ -1294,18 +1282,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 -12.192) (xy 0.508 -13.0302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 10.16)
 					(radius 0.635)
@@ -1396,17 +1372,6 @@
 				)
 				(circle
 					(center 0 -10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -12.7)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -1571,24 +1536,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5248,22 +5195,10 @@
 		(uuid "04008e83-2502-41b1-9454-5887018adaf6")
 	)
 	(junction
-		(at 80.01 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12f8a879-acee-469c-81c8-ee8754411e3f")
-	)
-	(junction
 		(at 203.2 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c7c3a2d-6768-4ab4-8add-6c57d2eaa9ca")
-	)
-	(junction
-		(at 59.69 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e0bd9f6-2435-4261-8c71-7f31a395316b")
 	)
 	(junction
 		(at 88.9 31.75)
@@ -5318,6 +5253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77c1164b-7390-4685-bc3c-c98766ea56fe")
+	)
+	(junction
+		(at 96.52 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c337c5b-91bb-46d2-879f-be8f54676706")
 	)
 	(junction
 		(at 105.41 35.56)
@@ -5624,16 +5565,6 @@
 			(type default)
 		)
 		(uuid "1bc7f3b0-143a-440f-8c92-617b8def1858")
-	)
-	(wire
-		(pts
-			(xy 39.37 153.67) (xy 39.37 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20adb442-8fca-4984-9d87-32ef18087bdd")
 	)
 	(wire
 		(pts
@@ -6267,16 +6198,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 168.91) (xy 45.72 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc47a65-93c7-4edc-a787-565016597f67")
-	)
-	(wire
-		(pts
 			(xy 229.87 48.26) (xy 229.87 49.53)
 		)
 		(stroke
@@ -6467,16 +6388,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 153.67) (xy 31.75 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94e2363-7775-4b52-950a-341f4c3b6447")
-	)
-	(wire
-		(pts
 			(xy 201.93 123.19) (xy 204.47 123.19)
 		)
 		(stroke
@@ -6524,16 +6435,6 @@
 			(type default)
 		)
 		(uuid "b2c35b60-db9f-4dcf-aabf-b76d34dc22a3")
-	)
-	(wire
-		(pts
-			(xy 59.69 168.91) (xy 64.77 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3787eec-7324-4c70-8516-373cfe6cf30d")
 	)
 	(wire
 		(pts
@@ -6647,7 +6548,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 184.15) (xy 80.01 186.69)
+			(xy 96.52 184.15) (xy 96.52 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6975,16 +6876,6 @@
 		)
 		(uuid "f9606697-3b1c-4d84-8200-461cf9b9710d")
 	)
-	(wire
-		(pts
-			(xy 53.34 168.91) (xy 59.69 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa5c1e8f-64e9-4ec0-b8ae-8f700e6e20f6")
-	)
 	(global_label "B"
 		(shape output)
 		(at 247.65 151.13 0)
@@ -7051,7 +6942,7 @@
 			)
 		)
 	)
-	(global_label "S0"
+	(global_label "Fwd{slash}Rev"
 		(shape output)
 		(at 64.77 154.94 0)
 		(fields_autoplaced yes)
@@ -7063,7 +6954,7 @@
 		)
 		(uuid "18c18497-bb20-44a5-bed3-44c171ec938f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.1742 154.94 0)
+			(at 75.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,28 +7109,6 @@
 		(uuid "67d90451-5f38-4f89-8d46-50f9aaeb48d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.0876 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape output)
-		(at 64.77 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68a1c1e1-e431-4b82-be3d-c3dd5f03521d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.1742 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,8 +7739,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x10")
-		(at 26.67 143.51 180)
+		(lib_id "Connector:Screw_Terminal_01x09")
+		(at 26.67 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7887,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x10"
+		(property "Value" "Screw_Terminal_01x9"
 			(at 26.67 127 0)
 			(effects
 				(font
@@ -7896,7 +7765,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-10-5.0-H_1x10_P5.00mm_Horizontal"
-			(at 26.67 143.51 0)
+			(at 26.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 143.51 0)
+			(at 26.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,8 +7782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 143.51 0)
+		(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,9 +7817,6 @@
 		)
 		(pin "9"
 			(uuid "8cc5d666-f4cc-4534-b70f-5f44535678c5")
-		)
-		(pin "10"
-			(uuid "01a7511b-adbc-4b90-ad6f-5e8b3a51c5e9")
 		)
 		(instances
 			(project "MotorInterfacePiPico"
@@ -8895,7 +8761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 186.69 0)
+		(at 96.52 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8903,7 +8769,7 @@
 		(dnp no)
 		(uuid "447136a2-b077-439e-8b83-fbcd143ea814")
 		(property "Reference" "#PWR060"
-			(at 80.01 193.04 0)
+			(at 96.52 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 190.246 0)
+			(at 96.52 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 186.69 0)
+			(at 96.52 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 186.69 0)
+			(at 96.52 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8936,7 +8802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 186.69 0)
+			(at 96.52 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,69 +10331,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79a6f310-b9c2-4762-87ce-ab902a9b9dfa")
-		(property "Reference" "#PWR017"
-			(at 59.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.992 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fa53439-d321-4df0-8b7f-f00f317de501")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 229.87 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11584,7 +11387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -11611,7 +11414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23138"
+		(property "LCSC" "C17630"
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -12020,7 +11823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18318-0805W8F3300T5E/C17630"
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -12047,7 +11850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23138"
+		(property "LCSC" "C17630"
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -12702,93 +12505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ceb70321-2ca8-4bc4-ae2c-c440949e2582")
-		(property "Reference" "R8"
-			(at 49.0219 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.9k"
-			(at 53.8479 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.53 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW 3.9kΩ 0603"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23018"
-			(at 49.53 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae004df8-71ed-4d2f-9848-b040d72d336f")
-		)
-		(pin "1"
-			(uuid "1dfe6339-25cc-41f6-b97a-d9e0d24a9bf4")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 96.52 91.44 90)
 		(unit 1)
@@ -13154,7 +12870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+Vsup"
+		(property "Value" "+12V"
 			(at 60.96 125.73 0)
 			(effects
 				(font
@@ -13772,82 +13488,6 @@
 			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:Z1SMAxxx")
-		(at 59.69 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1c5f779-b45c-4bca-8cad-0941ef87e9af")
-		(property "Reference" "D15"
-			(at 55.88 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1V"
-			(at 55.88 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 55.245 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2475-BZT52C5V1SW8/C2118"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C19077437 200 mW 3.1-3.5v"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2118"
-			(at 59.69 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12ff6b9c-d8df-46a3-a418-7bbadc53428c")
-		)
-		(pin "2"
-			(uuid "a30ab042-1e4b-49c8-8c78-4ac721a64b3b")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "D15")
 					(unit 1)
 				)
 			)
