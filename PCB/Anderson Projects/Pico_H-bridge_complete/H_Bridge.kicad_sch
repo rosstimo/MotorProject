@@ -3209,6 +3209,12 @@
 		(uuid "26d80070-3d79-4251-a334-5391ff230dd4")
 	)
 	(junction
+		(at 50.8 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a807f59-b139-4759-91be-1b6bcf4b54b8")
+	)
+	(junction
 		(at 176.53 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3577,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "1de013a9-cd28-4a3b-86fd-4099647b7468")
+	)
+	(wire
+		(pts
+			(xy 50.8 87.63) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6ef1ff-d3ef-438c-814e-d0c3ccc527f2")
 	)
 	(wire
 		(pts
@@ -4510,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 57.15 87.63)
+			(xy 44.45 87.63) (xy 50.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +4662,7 @@
 	)
 	(global_label "M+"
 		(shape output)
-		(at 199.39 220.98 90)
+		(at 223.52 220.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4656,7 +4672,7 @@
 		)
 		(uuid "62bd4193-15a3-4d82-ae97-d2b6c570351a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 214.971 90)
+			(at 223.52 214.971 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4684,7 @@
 	)
 	(global_label "M-"
 		(shape output)
-		(at 223.52 220.98 90)
+		(at 199.39 220.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4678,7 +4694,7 @@
 		)
 		(uuid "a3106278-65df-4861-b07d-f30969aeff5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 214.971 90)
+			(at 199.39 214.971 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 170.18 187.96 0)
 			(effects
 				(font
@@ -5174,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 110k 0603"
 			(at 274.32 196.85 0)
 			(effects
 				(font
@@ -5319,7 +5335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 179.07 238.76 0)
 			(effects
 				(font
@@ -6115,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 110k 0603"
 			(at 151.13 195.58 0)
 			(effects
 				(font
@@ -6191,7 +6207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 2.7k 0603"
 			(at 220.98 210.82 0)
 			(effects
 				(font
@@ -6333,7 +6349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 2.7k 0603"
 			(at 204.47 200.66 0)
 			(effects
 				(font
@@ -6543,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 2.2k 0603"
 			(at 243.84 182.88 0)
 			(effects
 				(font
@@ -6706,7 +6722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 255.27 189.23 0)
 			(effects
 				(font
@@ -7285,7 +7301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 242.57 238.76 0)
 			(effects
 				(font
@@ -7661,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 2.2k 0603"
 			(at 176.53 182.88 0)
 			(effects
 				(font
@@ -7689,6 +7705,74 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/3b9dafbc-4fc0-4ad7-a8cb-3bdf4483a920"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f30dbcb-c177-46c0-bade-537e4cce623d")
+		(property "Reference" "TP6"
+			(at 53.34 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 92.2019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db4db1a-2908-4712-8b19-ae7c9f4133d0")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a/3b9dafbc-4fc0-4ad7-a8cb-3bdf4483a920"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

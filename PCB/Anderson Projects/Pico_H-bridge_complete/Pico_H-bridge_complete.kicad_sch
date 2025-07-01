@@ -4488,211 +4488,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:MMBT3904"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMBT3904_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT3904_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+10V"
 			(power)
 			(pin_numbers
@@ -5447,31 +5242,19 @@
 		(uuid "00018225-83f1-437a-b4c0-96c9a4f480e6")
 	)
 	(junction
-		(at 109.22 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0198f4cf-8765-4b12-8bf5-5eb1e93fe8b1")
-	)
-	(junction
 		(at 196.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04008e83-2502-41b1-9454-5887018adaf6")
 	)
 	(junction
-		(at 109.22 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b5b86be-9d2e-421e-ade2-3ab245233fbb")
-	)
-	(junction
-		(at 81.28 195.58)
+		(at 80.01 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12f8a879-acee-469c-81c8-ee8754411e3f")
 	)
 	(junction
-		(at 214.63 125.73)
+		(at 203.2 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c7c3a2d-6768-4ab4-8add-6c57d2eaa9ca")
@@ -5489,10 +5272,10 @@
 		(uuid "20c6b7da-590a-4000-8c25-33e41a65b555")
 	)
 	(junction
-		(at 97.79 154.94)
+		(at 110.49 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "351ee4bd-72ab-42fd-a2a1-fe42b6ce6169")
+		(uuid "31862bcd-0bfe-4ccc-b803-0fce9f473f1c")
 	)
 	(junction
 		(at 54.61 130.81)
@@ -5507,12 +5290,6 @@
 		(uuid "3f3cc814-3bae-4288-8472-a1cab4bb53cb")
 	)
 	(junction
-		(at 97.79 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "420631e8-e7b9-428c-8bdc-92f07c6f769d")
-	)
-	(junction
 		(at 196.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5525,7 +5302,7 @@
 		(uuid "483f6a01-3d30-45e2-98bf-b53f6c063c78")
 	)
 	(junction
-		(at 107.95 185.42)
+		(at 106.68 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5843ed35-b890-4612-badf-bc17568c9d6e")
@@ -5537,22 +5314,40 @@
 		(uuid "64aa8355-932b-4e47-8923-5aede8ae0da4")
 	)
 	(junction
+		(at 110.49 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c1164b-7390-4685-bc3c-c98766ea56fe")
+	)
+	(junction
 		(at 105.41 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "829d15d2-8dfe-4ee5-b7e6-ab1a905feb4d")
 	)
 	(junction
-		(at 111.76 185.42)
+		(at 110.49 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a5d0c15-2f1c-4b8e-8130-fefd3c34346d")
 	)
 	(junction
-		(at 240.03 156.21)
+		(at 238.76 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0308a52-85a0-4bf6-b12e-c8578947eabe")
+		(uuid "93b6b0ea-c5ce-49ca-8bc7-0f9958e168b1")
+	)
+	(junction
+		(at 228.6 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9548c1ff-372a-4674-8461-65dbd27935f5")
+	)
+	(junction
+		(at 91.44 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e0e5f1f-eaa8-4dd1-b956-83a2a1fead31")
 	)
 	(junction
 		(at 229.87 48.26)
@@ -5567,34 +5362,28 @@
 		(uuid "b27eba85-6819-4d73-bf8c-ce01ede93990")
 	)
 	(junction
-		(at 250.19 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5a6adeb-a807-4045-bcab-b59e8c97bdaa")
-	)
-	(junction
-		(at 53.34 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1d52d36-f729-4de1-bb2c-8e008aa8cf32")
-	)
-	(junction
 		(at 229.87 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f40424-6a9c-4f04-bbd6-0bfc9245405b")
 	)
 	(junction
-		(at 213.36 128.27)
+		(at 201.93 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ed7576-71fc-4a90-9203-0d6675d80835")
 	)
 	(junction
-		(at 81.28 182.88)
+		(at 80.01 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7ef85cb-1721-47c4-b363-bbf038bc6e9a")
+	)
+	(junction
+		(at 102.87 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa95e3fa-8f74-474f-bcc9-c399c0fc0318")
 	)
 	(no_connect
 		(at 48.26 46.99)
@@ -5688,13 +5477,23 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 185.42) (xy 107.95 194.31)
+			(xy 106.68 173.99) (xy 106.68 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04338168-2bf4-4ac3-af0b-887a8b0d23f0")
+	)
+	(wire
+		(pts
+			(xy 102.87 132.08) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0597ad7c-e54d-4200-803e-bed52d0b6e74")
 	)
 	(polyline
 		(pts
@@ -5708,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 213.36 133.35)
+			(xy 201.93 123.19) (xy 201.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5738,23 +5537,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 137.16) (xy 220.98 137.16)
+			(xy 208.28 132.08) (xy 209.55 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "09fac5e0-75ba-4679-9c26-c715cc605089")
-	)
-	(wire
-		(pts
-			(xy 97.79 125.73) (xy 97.79 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a753709-3dbd-434f-9fa3-8df4ae57bcc5")
 	)
 	(wire
 		(pts
@@ -5778,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 138.43) (xy 218.44 138.43)
+			(xy 190.5 133.35) (xy 207.01 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5798,7 +5587,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 226.06 146.05)
+			(xy 190.5 140.97) (xy 214.63 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5848,16 +5637,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 133.35) (xy 60.96 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25280be0-75b6-4b2f-a495-614f38075266")
-	)
-	(wire
-		(pts
 			(xy 106.68 40.64) (xy 106.68 46.99)
 		)
 		(stroke
@@ -5865,16 +5644,6 @@
 			(type default)
 		)
 		(uuid "2972b519-44f5-4fa6-823f-b5be93c67641")
-	)
-	(wire
-		(pts
-			(xy 97.79 127) (xy 109.22 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f389e5-6085-4cee-b31c-983c20c166e0")
 	)
 	(wire
 		(pts
@@ -5898,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 143.51) (xy 237.49 143.51)
+			(xy 190.5 138.43) (xy 226.06 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 135.89) (xy 214.63 135.89)
+			(xy 190.5 130.81) (xy 203.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5968,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 180.34) (xy 81.28 182.88)
+			(xy 80.01 168.91) (xy 80.01 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5998,7 +5767,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 143.51) (xy 250.19 143.51)
+			(xy 233.68 138.43) (xy 238.76 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 191.77) (xy 81.28 195.58)
+			(xy 80.01 180.34) (xy 80.01 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6098,7 +5867,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 133.35) (xy 228.6 140.97)
+			(xy 217.17 128.27) (xy 217.17 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6148,6 +5917,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 151.13) (xy 247.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f625a1-d413-4138-8a37-30d03e9b95a3")
+	)
+	(wire
+		(pts
 			(xy 217.17 71.12) (xy 220.98 71.12)
 		)
 		(stroke
@@ -6178,7 +5957,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 194.31) (xy 107.95 194.31)
+			(xy 91.44 182.88) (xy 106.68 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6188,7 +5967,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 146.05) (xy 82.55 146.05)
+			(xy 31.75 146.05) (xy 80.01 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6228,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 214.63 135.89)
+			(xy 203.2 120.65) (xy 203.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6288,7 +6067,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 124.46) (xy 214.63 125.73)
+			(xy 203.2 119.38) (xy 203.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6308,16 +6087,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 154.94) (xy 109.22 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77dd63ad-c21a-466d-b52a-d18afd48f1d3")
-	)
-	(wire
-		(pts
 			(xy 229.87 80.01) (xy 229.87 81.28)
 		)
 		(stroke
@@ -6325,6 +6094,16 @@
 			(type default)
 		)
 		(uuid "77ff54fa-a008-4a8a-892c-9b13a51eaa27")
+	)
+	(wire
+		(pts
+			(xy 91.44 146.05) (xy 110.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7930ec96-44a5-46ab-874c-2741d4f41ca6")
 	)
 	(wire
 		(pts
@@ -6418,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 127) (xy 118.11 127)
+			(xy 110.49 132.08) (xy 119.38 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6438,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.35) (xy 213.36 133.35)
+			(xy 190.5 128.27) (xy 201.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6448,7 +6227,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 125.73) (xy 214.63 125.73)
+			(xy 190.5 120.65) (xy 203.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6558,7 +6337,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 182.88) (xy 92.71 182.88)
+			(xy 80.01 171.45) (xy 91.44 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6578,17 +6357,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 143.51) (xy 259.08 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9763034a-173c-4745-a114-e0cf4f33ada6")
-	)
-	(wire
-		(pts
-			(xy 81.28 182.88) (xy 81.28 186.69)
+			(xy 80.01 171.45) (xy 80.01 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6608,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 128.27) (xy 213.36 128.27)
+			(xy 190.5 123.19) (xy 201.93 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6638,7 +6407,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 185.42) (xy 120.65 185.42)
+			(xy 110.49 173.99) (xy 119.38 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6658,7 +6427,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 140.97) (xy 201.93 140.97)
+			(xy 217.17 135.89) (xy 190.5 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6668,7 +6437,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 185.42) (xy 111.76 185.42)
+			(xy 106.68 173.99) (xy 110.49 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 187.96) (xy 92.71 194.31)
+			(xy 91.44 176.53) (xy 91.44 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6708,7 +6477,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 215.9 128.27)
+			(xy 201.93 123.19) (xy 204.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6728,13 +6497,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 146.05) (xy 82.55 160.02)
+			(xy 87.63 146.05) (xy 91.44 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab4fdd16-3f7e-42d4-a49c-ee9e055a1310")
+		(uuid "ad070d36-cdda-4836-9c9b-4391757ae961")
 	)
 	(wire
 		(pts
@@ -6798,7 +6567,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 156.21) (xy 259.08 156.21)
+			(xy 223.52 151.13) (xy 228.6 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6818,16 +6587,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 153.67) (xy 97.79 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b748a15d-3f5f-4955-bc71-2e76d8106a3f")
-	)
-	(wire
-		(pts
 			(xy 16.51 69.85) (xy 16.51 67.31)
 		)
 		(stroke
@@ -6838,7 +6597,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 138.43) (xy 219.71 137.16)
+			(xy 207.01 133.35) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6868,7 +6627,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 156.21) (xy 227.33 156.21)
+			(xy 214.63 151.13) (xy 215.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6878,7 +6637,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 132.08) (xy 73.66 132.08)
+			(xy 91.44 132.08) (xy 73.66 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6888,23 +6647,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 195.58) (xy 81.28 198.12)
+			(xy 80.01 184.15) (xy 80.01 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cec84c22-76a2-4515-822e-a40725a23f55")
-	)
-	(wire
-		(pts
-			(xy 234.95 156.21) (xy 240.03 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf189bff-fee5-4a16-8183-3dff94cdcead")
 	)
 	(wire
 		(pts
@@ -6915,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "d2803268-211a-4463-9f08-63f8664ca455")
+	)
+	(wire
+		(pts
+			(xy 99.06 132.08) (xy 102.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d379cc97-1a70-4e0c-8707-4209364ae23d")
 	)
 	(wire
 		(pts
@@ -6938,7 +6697,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 193.04) (xy 97.79 195.58)
+			(xy 96.52 181.61) (xy 96.52 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7018,7 +6777,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 31.75 148.59)
+			(xy 80.01 148.59) (xy 31.75 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7068,7 +6827,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 195.58) (xy 97.79 195.58)
+			(xy 80.01 184.15) (xy 96.52 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7078,7 +6837,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 81.28 175.26)
+			(xy 80.01 148.59) (xy 80.01 163.83)
 		)
 		(stroke
 			(width 0)
@@ -7095,6 +6854,16 @@
 			(type default)
 		)
 		(uuid "eda85657-a4d7-4a7c-a64e-377031cf77b6")
+	)
+	(wire
+		(pts
+			(xy 238.76 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee429ab2-8afc-49fd-b2d1-1a76f1ff1c6c")
 	)
 	(wire
 		(pts
@@ -7128,7 +6897,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 146.05) (xy 226.06 156.21)
+			(xy 214.63 140.97) (xy 214.63 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7168,7 +6937,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 124.46) (xy 215.9 124.46)
+			(xy 203.2 119.38) (xy 204.47 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7188,7 +6957,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 154.94) (xy 118.11 154.94)
+			(xy 110.49 146.05) (xy 119.38 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7218,7 +6987,7 @@
 	)
 	(global_label "B"
 		(shape output)
-		(at 259.08 156.21 0)
+		(at 247.65 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7228,7 +6997,7 @@
 		)
 		(uuid "04ba6581-ef17-4318-ad4f-0efc86fbefd7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.3352 156.21 0)
+			(at 251.9052 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7075,7 @@
 	)
 	(global_label "A"
 		(shape output)
-		(at 259.08 143.51 0)
+		(at 247.65 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7316,7 +7085,7 @@
 		)
 		(uuid "2d4cb142-4084-4a4c-a0de-9642d0ed804b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.1538 143.51 0)
+			(at 251.7238 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7163,7 @@
 	)
 	(global_label "Home"
 		(shape output)
-		(at 118.11 154.94 0)
+		(at 119.38 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7404,7 +7173,7 @@
 		)
 		(uuid "55eb7b14-667d-48d1-9c7e-0dfef285291f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3566 154.94 0)
+			(at 127.6266 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7317,7 @@
 	)
 	(global_label "Speed_set"
 		(shape output)
-		(at 120.65 185.42 0)
+		(at 119.38 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7558,7 +7327,7 @@
 		)
 		(uuid "9027cabb-ab4f-427b-b2a8-8782c1ac3a5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1299 185.42 0)
+			(at 131.8599 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7339,7 @@
 	)
 	(global_label "Limit Switch"
 		(shape output)
-		(at 118.11 127 0)
+		(at 119.38 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7580,7 +7349,7 @@
 		)
 		(uuid "948da4dd-be3e-4b38-a2cb-2d9266dbde44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8276 127 0)
+			(at 134.0976 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7361,7 @@
 	)
 	(global_label "M+"
 		(shape input)
-		(at 215.9 128.27 0)
+		(at 204.47 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7602,7 +7371,7 @@
 		)
 		(uuid "94cd65b4-fd8b-4875-9f59-99f6d4e1badd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.909 128.27 0)
+			(at 210.479 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7383,7 @@
 	)
 	(global_label "M-"
 		(shape input)
-		(at 215.9 124.46 0)
+		(at 204.47 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7624,7 +7393,7 @@
 		)
 		(uuid "a0347703-31a2-44e1-bad1-86edc0fe4bec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.909 124.46 0)
+			(at 210.479 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7891,7 +7660,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 196.85 125.73 0)
+		(at 185.42 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7900,7 +7669,7 @@
 		(dnp no)
 		(uuid "04761b8d-b6c6-4df9-b1e0-87387f69f6fd")
 		(property "Reference" "J3"
-			(at 193.802 127.254 0)
+			(at 182.372 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7677,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 195.5801 123.19 90)
+			(at 184.1501 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7687,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 196.85 125.73 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +7696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 125.73 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +7705,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 196.85 125.73 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7730,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 137.16 0)
+		(at 102.87 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7969,7 +7738,7 @@
 		(dnp no)
 		(uuid "07a5ccfd-880d-4755-b3c9-ab0488e29246")
 		(property "Reference" "#PWR014"
-			(at 97.79 143.51 0)
+			(at 102.87 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,7 +7747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 140.716 0)
+			(at 102.87 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +7755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 137.16 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 137.16 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +7771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 137.16 0)
+			(at 102.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,6 +7786,84 @@
 			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 238.76 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "080ea2d5-0be3-432f-a12a-81134f64cb60")
+		(property "Reference" "R21"
+			(at 236.474 143.7639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3kΩ"
+			(at 241.046 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 236.982 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF3301T5E/C22978"
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 3.3k 0603"
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 238.76 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3113b16d-20af-4957-a8b8-a4ea6a6d4cf8")
+		)
+		(pin "1"
+			(uuid "90d31d5b-b3c2-415d-b617-06eabcc76348")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8305,7 +8152,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 177.8 0)
+		(at 80.01 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8313,7 +8160,7 @@
 		(dnp no)
 		(uuid "1fc1e9ff-8595-40e4-9e31-63bb8ce6dc5c")
 		(property "Reference" "R25"
-			(at 77.47 176.53 0)
+			(at 83.82 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8168,7 @@
 			)
 		)
 		(property "Value" "13k"
-			(at 77.216 178.816 0)
+			(at 84.074 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,7 +8176,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 177.8 0)
+			(at 80.01 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8338,7 +8185,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/23524-0603WAF1302T5E/C22797"
-			(at 81.28 177.8 0)
+			(at 80.01 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,8 +8193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 177.8 0)
+		(property "Description" "100mW 13k 0603"
+			(at 80.01 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8203,7 @@
 			)
 		)
 		(property "LCSC" "C22797"
-			(at 81.28 177.8 0)
+			(at 80.01 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 156.718 90)
 			(effects
 				(font
@@ -8415,7 +8262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -8424,7 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
+		(property "Description" "100mW 3.9kΩ 0603"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -8433,7 +8280,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://jlcpcb.com/partdetail/18302-0805W8F3901T5E/C17614"
+		(property "digikey" ""
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -8442,7 +8289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17614"
+		(property "LCSC" "C23018"
 			(at 49.53 154.94 90)
 			(effects
 				(font
@@ -8576,7 +8423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 191.77 50.8 0)
 			(effects
 				(font
@@ -8613,6 +8460,93 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c0e3bf2-4966-4624-b858-31926881e3ac")
+		(property "Reference" "R6"
+			(at 94.7419 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 99.5679 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 3.9kΩ 0603"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23018"
+			(at 95.25 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "063ec516-a50f-4ddd-9651-031fae93ba65")
+		)
+		(pin "1"
+			(uuid "de9eb744-da42-4736-bf8d-8e7fa8a5cadd")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8663,7 +8597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 196.85 54.61 0)
 			(effects
 				(font
@@ -8795,6 +8729,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d87fc7-ecae-45de-a308-9ff269294a82")
+		(property "Reference" "R5"
+			(at 221.2339 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8kΩ"
+			(at 222.2499 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF1801T5E/C4177"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 1.8k 0603"
+			(at 219.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4177"
+			(at 219.71 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0a93ca9-fddb-4689-89f0-79beb4c44f09")
+		)
+		(pin "1"
+			(uuid "30008709-8e12-41cb-9366-210322995acf")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 196.85 33.02 0)
 		(unit 1)
@@ -8839,7 +8851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -8883,7 +8895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 198.12 0)
+		(at 80.01 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8891,7 +8903,7 @@
 		(dnp no)
 		(uuid "447136a2-b077-439e-8b83-fbcd143ea814")
 		(property "Reference" "#PWR060"
-			(at 81.28 204.47 0)
+			(at 80.01 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +8912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 201.676 0)
+			(at 80.01 190.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 198.12 0)
+			(at 80.01 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +8928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 198.12 0)
+			(at 80.01 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 198.12 0)
+			(at 80.01 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 163.83 0)
+		(at 228.6 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9263,7 +9275,7 @@
 		(dnp no)
 		(uuid "4bbe5ebb-4f96-4ed1-a8c1-876242093c1f")
 		(property "Reference" "#PWR021"
-			(at 240.03 170.18 0)
+			(at 228.6 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9284,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.332 166.624 0)
+			(at 231.902 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 163.83 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 163.83 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 163.83 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9311,82 +9323,6 @@
 			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:Z1SMAxxx")
-		(at 240.03 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e0101ab-0a36-49de-97b3-62162477da42")
-		(property "Reference" "D17"
-			(at 236.22 159.004 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3v"
-			(at 236.22 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 235.585 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-BZT52C3V3S/C19077437"
-			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C19077437 200 mW 3.1-3.5v"
-			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077437"
-			(at 240.03 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4adf8489-e3c5-4188-a0b1-1b8681350388")
-		)
-		(pin "2"
-			(uuid "715a84ec-330b-466f-8b22-a28d7f25add0")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -9460,7 +9396,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6001R")
-		(at 100.33 185.42 0)
+		(at 99.06 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9469,7 +9405,7 @@
 		(fields_autoplaced yes)
 		(uuid "52142881-fdfb-4b06-a256-eab460cc7274")
 		(property "Reference" "U11"
-			(at 111.76 178.9998 0)
+			(at 110.49 167.5698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9413,7 @@
 			)
 		)
 		(property "Value" "MCP6001R"
-			(at 111.76 181.5398 0)
+			(at 110.49 170.1098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,7 +9421,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 100.33 185.42 0)
+			(at 99.06 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9494,7 +9430,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
-			(at 100.33 180.34 0)
+			(at 99.06 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9439,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
-			(at 100.33 185.42 0)
+			(at 99.06 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,93 +9466,6 @@
 			(project ""
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 231.14 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "537eea54-c14e-4f17-a720-ef319e9a8eab")
-		(property "Reference" "R5"
-			(at 232.6639 158.242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330Ω"
-			(at 233.6799 154.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 231.14 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
-			(at 231.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW"
-			(at 231.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 231.14 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23138"
-			(at 231.14 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "54cffea2-9395-4a10-a163-36f65dd29c8e")
-		)
-		(pin "1"
-			(uuid "e5f1634f-803c-4535-b8cd-ffcea41d1a9b")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9863,7 +9712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 165.1 0)
+		(at 91.44 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9871,7 +9720,7 @@
 		(dnp no)
 		(uuid "5dab8961-1c68-4f7f-991e-54368fa3c832")
 		(property "Reference" "#PWR038"
-			(at 97.79 171.45 0)
+			(at 91.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +9729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 168.656 0)
+			(at 91.44 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +9737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 165.1 0)
+			(at 91.44 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +9745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 165.1 0)
+			(at 91.44 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +9753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 165.1 0)
+			(at 91.44 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,93 +9768,6 @@
 			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e82e80c-8289-41cd-9a94-382962268384")
-		(property "Reference" "R3"
-			(at 242.8239 145.796 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330Ω"
-			(at 243.8399 141.224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 241.3 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
-			(at 241.3 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW"
-			(at 241.3 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 241.3 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23138"
-			(at 241.3 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41d87586-bc7e-4cd0-b260-ea366e4ef8b0")
-		)
-		(pin "1"
-			(uuid "71918a38-73ea-4527-9fd1-1f025f993570")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10076,7 +9838,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 137.16 0)
+		(at 209.55 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10084,7 +9846,7 @@
 		(dnp no)
 		(uuid "6464c069-9111-479d-8b03-86cee4f00c18")
 		(property "Reference" "#PWR028"
-			(at 220.98 143.51 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +9855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.028 137.668 0)
+			(at 212.598 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +9863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 137.16 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +9871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 137.16 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +9879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 137.16 0)
+			(at 209.55 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,6 +9894,93 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 83.82 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "659ee2b5-c219-4f86-9099-84d0def70cde")
+		(property "Reference" "R4"
+			(at 83.3119 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 88.1379 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 3.9kΩ 0603"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23018"
+			(at 83.82 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c10eb3e2-1e0e-478a-9bb5-6b02b5d146df")
+		)
+		(pin "1"
+			(uuid "9c5d29b6-6cf2-46ae-a146-9df313e4b67e")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10350,169 +10199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 95.25 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bb404b0-1d8d-4e2b-a37e-f282152c9353")
-		(property "Reference" "Q7"
-			(at 100.33 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 100.33 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 100.33 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
-			(at 95.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 95.25 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24385100-39b8-47e4-bb91-e493739e7050")
-		)
-		(pin "3"
-			(uuid "d2659078-94bb-41c9-b4bd-1405755e88fe")
-		)
-		(pin "1"
-			(uuid "0130a515-91e3-4e4d-bc0c-608b870336b3")
-		)
-		(instances
-			(project ""
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 97.79 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c1b41a1-f7dc-4dca-8e78-0434981c5239")
-		(property "Reference" "R21"
-			(at 99.06 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 99.06 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86e2841c-c8ac-46da-b8ef-5c1e1495230b")
-		)
-		(pin "1"
-			(uuid "2855bcdd-d524-48c0-816b-cc5545321b2a")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 191.77 73.66 90)
 		(unit 1)
@@ -10557,7 +10243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -10948,7 +10634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 47k 0603"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -10992,7 +10678,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 133.35 0)
+		(at 217.17 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11000,7 +10686,7 @@
 		(dnp no)
 		(uuid "7b255f48-4027-4093-883d-126c8481cb05")
 		(property "Reference" "#PWR029"
-			(at 228.6 137.16 0)
+			(at 217.17 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +10695,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 231.14 130.81 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +10703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 133.35 0)
+			(at 217.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +10712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 133.35 0)
+			(at 217.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +10721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 133.35 0)
+			(at 217.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +10838,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 111.76 185.42 180)
+		(at 110.49 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11161,7 +10847,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e8ab06c-ff77-4c62-925d-1a1b40f072b5")
 		(property "Reference" "TP1"
-			(at 114.3 187.4519 0)
+			(at 113.03 176.0219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11169,8 +10855,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Spd(0-3.3)"
-			(at 114.3 189.9919 0)
+		(property "Value" "Spd"
+			(at 113.03 178.5619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,7 +10865,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 106.68 185.42 0)
+			(at 105.41 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +10874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 185.42 0)
+			(at 105.41 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11197,7 +10883,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 111.76 185.42 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 5.1k 0603"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -11445,95 +11131,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 49.53 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f7688e6-8c7d-483a-8972-c24b686a69e6")
-		(property "Reference" "R8"
-			(at 49.0219 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.9k"
-			(at 53.8479 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 49.53 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://jlcpcb.com/partdetail/18302-0805W8F3901T5E/C17614"
-			(at 49.53 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17614"
-			(at 49.53 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a29be2ed-70be-4534-9719-1e3970ed083f")
-		)
-		(pin "1"
-			(uuid "6f73a0ec-2e65-4f97-8dbd-19113dc5fd1f")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 154.94 0)
+		(at 110.49 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11542,7 +11141,7 @@
 		(fields_autoplaced yes)
 		(uuid "9399dad6-e83d-485d-b5aa-ba0787b208f3")
 		(property "Reference" "TP8"
-			(at 111.76 150.3679 0)
+			(at 113.03 141.4779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,7 +11150,7 @@
 			)
 		)
 		(property "Value" "Home"
-			(at 111.76 152.9079 0)
+			(at 113.03 144.0179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +11159,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 114.3 154.94 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 154.94 0)
+			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +11177,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 154.94 0)
+			(at 110.49 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +11242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -11680,6 +11279,73 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "967bc770-578a-4771-ad60-d212a6cd4b39")
+		(property "Reference" "TP9"
+			(at 241.3 133.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A"
+			(at 241.3 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7bbac09-3c21-445d-a99d-d7189089f56d")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11750,7 +11416,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 109.22 127 0)
+		(at 110.49 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11759,7 +11425,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c348196-1931-4eab-b389-f5e9b9998c5b")
 		(property "Reference" "TP7"
-			(at 111.76 122.4279 0)
+			(at 113.03 127.5079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +11434,7 @@
 			)
 		)
 		(property "Value" "Limit"
-			(at 111.76 124.9679 0)
+			(at 113.03 130.0479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11443,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 114.3 127 0)
+			(at 115.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 127 0)
+			(at 115.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +11461,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 109.22 127 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,6 +11476,73 @@
 			(project ""
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ee2875e-2aa4-44c6-80a0-ce25d37840ea")
+		(property "Reference" "TP10"
+			(at 231.14 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B"
+			(at 231.14 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a22c4d88-0060-4b1b-8ab1-985b5bc19ca7")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11897,74 +11630,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f30dbcb-c177-46c0-bade-537e4cce623d")
-		(property "Reference" "TP6"
-			(at 63.5 136.6519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 137.9219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded"
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5db4db1a-2908-4712-8b19-ae7c9f4133d0")
-		)
-		(instances
-			(project ""
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12110,6 +11775,82 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:Z1SMAxxx")
+		(at 102.87 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6f680cb-977a-4864-a61a-9f671eb902db")
+		(property "Reference" "D7"
+			(at 99.06 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3v"
+			(at 99.06 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 98.425 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-BZT52C3V3S/C19077437"
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C19077437 200 mW 3.1-3.5v"
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077437"
+			(at 102.87 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fb68590-ab0d-4bcb-a618-5baf8c27130b")
+		)
+		(pin "2"
+			(uuid "e8a87709-5cb8-4f2d-80b2-facacb39aabb")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12332,7 +12073,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 81.28 189.23 0)
+		(at 80.01 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12340,7 +12081,7 @@
 		(dnp no)
 		(uuid "b12a8fb6-cfee-4e67-8d1a-21114b840260")
 		(property "Reference" "R24"
-			(at 76.2 187.7059 0)
+			(at 85.09 179.3241 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12090,7 @@
 			)
 		)
 		(property "Value" "6.2k"
-			(at 75.184 189.9919 0)
+			(at 86.106 177.0381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 189.23 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/4667-0603WAF6201T5E/C4260"
-			(at 81.28 189.23 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,8 +12116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 189.23 0)
+		(property "Description" "100mW 6.2k 0603"
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12126,7 @@
 			)
 		)
 		(property "LCSC" "C4260"
-			(at 81.28 189.23 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,93 +12144,6 @@
 			(project ""
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 86.36 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5b3addc-667a-4081-ae02-34d2a6dca270")
-		(property "Reference" "R6"
-			(at 85.8519 129.794 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 90.6779 129.794 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/2W"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 86.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 86.36 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f284d1e7-26a7-4f16-9020-a74535613570")
-		)
-		(pin "1"
-			(uuid "58bb36d4-ab9d-4a7e-a5c1-c7405d27db56")
-		)
-		(instances
-			(project "MotorInterfacePiPico"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12540,7 +12194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 10k 0603"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -12577,72 +12231,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba3a4927-3e00-4e0c-b474-196190979c78")
-		(property "Reference" "#PWR037"
-			(at 97.79 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 97.79 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8695dd4e-5a2b-499c-9502-80ab2731765e")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "100mW 5.1k 0603"
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -12730,148 +12318,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 95.25 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4de08ed-1265-4425-b493-98b39ac89056")
-		(property "Reference" "Q8"
-			(at 100.33 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 100.33 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 100.33 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76956e8d-b362-466f-be94-7553c54935b2")
-		)
-		(pin "3"
-			(uuid "afa322ff-4e8c-4454-b01d-e57712dcc94a")
-		)
-		(pin "1"
-			(uuid "6ee1cce9-8824-4640-a77a-d0f0404c6446")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c528a452-2701-42d2-9140-f95f84418150")
-		(property "Reference" "#PWR018"
-			(at 97.79 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f16f5c6a-93b3-4f78-8d05-5d545a261763")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12992,7 +12438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 151.13 0)
+		(at 238.76 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13000,7 +12446,7 @@
 		(dnp no)
 		(uuid "c7add3e8-a022-4984-b1c4-4973aa1cbd37")
 		(property "Reference" "#PWR020"
-			(at 250.19 157.48 0)
+			(at 238.76 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +12455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 253.492 153.924 0)
+			(at 242.062 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,7 +12463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 151.13 0)
+			(at 238.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13025,7 +12471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 151.13 0)
+			(at 238.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13033,7 +12479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 151.13 0)
+			(at 238.76 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13256,6 +12702,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 49.53 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb70321-2ca8-4bc4-ae2c-c440949e2582")
+		(property "Reference" "R8"
+			(at 49.0219 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9k"
+			(at 53.8479 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+			(at 49.53 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 3.9kΩ 0603"
+			(at 49.53 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" ""
+			(at 49.53 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23018"
+			(at 49.53 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae004df8-71ed-4d2f-9848-b040d72d336f")
+		)
+		(pin "1"
+			(uuid "1dfe6339-25cc-41f6-b97a-d9e0d24a9bf4")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 96.52 91.44 90)
 		(unit 1)
@@ -13328,93 +12861,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 97.79 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4212c82-1d85-4417-917c-09b318b3f1f7")
-		(property "Reference" "R20"
-			(at 99.06 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 99.06 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 97.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a23f0ff4-7e33-4264-ad47-1baa39d0cba9")
-		)
-		(pin "1"
-			(uuid "937b3e1e-7503-43b5-adef-988c9f881ebd")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -13535,7 +12981,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 196.85 138.43 0)
+		(at 185.42 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13543,7 +12989,7 @@
 		(dnp no)
 		(uuid "d6865a71-de3f-44be-a0e9-ebe2705b849a")
 		(property "Reference" "J2"
-			(at 194.818 140.208 0)
+			(at 183.388 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13551,7 +12997,7 @@
 			)
 		)
 		(property "Value" "Motor Connector"
-			(at 197.485 130.81 0)
+			(at 186.055 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13560,7 +13006,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 196.85 138.43 0)
+			(at 185.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +13015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 138.43 0)
+			(at 185.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +13024,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 196.85 138.43 0)
+			(at 185.42 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,6 +13054,82 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:Z1SMAxxx")
+		(at 91.44 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d748a5da-477d-499c-9521-e1863e32aa3c")
+		(property "Reference" "D6"
+			(at 87.63 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3v"
+			(at 87.63 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 86.995 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-BZT52C3V3S/C19077437"
+			(at 91.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C19077437 200 mW 3.1-3.5v"
+			(at 91.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077437"
+			(at 91.44 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1885bed7-903b-4c53-bd70-29f6b1887e0f")
+		)
+		(pin "2"
+			(uuid "0f6a543d-479d-47d8-bf1a-c80eef78e005")
+		)
+		(instances
+			(project "Pico_H-bridge_complete"
+				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13744,15 +13266,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 86.36 160.02 90)
+		(at 229.87 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddcb19df-bf5c-4cb4-83d3-0156443b26cf")
-		(property "Reference" "R4"
-			(at 85.8519 157.734 90)
+		(uuid "db60d951-b43d-4edc-8962-5772644b38de")
+		(property "Reference" "R3"
+			(at 231.3939 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13760,8 +13282,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 90.6779 157.734 90)
+		(property "Value" "1.8kΩ"
+			(at 232.4099 136.144 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +13292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 161.798 90)
+			(at 229.87 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13778,8 +13300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 86.36 160.02 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF1801T5E/C4177"
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,8 +13309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/2W"
-			(at 86.36 160.02 0)
+		(property "Description" "100mW 1.8k 0603"
+			(at 229.87 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,17 +13318,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CFM12JT47R0/1741962"
-			(at 86.36 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 86.36 160.02 90)
+		(property "LCSC" "C4177"
+			(at 229.87 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13815,56 +13328,49 @@
 			)
 		)
 		(pin "2"
-			(uuid "6968051c-13c2-491a-9cd2-fb37d6d0310a")
+			(uuid "1a6815c7-2593-4726-ac6d-80646d6b6d22")
 		)
 		(pin "1"
-			(uuid "8d18b796-f297-4996-b511-b0699be36dde")
+			(uuid "c33cd68d-0c55-43dc-ae04-1b189cd3866e")
 		)
 		(instances
-			(project "MotorInterfacePiPico"
+			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:Z1SMAxxx")
-		(at 250.19 147.32 270)
+		(lib_id "Device:R_US")
+		(at 228.6 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de4c0631-6080-44d9-8e27-638872f42c8e")
-		(property "Reference" "D16"
-			(at 246.38 146.304 90)
+		(uuid "e4e4fdc5-acf7-4fb0-998b-c9d9939a581f")
+		(property "Reference" "R20"
+			(at 226.314 156.4639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "3.3v"
-			(at 246.38 148.59 90)
+		(property "Value" "3.3kΩ"
+			(at 230.886 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 245.745 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-BZT52C3V3S/C19077437"
-			(at 250.19 147.32 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 226.822 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13872,8 +13378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C19077437 200 mW 3.1-3.5v"
-			(at 250.19 147.32 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF3301T5E/C22978"
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13881,8 +13387,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19077437"
-			(at 250.19 147.32 90)
+		(property "Description" "100mW 3.3k 0603"
+			(at 228.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13890,16 +13396,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1bd641c7-681c-49fe-ab73-b62be4d29209")
+		(property "LCSC" "C22978"
+			(at 228.6 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "5e352596-5d45-425f-a2f0-3b8d60b094eb")
+			(uuid "8ccebf87-cbe7-48c7-9bf2-c7f0c86b46c0")
+		)
+		(pin "1"
+			(uuid "a85a0309-57b3-4c59-be2b-b63fde9f5ccb")
 		)
 		(instances
 			(project "Pico_H-bridge_complete"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "D16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -14057,7 +13572,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 97.79 177.8 0)
+		(at 96.52 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14066,7 +13581,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec1341cc-9d8d-4e1c-96b7-dfa6e2d78529")
 		(property "Reference" "#PWR013"
-			(at 97.79 181.61 0)
+			(at 96.52 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14075,7 +13590,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 97.79 172.72 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +13598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 177.8 0)
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +13607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 177.8 0)
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14101,7 +13616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 177.8 0)
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
