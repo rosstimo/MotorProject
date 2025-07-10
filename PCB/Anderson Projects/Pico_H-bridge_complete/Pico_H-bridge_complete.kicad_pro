@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|115180000|82080000|8b04a344-8efd-4329-bb4f-cde290354d2d|dd4e0c76-ea77-4e7a-a43d-a84ba330a50d|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -533,7 +538,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "+Vsup"
+        "pattern": "+12V"
       },
       {
         "netclass": "Power",
@@ -546,8 +551,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "Pico_H-bridge_complete.net",
-      "plot": "./Gerber",
-      "pos_files": "",
+      "plot": "./Gerber_v1",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -588,7 +593,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -643,6 +648,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LSCS",
+          "name": "LSCS",
+          "show": false
         }
       ],
       "filter_string": "",
