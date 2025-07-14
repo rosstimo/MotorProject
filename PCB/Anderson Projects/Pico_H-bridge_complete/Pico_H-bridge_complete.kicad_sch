@@ -5207,12 +5207,6 @@
 		(uuid "20c6b7da-590a-4000-8c25-33e41a65b555")
 	)
 	(junction
-		(at 110.49 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31862bcd-0bfe-4ccc-b803-0fce9f473f1c")
-	)
-	(junction
 		(at 54.61 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5247,12 +5241,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64aa8355-932b-4e47-8923-5aede8ae0da4")
-	)
-	(junction
-		(at 110.49 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77c1164b-7390-4685-bc3c-c98766ea56fe")
 	)
 	(junction
 		(at 96.52 184.15)
@@ -5425,16 +5413,6 @@
 			(type default)
 		)
 		(uuid "04338168-2bf4-4ac3-af0b-887a8b0d23f0")
-	)
-	(wire
-		(pts
-			(xy 102.87 132.08) (xy 110.49 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0597ad7c-e54d-4200-803e-bed52d0b6e74")
 	)
 	(polyline
 		(pts
@@ -6028,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 146.05) (xy 110.49 146.05)
+			(xy 91.44 146.05) (xy 119.38 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6128,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 132.08) (xy 119.38 132.08)
+			(xy 102.87 132.08) (xy 119.38 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6415,16 +6393,6 @@
 			(type default)
 		)
 		(uuid "ad070d36-cdda-4836-9c9b-4391757ae961")
-	)
-	(wire
-		(pts
-			(xy 91.44 55.88) (xy 91.44 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ddb72c-6e44-4084-9b07-4facbbcf76ac")
 	)
 	(wire
 		(pts
@@ -6855,16 +6823,6 @@
 			(type default)
 		)
 		(uuid "f8f7ba91-caa1-4b73-a106-c123df73e99a")
-	)
-	(wire
-		(pts
-			(xy 110.49 146.05) (xy 119.38 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8fd59ea-a5d3-431f-bbff-7a802e562527")
 	)
 	(wire
 		(pts
@@ -7512,6 +7470,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" ""
+			(at 229.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8464221-3255-4afd-83b1-5b7456dcae9a")
 		)
@@ -7574,6 +7541,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 185.42 120.65 0)
 			(effects
 				(font
@@ -7687,7 +7663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 236.982 142.24 90)
 			(effects
 				(font
@@ -7696,7 +7672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF3301T5E/C22978"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010"
 			(at 238.76 142.24 0)
 			(effects
 				(font
@@ -7714,7 +7690,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26010"
+			(at 238.76 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 238.76 142.24 90)
 			(effects
 				(font
@@ -7764,7 +7749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-10-5.0-H_1x10_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-9-5.0-H_1x09_P5.00mm_Horizontal"
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -7783,6 +7768,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -8041,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 166.37 0)
 			(effects
 				(font
@@ -8050,7 +8044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23524-0603WAF1302T5E/C22797"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18143-0805W8F1302T5E/C17455"
 			(at 80.01 166.37 0)
 			(effects
 				(font
@@ -8068,7 +8062,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22797"
+		(property "LCSC" "C17455"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 80.01 166.37 0)
 			(effects
 				(font
@@ -8119,7 +8122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 156.718 90)
 			(effects
 				(font
@@ -8128,7 +8131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0805W8F3901T5E/C17614"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -8155,7 +8158,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23018"
+		(property "LCSC" "C17614"
+			(at 49.53 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 49.53 154.94 90)
 			(effects
 				(font
@@ -8271,7 +8283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 50.8 0)
 			(effects
 				(font
@@ -8280,7 +8292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 191.77 50.8 0)
 			(effects
 				(font
@@ -8307,7 +8319,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 191.77 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 191.77 50.8 90)
 			(effects
 				(font
@@ -8358,7 +8379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 95.25 133.858 90)
 			(effects
 				(font
@@ -8367,7 +8388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0805W8F3901T5E/C17614"
 			(at 95.25 132.08 0)
 			(effects
 				(font
@@ -8394,7 +8415,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23018"
+		(property "LCSC" "C17614"
+			(at 95.25 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 95.25 132.08 90)
 			(effects
 				(font
@@ -8445,7 +8475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 54.61 0)
 			(effects
 				(font
@@ -8454,7 +8484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 196.85 54.61 0)
 			(effects
 				(font
@@ -8481,7 +8511,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 196.85 54.61 0)
 			(effects
 				(font
@@ -8579,6 +8618,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" ""
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25cc83ce-d918-4a56-9329-40f0362bcd3a")
 		)
@@ -8621,7 +8669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 219.71 152.908 90)
 			(effects
 				(font
@@ -8630,7 +8678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF1801T5E/C4177"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18086-0805W8F1801T5E/C17398"
 			(at 219.71 151.13 0)
 			(effects
 				(font
@@ -8648,7 +8696,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4177"
+		(property "LCSC" "C17398"
+			(at 219.71 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 219.71 151.13 90)
 			(effects
 				(font
@@ -8699,7 +8756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -8708,7 +8765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -8735,7 +8792,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -8930,6 +8996,15 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MicrochipTech-MCP6001RT_IOT/C154973"
 			(at 99.06 168.91 0)
 			(effects
 				(font
@@ -9305,6 +9380,24 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 99.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C154973"
+			(at 99.06 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 99.06 173.99 0)
 			(effects
 				(font
@@ -9517,6 +9610,15 @@
 			)
 		)
 		(property "LCSC" "C2058532"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 209.55 95.25 0)
 			(effects
 				(font
@@ -9792,7 +9894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 83.82 147.828 90)
 			(effects
 				(font
@@ -9801,7 +9903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0603W8F3901T5E/C23018"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18302-0805W8F3901T5E/C17614"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -9828,7 +9930,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23018"
+		(property "LCSC" "C17614"
+			(at 83.82 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 83.82 146.05 90)
 			(effects
 				(font
@@ -9908,6 +10019,15 @@
 			)
 		)
 		(property "LCSC" "C36376"
+			(at 110.49 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 110.49 40.64 0)
 			(effects
 				(font
@@ -10091,7 +10211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -10100,7 +10220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 191.77 73.66 0)
 			(effects
 				(font
@@ -10127,7 +10247,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 191.77 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 191.77 73.66 90)
 			(effects
 				(font
@@ -10207,6 +10336,15 @@
 			)
 		)
 		(property "LCSC" "C2058532"
+			(at 252.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 252.73 95.25 0)
 			(effects
 				(font
@@ -10419,7 +10557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -10428,7 +10566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18401-0805W8F4702T5E/C17713"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -10455,7 +10593,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25819"
+		(property "LCSC" "C17713"
+			(at 222.25 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 222.25 48.26 90)
 			(effects
 				(font
@@ -10624,6 +10771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" ""
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a498433-ce57-483f-afc8-a33f509d9e74")
 		)
@@ -10686,6 +10842,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 110.49 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 110.49 173.99 0)
 			(effects
 				(font
@@ -10760,6 +10925,15 @@
 			)
 		)
 		(property "LCSC" "C600988"
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 24.13 67.31 0)
 			(effects
 				(font
@@ -10873,7 +11047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -10882,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
 			(at 223.52 71.12 0)
 			(effects
 				(font
@@ -10909,7 +11083,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C27834"
+			(at 223.52 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 223.52 71.12 90)
 			(effects
 				(font
@@ -10928,73 +11111,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9399dad6-e83d-485d-b5aa-ba0787b208f3")
-		(property "Reference" "TP8"
-			(at 113.03 141.4779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Home"
-			(at 113.03 144.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 115.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4d27650-5b43-4010-b0bb-6145fb084b2f")
-		)
-		(instances
-			(project ""
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11027,7 +11143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -11036,7 +11152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 191.77 29.21 0)
 			(effects
 				(font
@@ -11063,7 +11179,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 191.77 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 191.77 29.21 90)
 			(effects
 				(font
@@ -11082,73 +11207,6 @@
 			(project "MotorInterfacePiPico"
 				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 238.76 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "967bc770-578a-4771-ad60-d212a6cd4b39")
-		(property "Reference" "TP9"
-			(at 241.3 133.8579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A"
-			(at 241.3 136.3979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 243.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7bbac09-3c21-445d-a99d-d7189089f56d")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11218,140 +11276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c348196-1931-4eab-b389-f5e9b9998c5b")
-		(property "Reference" "TP7"
-			(at 113.03 127.5079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Limit"
-			(at 113.03 130.0479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "925284d9-1966-4a5f-9e1e-c52d1813bdcd")
-		)
-		(instances
-			(project ""
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ee2875e-2aa4-44c6-80a0-ce25d37840ea")
-		(property "Reference" "TP10"
-			(at 231.14 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B"
-			(at 231.14 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 233.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a22c4d88-0060-4b1b-8ab1-985b5bc19ca7")
-		)
-		(instances
-			(project "Pico_H-bridge_complete"
-				(path "/6bcc676d-adc4-400e-9d1b-3d3d9a13d83a"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 96.52 81.28 0)
 		(unit 1)
@@ -11378,7 +11302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 94.742 81.28 90)
 			(effects
 				(font
@@ -11415,6 +11339,15 @@
 			)
 		)
 		(property "LCSC" "C17630"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 96.52 81.28 0)
 			(effects
 				(font
@@ -11495,6 +11428,15 @@
 			)
 		)
 		(property "LCSC" "C2167419"
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 229.87 53.34 0)
 			(effects
 				(font
@@ -11636,6 +11578,15 @@
 			)
 		)
 		(property "LCSC" "C19077437"
+			(at 102.87 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 102.87 135.89 90)
 			(effects
 				(font
@@ -11814,7 +11765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 81.28 90)
 			(effects
 				(font
@@ -11851,6 +11802,15 @@
 			)
 		)
 		(property "LCSC" "C17630"
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 87.63 81.28 0)
 			(effects
 				(font
@@ -11901,7 +11861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -11910,7 +11870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/4667-0603WAF6201T5E/C4260"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18455-0805W8F6201T5E/C17767"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -11928,7 +11888,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4260"
+		(property "LCSC" "C17767"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -11979,7 +11948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -11988,7 +11957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -12015,7 +11984,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C17414"
+			(at 199.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 199.39 78.74 0)
 			(effects
 				(font
@@ -12066,7 +12044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -12075,7 +12053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -12102,7 +12080,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23186"
+		(property "LCSC" "C27834"
+			(at 222.25 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 222.25 26.67 90)
 			(effects
 				(font
@@ -12180,6 +12167,15 @@
 			)
 		)
 		(property "LCSC" "C2058532"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 209.55 71.12 0)
 			(effects
 				(font
@@ -12363,6 +12359,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" ""
+			(at 59.69 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2a842a6-9e62-45c3-8a33-8c1da22e2d62")
 		)
@@ -12380,7 +12385,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 55.88 0)
+		(at 91.44 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12388,7 +12393,7 @@
 		(dnp no)
 		(uuid "ca2cb56d-848e-4e3a-945c-7a7c8d4bf44e")
 		(property "Reference" "#PWR019"
-			(at 91.44 62.23 0)
+			(at 91.44 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12402,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.694 59.69 0)
+			(at 91.694 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 55.88 0)
+			(at 91.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 55.88 0)
+			(at 91.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 55.88 0)
+			(at 91.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,7 +12536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 96.52 91.44 90)
 			(effects
 				(font
@@ -12540,7 +12545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603W/C2290"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0805W/C34499"
 			(at 96.52 91.44 90)
 			(effects
 				(font
@@ -12558,7 +12563,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2290"
+		(property "LCSC" "C34499"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -12636,6 +12650,15 @@
 			)
 		)
 		(property "LCSC" "C2058532"
+			(at 209.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -12748,6 +12771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" ""
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "83d1f875-c25f-471b-aac0-9ffd0fc390b1")
 		)
@@ -12828,6 +12860,15 @@
 			)
 		)
 		(property "LCSC" "C19077437"
+			(at 91.44 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 91.44 149.86 90)
 			(effects
 				(font
@@ -13007,7 +13048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 229.87 140.208 90)
 			(effects
 				(font
@@ -13016,7 +13057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF1801T5E/C4177"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18086-0805W8F1801T5E/C17398"
 			(at 229.87 138.43 0)
 			(effects
 				(font
@@ -13034,7 +13075,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4177"
+		(property "LCSC" "C17398"
+			(at 229.87 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 229.87 138.43 90)
 			(effects
 				(font
@@ -13085,7 +13135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.822 154.94 90)
 			(effects
 				(font
@@ -13094,7 +13144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF3301T5E/C22978"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26753-0805W8F3301T5E/C26010"
 			(at 228.6 154.94 0)
 			(effects
 				(font
@@ -13112,7 +13162,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22978"
+		(property "LCSC" "C26010"
+			(at 228.6 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 228.6 154.94 90)
 			(effects
 				(font
@@ -13200,6 +13259,15 @@
 			)
 		)
 		(property "LCSC" "C23742"
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -13379,7 +13447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 87.63 91.44 90)
 			(effects
 				(font
@@ -13388,7 +13456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0805Y/C2296"
 			(at 87.63 91.44 90)
 			(effects
 				(font
@@ -13406,7 +13474,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2296"
+			(at 87.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 87.63 91.44 0)
 			(effects
 				(font
@@ -13547,6 +13624,15 @@
 			)
 		)
 		(property "LCSC" "C2058532"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
 			(at 209.55 48.26 0)
 			(effects
 				(font
