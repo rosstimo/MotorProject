@@ -51,3 +51,6 @@ texcompile.sh
 
 #### Claude Code local config ####
 .claude/
+
+#### Standalone cloned repos ####
+Software/Pico-Quad-Encoder/

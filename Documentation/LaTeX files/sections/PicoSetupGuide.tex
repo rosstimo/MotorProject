@@ -1,0 +1,269 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Pico Setup and Programming Guide}
+\label{sec:pico_setup}
+
+This section provides step-by-step instructions for setting up a new Raspberry Pi Pico with the quadrature encoder firmware, making code changes, and downloading updated firmware to the board. The source code is maintained on GitHub at:
+
+\begin{center}
+\url{https://github.com/ScramThis/Pico-Quad-Encoder}
+\end{center}
+
+\subsubsection{Prerequisites}
+
+The firmware is built using the Raspberry Pi Pico C/C++ SDK. These instructions assume you are building on a Raspberry Pi (a Pi 400 was used during development). Building on a PC or Mac is possible but the steps may differ.
+
+You will need:
+\begin{itemize}
+    \item A Raspberry Pi (Pi 400 recommended) running Raspberry Pi OS
+    \item A micro HDMI adapter and a monitor
+    \item A Raspberry Pi Pico (RP2040-based)
+    \item A USB micro-B cable to connect the Pico to the Pi
+    \item A mouse (the Pi 400 has a built-in keyboard)
+    \item Internet access (Wi-Fi or Ethernet) to install packages and download code
+\end{itemize}
+
+\subsubsection{Installing Required Packages}
+
+Open a terminal on the Raspberry Pi. On Pi OS, click the terminal icon in the taskbar or press \texttt{Ctrl+Alt+T}. All commands below are typed into this terminal window.
+
+\vspace{6pt}
+\noindent \textbf{Step 1: Update the system.} Before installing anything, make sure the Pi's package list and installed software are up to date. This is similar to checking for updates on a phone or PC --- it ensures you have the latest versions and security patches.
+
+\begin{verbatim}
+sudo apt update && sudo apt full-upgrade
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{sudo} runs the command with administrator privileges, which is required to install or update software.
+    \item \texttt{apt update} downloads the latest list of available software packages from the internet.
+    \item \texttt{apt full-upgrade} installs any available updates for software already on the Pi.
+    \item \texttt{\&\&} means ``only run the second command if the first one succeeded.''
+\end{itemize}
+
+\noindent \textbf{Step 2: Install the build tools.} These are the programs needed to compile C code into firmware that the Pico can run.
+
+\begin{verbatim}
+sudo apt install cmake gcc-arm-none-eabi build-essential git
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{apt install} downloads and installs the listed packages.
+    \item \texttt{cmake} --- a build system that reads the project's \texttt{CMakeLists.txt} and generates the instructions for compiling the code.
+    \item \texttt{gcc-arm-none-eabi} --- the C compiler that produces code for the Pico's ARM processor. A regular compiler targets the Pi's CPU; this one targets the Pico's different CPU.
+    \item \texttt{build-essential} --- a collection of standard development tools (compiler, linker, etc.) needed by most C projects.
+    \item \texttt{git} --- version control software used to download and manage the project source code from GitHub.
+\end{itemize}
+
+\subsubsection{Setting Up the Pico SDK}
+
+The Pico SDK must be installed on the Raspberry Pi. By convention on the Pi400, it is kept in \texttt{\textasciitilde/pico/pico-sdk} folder.
+
+\textbf{If the SDK is not yet installed:}
+\begin{verbatim}
+mkdir -p ~/pico
+cd ~/pico
+git clone -b master https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk
+git submodule update --init
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{mkdir -p \textasciitilde/pico} --- creates a folder called \texttt{pico} in your home directory. The \texttt{-p} flag means ``don't complain if it already exists.'' The \texttt{\textasciitilde} symbol is a shortcut for your home folder (e.g., \texttt{/home/pi}).
+    \item \texttt{cd \textasciitilde/pico} --- changes into that folder. All following commands will run from this location.
+    \item \texttt{git clone} --- downloads a copy of the SDK repository from GitHub onto your Pi.
+    \item \texttt{git submodule update --init} --- the SDK depends on additional libraries stored in separate repositories. This command downloads those as well.
+\end{itemize}
+
+\textbf{If the SDK is already installed, update it:}
+\begin{verbatim}
+cd ~/pico/pico-sdk
+git pull
+git submodule update --init
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{git pull} --- downloads the latest changes from GitHub and applies them to your local copy.
+\end{itemize}
+
+\subsubsection{Getting the Project Code}
+
+Clone (download) the encoder project repository from GitHub:
+\begin{verbatim}
+cd ~/pico/pico-projects
+git clone git@github.com:ScramThis/Pico-Quad-Encoder.git
+\end{verbatim}
+
+\noindent This creates a folder called \texttt{Pico-Quad-Encoder} inside \texttt{\textasciitilde/pico/pico-projects} containing all the project files. You only need to do this once.
+
+\vspace{6pt}
+\noindent If you have already cloned the repository and want to get the latest changes:
+\begin{verbatim}
+cd ~/pico/pico-projects/Pico-Quad-Encoder
+git pull
+\end{verbatim}
+
+\noindent This downloads any updates that have been pushed to GitHub since you last pulled.
+
+\subsubsection{Project Files}
+
+The project contains the following key files:
+
+\begin{tabularx}{\textwidth}{l X}
+\textbf{File} & \textbf{Description} \\
+\hline
+\texttt{CMakeLists.txt} & Build configuration for the Pico SDK \\
+\texttt{quadrature\_encoder.c} & Main program source code \\
+\texttt{quadrature\_encoder.pio} & PIO state machine program for reading the encoder \\
+\texttt{README.md} & Project documentation \\
+\end{tabularx}
+
+\subsubsection{Building the Firmware}
+
+Building converts the human-readable C source code into a binary firmware file that the Pico can execute. From the project directory, create a build folder and compile:
+
+\begin{verbatim}
+cd ~/pico/pico-projects/Pico-Quad-Encoder
+mkdir -p build
+cd build
+cmake ..
+make
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{mkdir -p build} --- creates a separate folder to keep the compiled files out of the source code folder. This keeps the project organized.
+    \item \texttt{cd build} --- enters the build folder.
+    \item \texttt{cmake ..} --- reads the project's \texttt{CMakeLists.txt} file (the \texttt{..} means ``look in the folder above'') and generates the build instructions. This sets up the compiler with the correct SDK paths and settings.
+    \item \texttt{make} --- runs the actual compilation. This is the step that turns the C code into firmware.
+\end{itemize}
+
+\noindent If the build succeeds, you will find \texttt{pio\_quadrature\_encoder.uf2} in the \texttt{build} directory. This is the firmware file that will be loaded onto the Pico. The \texttt{.uf2} format is specifically designed for easy drag-and-drop programming of the Pico.
+
+\vspace{6pt}
+\noindent \textbf{Note:} After the initial build, you only need to run \texttt{make} from the \texttt{build} directory to recompile after code changes. You only need to re-run \texttt{cmake ..} if you modify \texttt{CMakeLists.txt}.
+
+\subsubsection{Flashing the Pico}
+
+To load the firmware onto the Pico:
+
+\begin{enumerate}
+    \item \textbf{Disconnect} the Pico from USB if it is connected.
+    \item \textbf{Hold the BOOTSEL button} on the Pico and, while holding it, plug the USB cable into the Raspberry Pi.
+    \item \textbf{Release the BOOTSEL button.} The Pico will mount as a USB storage device named \texttt{RPI-RP2}.
+    \item \textbf{Copy the firmware file} to the Pico:
+\end{enumerate}
+
+\begin{verbatim}
+cp build/pio_quadrature_encoder.uf2 /media/pi/RPI-RP2/
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{cp} --- the copy command. This copies the firmware file to the Pico's storage.
+    \item \texttt{/media/pi/RPI-RP2/} --- this is where the Pi mounts the Pico's storage when it is in bootloader mode. It works just like copying a file to a USB flash drive.
+\end{itemize}
+
+\noindent The Pico will automatically reboot and begin running the new firmware. The onboard LED will blink at 1\,Hz to indicate normal operation.
+
+\subsubsection{Viewing Serial Output}
+
+The firmware outputs diagnostic information over USB serial. This is useful for verifying the encoder is working and for troubleshooting. To view the output, open a terminal after flashing:
+
+\begin{verbatim}
+screen /dev/ttyACM0 115200
+\end{verbatim}
+
+\begin{itemize}
+    \item \texttt{screen} --- a terminal program that connects to serial devices.
+    \item \texttt{/dev/ttyACM0} --- the serial port that the Pico appears as when connected via USB. If you have other USB serial devices connected, it may be \texttt{ttyACM1} or higher.
+    \item \texttt{115200} --- the baud rate (communication speed) that matches what the firmware is configured to use.
+\end{itemize}
+
+The serial output format is:
+\begin{verbatim}
+delta_ema 0.0, position      0, speed   0.0%, speed_cmd    0,
+cal_factor 1.00, home_cmd 0, home_limit 0, motor GEAR
+\end{verbatim}
+
+\begin{tabularx}{\textwidth}{l X}
+\textbf{Field} & \textbf{Description} \\
+\hline
+\texttt{delta\_ema} & Exponential moving average of encoder count changes (smoothed direction indicator) \\
+\texttt{position} & Current encoder position count \\
+\texttt{speed} & Motor speed as a percentage of the calibrated maximum \\
+\texttt{speed\_cmd} & Raw ADC reading from the speed command input (0--4095) \\
+\texttt{cal\_factor} & Speed calibration factor from the calibration potentiometer (0.80--1.20) \\
+\texttt{home\_cmd} & Home command input state (0 or 1) \\
+\texttt{home\_limit} & Home limit switch state (0 or 1) \\
+\texttt{motor} & Selected motor type (GEAR or 775) \\
+\end{tabularx}
+
+\vspace{6pt}
+\noindent To exit the \texttt{screen} session, press \texttt{Ctrl+A} then \texttt{K}, and confirm with \texttt{Y}.
+
+\subsubsection{Making Code Changes}
+\label{sec:code_changes}
+
+Common modifications to the firmware are described below. All changes are made in \texttt{quadrature\_encoder.c}.
+
+\paragraph{Motor Calibration Constants}
+
+The motor-specific parameters are defined near the top of the \texttt{main()} function:
+
+\begin{verbatim}
+const double SPEED_MAX_775 = 2600;   // Max speed for 775 motor
+const double SPEED_MAX_GEAR = 4700;  // Max speed for gear motor
+const double POS_MAX_775 = 28;       // Max position for 775 motor
+const double POS_MAX_GEAR = 980;     // Max position for gear motor
+\end{verbatim}
+
+\begin{itemize}
+    \item \textbf{SPEED\_MAX}: The maximum number of encoder state changes per second for the motor. This value sets 100\% on the speed feedback output. Adjust if using a different motor.
+    \item \textbf{POS\_MAX}: The number of encoder state changes per revolution of the motor output shaft. This determines when the position counter wraps back to zero.
+\end{itemize}
+
+\paragraph{Adding a New Motor Type}
+
+To add support for a new motor:
+\begin{enumerate}
+    \item Add new constants for \texttt{SPEED\_MAX} and \texttt{POS\_MAX} based on testing.
+    \item Update the motor selection logic in the \texttt{if (gpio\_get(PIN\_MOTOR\_SEL))} block.
+    \item Test by verifying the position returns to zero after one full revolution and the speed reads 100\% at maximum speed.
+\end{enumerate}
+
+\paragraph{Pin Assignments}
+
+If the PCB layout changes, pin assignments can be updated in the constants at the top of \texttt{main()}. Note that the encoder Phase~A pin (\texttt{PIN\_AB}) requires Phase~B to be on the adjacent GPIO pin due to PIO requirements.
+
+\subsubsection{Workflow for Code Updates}
+
+After making changes, the typical workflow is:
+
+\begin{enumerate}
+    \item Edit the source file (\texttt{quadrature\_encoder.c})
+    \item Rebuild:
+\begin{verbatim}
+cd ~/pico/pico-projects/Pico-Quad-Encoder/build
+make
+\end{verbatim}
+    \item Flash the Pico (hold BOOTSEL, plug in, copy the \texttt{.uf2} file)
+    \item Verify using serial output
+    \item Commit and push changes to GitHub:
+\begin{verbatim}
+cd ~/pico/pico-projects/Pico-Quad-Encoder
+git add quadrature_encoder.c
+git commit -m "Description of changes"
+git push
+\end{verbatim}
+\end{enumerate}
+
+\begin{itemize}
+    \item \texttt{git add} --- tells git which files you want to include in your next save point. You can list multiple files separated by spaces.
+    \item \texttt{git commit -m "..."} --- creates a save point (called a ``commit'') with a short message describing what you changed. Write something meaningful, e.g., ``Adjusted gear motor speed max to 4800.''
+    \item \texttt{git push} --- uploads your commit to GitHub so others can access the changes and so you have a backup.
+\end{itemize}
+
+\noindent This keeps the GitHub repository up to date so the code can be accessed from other machines.
+
+\end{document}
