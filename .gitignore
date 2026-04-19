@@ -37,3 +37,17 @@ fp-info-cache
 common
 useTemplate.sh
 texcompile.sh
+
+#### LaTeX build artifacts ####
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+#### Claude Code local config ####
+.claude/

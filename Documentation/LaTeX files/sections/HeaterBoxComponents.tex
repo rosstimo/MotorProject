@@ -1,0 +1,86 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Heater Box Components}
+
+This section details each major component in the Heater Control Box, including electrical characteristics derived from the schematic.
+
+\subsection{Heater Element}
+
+\begin{itemize}
+    \item \textbf{Type:} Resistive heater (wire-wound or ceramic)
+    \item \textbf{Resistance:} 150\,\si{\ohm}
+    \item \textbf{Supply:} Switched by the heater relay from the +24\,V rail
+    \item \textbf{Power dissipation:} Approximately $P = V^2/R = 24^2/150 = 3.84$\,W at 24\,V DC
+\end{itemize}
+
+\subsection{Heater Relay}
+
+\begin{itemize}
+    \item \textbf{Function:} Switches current to the heater element under PLC digital output control
+    \item \textbf{Coil voltage:} 24\,V DC (driven directly by 5069-OB16 output channel, 0.5\,A max per channel)
+    \item \textbf{Contact configuration:} SPST-NO (normally open), closes to complete the heater circuit
+\end{itemize}
+
+\subsection{Thermocouple}
+
+\begin{itemize}
+    \item \textbf{Type:} Type K (assumed from ProSense transmitter compatibility)
+    \item \textbf{Function:} Senses temperature at the heater element thermal mass
+    \item \textbf{Output:} Millivolt signal proportional to temperature, fed to the ProSense transmitter
+\end{itemize}
+
+\subsection{ProSense XTD2\_TT Temperature Transmitter}
+
+\begin{itemize}
+    \item \textbf{Model:} ProSense XTD2\_TT
+    \item \textbf{Input:} Thermocouple (Type K)
+    \item \textbf{Output:} 4--20\,mA current loop, proportional to measured temperature
+    \item \textbf{Supply:} Loop-powered or externally powered (from +12\,V or +24\,V rail)
+    \item \textbf{Function:} Converts the thermocouple millivolt signal to a standard industrial 4--20\,mA signal compatible with the PLC analog input module (5069-IY4)
+\end{itemize}
+
+\subsection{Indicator LEDs}
+
+\begin{itemize}
+    \item \textbf{Quantity:} 5 total---2 Green, 1 Yellow, 2 Red
+    \item \textbf{Drive:} Each LED is driven by a dedicated 5069-OB16 digital output channel (24\,V DC, max 0.5\,A)
+    \item \textbf{Purpose:} Programmable status indicators (e.g., run, heater active, alarm, fault)
+\end{itemize}
+
+\subsection{Pushbuttons}
+
+\begin{itemize}
+    \item \textbf{Quantity:} 2
+    \item \textbf{Interface:} Each connects to a 5069-IB16 digital input channel
+    \item \textbf{Type:} Momentary, normally open
+    \item \textbf{Purpose:} Operator inputs for start/stop, alarm acknowledge, or mode selection
+\end{itemize}
+
+\subsection{Potentiometer}
+
+\begin{itemize}
+    \item \textbf{Quantity:} 1
+    \item \textbf{Function:} Voltage divider providing a variable 0--10\,V analog signal to a PLC analog input channel (5069-IY4)
+    \item \textbf{Purpose:} Allows the student to set a manual setpoint (e.g., desired temperature) from the front panel
+\end{itemize}
+
+\subsection{Fan}
+
+\begin{itemize}
+    \item \textbf{Quantity:} 1
+    \item \textbf{Drive:} PLC digital output via 5069-OB16
+    \item \textbf{Supply:} +12\,V DC
+    \item \textbf{Purpose:} Introduces a controlled thermal disturbance for testing disturbance rejection, or provides active cooling between experiments
+\end{itemize}
+
+\subsection{Analog Voltmeter}
+
+\begin{itemize}
+    \item \textbf{Quantity:} 1
+    \item \textbf{Input:} Driven by a PLC analog output channel (5069-OF4), 0--10\,V
+    \item \textbf{Purpose:} Provides a visual, non-digital indication of a process variable (e.g., temperature, control effort) on the front panel
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,227 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+
+\section{RS-775126000E7}
+\subsection{RS-775126000E7 Initial Test Data}
+
+\renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{RS-775126000E7 Initial Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{DC Voltage} & \textbf{DC Current} & \textbf{Power} & \textbf{RPM} & \textbf{Encod Freq} & \textbf{Resolution} \\
+            \hline
+            12V & 680mA & 8.16W & 5,500 RPM & 641.0hz & $51.48^{\circ}$ \\
+            \hline
+            11V & 660mA & 7.26W & 5,037 RPM & 602.4hz & $50.17^{\circ}$ \\
+            \hline
+            10V & 630mA & 6.30W & 4,545 RPM & 537.6hz & $50.73^{\circ}$ \\
+            \hline
+            9V & 620mA & 5.58W & 4,064 RPM & 480.8hz & $50.72^{\circ}$ \\
+            \hline
+            8V & 600mA & 4.80W & 3,600 RPM & 434.8hz & $49.68^{\circ}$\\
+            \hline
+            7V & 580mA & 4.06W & 3,155 RPM & 370.4hz & $51.107^{\circ}$ \\
+            \hline
+            6V & 510mA & 3.06W & 2,728 RPM & 310.6hz & $52.70^{\circ}$ \\
+            \hline
+            5V & 496mA & 2.48W & 2,200 RPM & 252.5hz & $52.28^{\circ}$ \\
+            \hline
+            4V & 470mA & 1.88W & 1,700 RPM & 201.6hz & $50.60^{\circ}$  \\
+            \hline
+            3V & 460mA & 1.38W & 1,196 RPM & 139.7hz & $51.37^{\circ}$ \\
+            \hline
+            2V & 434mA & 868mW & 701.0 RPM & 82.64hz & $50.90^{\circ}$ \\
+            \hline
+            1V & 430mA & 430mW & 222.0 RPM & 23.58hz & $56.68^{\circ}$ \\
+            \hline
+             \multicolumn{5}{|r|}{Average Measured Resolution } & $51.53^{\circ}$ \\
+            \hline   
+            \end{tabularx}
+        \end{center}
+    \end{table}
+\renewcommand{\arraystretch}{1}   
+
+\subsection{Step Resolution Using Measured Values}
+
+\subsubsection{Resolution at 12VDC}
+
+\begin{itemize}
+    \item [] Measured Frequency = 641.0hz or cycles per second
+    \item [] Measured RPM = 5,500RPM or revolutions per minute
+    \begin{itemize}
+        \item [] Convert RPM to revolutions per second
+        \begin{itemize}
+            \item [] $RPS=\frac{RPM}{60}=\frac{5,500}{60}=91.667RPS$
+        \end{itemize}
+        \item[] Set cycles per second equal to revolutions per second and solve for the resolution per clock cycle. 
+        \begin{itemize}
+            \item [] $\frac{641cycles}{Second}= \frac{91.667revolutions}{Second}$
+            \item[] $641cycles=91.667revolutions$
+            \item[] $1cycle=\frac{91.667revolutions}{641}=0.143revolutions$
+        \end{itemize}
+        \item[] Convert revolutions to degrees
+        \begin{itemize}
+            \item [] $1rev=360^{\circ}$
+            \item[] $1cycle=\frac{91.667revolutions}{641}=0.143\times 360^{\circ}=51.48^{\circ}$
+        \end{itemize}
+    \end{itemize}
+    \item[] Final Formula for converting measured RPM and Frequency to Step Resolution:
+\end{itemize}
+
+    \begin{equation}
+    Step \ Resolution  = \left(\frac{RPM}{Frequency}\times 6 \right)^{\circ} 
+    \end{equation}
+
+\newpage
+\subsection{Step Resolution Using Manufacturers Data}
+    \begin{itemize}
+        \item [] The manufacturer specification states "Pulses Per Revolution: 7".
+        \begin{itemize}
+            \item []  $7 \ counts=1rev$
+        \end{itemize}
+        \item[] Convert revolutions to degrees
+        \begin{itemize}
+            \item [] $7 \ counts=360^{\circ}$
+        \end{itemize}
+        Solve for resolution per count or step
+        \begin{itemize}
+            \item [] $1 \ count=\frac{360^{\circ}}{7} = 51.43^{\circ}$
+        \end{itemize}
+    \end{itemize}
+
+    \begin{equation}
+    Manufacturer \ Step \ Resolution  = 51.43^{\circ} \ per \ step
+    \end{equation}
+
+    The manufacturer step resolution of $51.43^{\circ}$ per step is consistent with the average measured step resolution of $51.53^{\circ}$.
+
+    \subsection{RS-775126000E7 Encoder Waveforms}
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[angle=90, width=0.8\textwidth]{images/IMG_RS_EncoderWaveforms.jpg}
+        \vspace{0pt}
+        \caption{RS-775126000E7 Encoder Waveforms} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\newpage
+\section{TS-25GA370H-20}\label{TS_InitialData}
+        \subsection{TS-25GA370H-20 Initial Test Data}
+
+\renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{TS-25GA370H-20 Initial Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{DC Voltage} & \textbf{DC Current} & \textbf{Power} & \textbf{RPM} & \textbf{Encod Freq} & \textbf{Resolution} \\
+            \hline
+            12V & 78.2mA & 938mW & 276.5 RPM & 1.111Khz & $1.493^{\circ}$ \\
+            \hline
+            11V & 66.6mA & 733mW & 254.7 RPM & 1.064Khz & $1.436^{\circ}$ \\
+            \hline
+            10V & 61.5mA & 615mW & 231.1 RPM & 980.4hz & $1.414^{\circ}$ \\
+            \hline
+            9V & 56.4mA & 508mW & 210.1 RPM & 862.1hz & $1.462^{\circ}$ \\
+            \hline
+            8V & 51.0mA & 408mW & 185.3 RPM & 757.6hz & $1.468^{\circ}$\\
+            \hline
+            7V & 47.3mA & 331mW & 161.4 RPM & 657.9hz & $1.472^{\circ}$ \\
+            \hline
+            6V & 43.6mA & 262mW & 138 RPM & 574.7hz & $1.441^{\circ}$ \\
+            \hline
+            5V & 40.1mA & 201mW & 114 RPM & 480.0hz & $1.425^{\circ}$ \\
+            \hline
+            4V & 36.4mA & 145.6mW & 90.1 RPM & 373.1hz & $1.449^{\circ}$  \\
+            \hline
+            3V & 32.2mA & 96.6mW & 67.5 RPM & 285.7hz & $1.418^{\circ}$ \\
+            \hline
+            2V & 28.8mA & 57.6mW & 44.3 RPM & 177.3hz & $1.499^{\circ}$ \\
+            \hline
+            1V & 22.0mA & 22.0mW & 19.3 RPM & 79.37hz & $1.459^{\circ}$ \\
+            \hline
+             \multicolumn{5}{|r|}{Average Measured Resolution } & $1.435^{\circ}$ \\
+            \hline   
+            \end{tabularx}
+        \end{center}
+    \end{table}
+\renewcommand{\arraystretch}{1} 
+
+    \subsubsection{Resolution at 12VDC}
+
+\begin{itemize}
+    \item [] Measured Frequency = 1.111Khz or cycles per second
+    \item [] Measured RPM = 276.5RPM or revolutions per minute
+    \begin{itemize}
+        \item [] Convert RPM to revolutions per second
+        \begin{itemize}
+            \item [] $RPS=\frac{RPM}{60}=\frac{276.5}{60}=4.608RPS$
+        \end{itemize}
+        \item[] Set cycles per second equal to revolutions per second and solve for the resolution per clock cycle. 
+        \begin{itemize}
+            \item [] $\frac{1.111Kcycles}{Second}= \frac{4.608revolutions}{Second}$
+            \item[] $1.111Kcycles=4.608revolutions$
+            \item[] $1cycle=\frac{4.608revolutions}{1.111K}=4.148\times 10^{-3}revolutions$
+        \end{itemize}
+        \item[] Convert revolutions to degrees
+        \begin{itemize}
+            \item [] $1rev=360^{\circ}$ \& $1cycle=4.148\times 10^{-3}revolutions$
+            \item[] $1cycle=4.148\times 10^{-3}\times 360^{\circ}=1.493^{\circ}$
+            
+        \end{itemize}
+    \end{itemize}
+    \item[] Final Formula for converting measured RPM and Frequency to Step Resolution:
+\end{itemize}
+
+    \begin{equation}
+    Step \ Resolution  = \left(\frac{RPM}{Frequency}\times 6 \right)^{\circ} 
+    \end{equation}
+
+\newpage
+\subsection{Step Resolution Using Manufacturers Data}
+    \begin{itemize}
+        \item [] The manufacturer specification states "Single Output 240 Pulses Per Revolution".
+        \begin{itemize}
+            \item []  $240 \ counts=1rev$
+        \end{itemize}
+        \item[] Convert revolutions to degrees
+        \begin{itemize}
+            \item [] $240 \ counts=360^{\circ}$
+        \end{itemize}
+        Solve for resolution per count or step
+        \begin{itemize}
+            \item [] $1 \ count=\frac{360^{\circ}}{240} = 1.5^{\circ}$
+        \end{itemize}
+    \end{itemize}
+
+    \begin{equation}
+    TS25GA370H20 \ Manufacturer \ Step \ Resolution  = 1.5^{\circ} \ per \ step
+    \end{equation}
+
+    The manufacturer step resolution of $1.5^{\circ}$ per step is consistent with the average measured step resolution of $1.435^{\circ}$.
+
+\subsection{TS-25GA370H-20 Encoder Waveforms}
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[angle=90, width=0.8\textwidth]{images/IMG_TS_EncoderWaveforms.jpg}
+        \vspace{0pt}
+        \caption{TS-25GA370H-20 Encoder Waveforms} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+\newpage
+
+\end{document}

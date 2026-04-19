@@ -1,0 +1,14 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Encoder Implementation}
+
+A Raspberry Pi Pico microcontroller was used in this project to read and process the encoder signal. The Pico uses Raspberry Pi’s RP2040 chip which has some unique capabilities, specifically, programmable I/O (PIO). PIO is a new piece of hardware developed for RP2040. It allows you to create new types of (or additional) hardware interfaces on your RP2040-based device. The PIO subsystem on RP2040 allows you to write small, simple programs for what are called PIO state machines, of which RP2040 has eight split across two PIO instances. A state machine is responsible for setting and reading one or more GPIOs, buffering data to or from the processor, and notifying the processor, via IRQ or polling, when data or attention is needed. These programs operate with cycle accuracy at up to system clock speed.\\
+
+\noindent The pico C/C++ SDK (Software Development Kit) includes a PIO program example for reading a quadrature encoder. The example PIO tracks the A and B phase inputs and increments, decrements, or holds a count value depending on the state changes. The count value is accessible from a 32 bit register by the user program. The code in the CPU works with this PIO program to calculate speed, direction, and position.\\
+
+\noindent The C code calculates the required motor values by reading the count register on a fixed period and calculating the difference from the previous read. Direction is determined based on whether the difference is positive or negative. Speed is calculated by dividing the difference by the time period of the loop. Position is maintained by adding the difference to a variable which is limited between zero and a maximum number of counts. The maximum number of counts represents the number of counts in a full revolution of the motor output shaft. This number can be adjusted in code based on motor gearing or for a specific application.
+
+
+\end{document}

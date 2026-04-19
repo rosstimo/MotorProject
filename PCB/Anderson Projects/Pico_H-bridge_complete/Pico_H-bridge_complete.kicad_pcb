@@ -9958,44 +9958,24 @@
 		(sheetfile "H_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485002 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bcbcdd8c-e649-4d5b-9086-56e688571671")
-		)
-		(fp_line
-			(start -1.485002 -0.735)
-			(end -1.485001 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2064f62d-9a9d-4279-8769-4a89174532b7")
-		)
-		(fp_line
-			(start -1.485001 0.735)
-			(end 0.799999 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "58fcf5cc-f874-4445-82b2-d14c48812331")
-		)
-		(fp_line
 			(start 1.48 -0.73)
 			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "e34d6008-f332-4691-bb5f-58d131920c6a")
+		)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485002 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bcbcdd8c-e649-4d5b-9086-56e688571671")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -10004,28 +9984,8 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "ce275d3b-ae50-4955-9bd0-0798a115f67b")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "31e2e053-bd3b-4913-bfec-ace89e542caa")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b2ccb535-ecc3-482b-8059-b07c1b6cc144")
 		)
 		(fp_line
 			(start 0.799999 -0.4)
@@ -10076,6 +10036,46 @@
 			)
 			(layer "F.Fab")
 			(uuid "be1a6d0b-1996-402f-848f-5071558150d9")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "31e2e053-bd3b-4913-bfec-ace89e542caa")
+		)
+		(fp_line
+			(start -1.485002 -0.735)
+			(end -1.485001 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2064f62d-9a9d-4279-8769-4a89174532b7")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2ccb535-ecc3-482b-8059-b07c1b6cc144")
+		)
+		(fp_line
+			(start -1.485001 0.735)
+			(end 0.799999 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "58fcf5cc-f874-4445-82b2-d14c48812331")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 155)
@@ -14709,44 +14709,24 @@
 		(sheetfile "H_Bridge.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c9dd273d-7272-47da-9a27-a75ab58129c8")
-		)
-		(fp_line
-			(start -1.485 -0.735)
-			(end -1.485 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f21d33e0-d1b7-4c3b-bb03-040cfeaa9adc")
-		)
-		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f5b13fa9-4054-45e4-8d4d-765fbc6f8201")
-		)
-		(fp_line
 			(start 1.48 -0.73)
 			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "42bf8e04-48a9-4209-9588-599ce0c4869b")
+		)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9dd273d-7272-47da-9a27-a75ab58129c8")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -14755,28 +14735,8 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "58f0a6e3-f550-4980-9397-a87f70545b37")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8bf87962-268f-4af4-b9a8-a22eec552b92")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "78bc03f4-972d-4f8d-b1ed-85ceaaabfc24")
 		)
 		(fp_line
 			(start 0.8 -0.400001)
@@ -14827,6 +14787,46 @@
 			)
 			(layer "F.Fab")
 			(uuid "01e08414-e79c-4198-af04-8ce1438c7eb3")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8bf87962-268f-4af4-b9a8-a22eec552b92")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end -1.485 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f21d33e0-d1b7-4c3b-bb03-040cfeaa9adc")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "78bc03f4-972d-4f8d-b1ed-85ceaaabfc24")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5b13fa9-4054-45e4-8d4d-765fbc6f8201")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 155)
@@ -19896,28 +19896,8 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.Fab")
 			(uuid "66cc462a-19a5-40b5-973e-f5ff9f184377")
-		)
-		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6ce1a53f-065a-456e-8a01-60ef9a2fc198")
-		)
-		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a8293858-053d-4c2a-a4d2-56677c901335")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -19926,8 +19906,18 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "73aeb8eb-aa96-4c8d-9483-4d0d49c1a22a")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ce1a53f-065a-456e-8a01-60ef9a2fc198")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -19936,28 +19926,8 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "c8c15280-f6d4-4018-a16c-b40ffa19afc1")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e6397ba8-94ac-4951-a451-35fc40e17a70")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "74efcee3-65ab-45e4-a64c-9a46b52b5578")
 		)
 		(fp_line
 			(start -0.8 -0.1)
@@ -19990,6 +19960,16 @@
 			(uuid "075f0f78-c184-47bd-8658-d4f7616591c9")
 		)
 		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a8293858-053d-4c2a-a4d2-56677c901335")
+		)
+		(fp_line
 			(start 0.8 -0.4)
 			(end -0.5 -0.4)
 			(stroke
@@ -20008,6 +19988,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "523da59a-fa43-4030-84db-6da09669e2ce")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e6397ba8-94ac-4951-a451-35fc40e17a70")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74efcee3-65ab-45e4-a64c-9a46b52b5578")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 25)
@@ -21936,28 +21936,8 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "Dwgs.User")
+			(layer "F.Fab")
 			(uuid "722f020a-4302-465a-89d2-3116f99051f4")
-		)
-		(fp_line
-			(start -1.485 0.735)
-			(end 0.8 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3ff07305-3656-410b-9331-157cc52128ac")
-		)
-		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "98719d62-adf9-4c80-b98a-1813fc4627b8")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -21966,8 +21946,18 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "8a720805-5abc-42d5-9ab6-469a9ee6ef67")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end 0.8 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ff07305-3656-410b-9331-157cc52128ac")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -21976,28 +21966,8 @@
 				(width 0.05)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "739e45bf-f3bc-46d5-bbb1-d1ba0119d7f5")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dc8dac77-2815-431d-8c1b-5be3e22ed2c2")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "912629c7-85ab-40e6-bd80-f44c122b7d1d")
 		)
 		(fp_line
 			(start -0.8 -0.1)
@@ -22030,6 +22000,16 @@
 			(uuid "6765c9c3-3d25-44af-9390-3ea5d08044a8")
 		)
 		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98719d62-adf9-4c80-b98a-1813fc4627b8")
+		)
+		(fp_line
 			(start 0.8 -0.4)
 			(end -0.5 -0.4)
 			(stroke
@@ -22048,6 +22028,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "c3f79cd1-aad5-4625-b408-fc67429c707e")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc8dac77-2815-431d-8c1b-5be3e22ed2c2")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "912629c7-85ab-40e6-bd80-f44c122b7d1d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 25)

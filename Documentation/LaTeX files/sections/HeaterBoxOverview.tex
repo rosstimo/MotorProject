@@ -1,0 +1,52 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Heater Box Overview}
+
+\subsection{Purpose}
+
+The Heater Control Box is an introductory process control trainer designed to teach PLC-based temperature regulation. It provides a self-contained thermal plant with all necessary actuators, sensors, and operator interface elements wired to the PLC through the DB37 passthrough board. Students use this box to learn digital and analog I/O configuration, PID loop tuning, and alarm handling in a safe, low-power environment.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{"images/Heater Box Schematic.png"}
+    \caption{Heater Control Box schematic.}
+    \label{fig:heaterbox-schematic}
+\end{figure}
+
+\subsection{Theory of Operation}
+
+The control loop operates as follows:
+
+\begin{enumerate}
+    \item The PLC energizes a digital output to close the \textbf{heater relay}, which switches current through a \textbf{150\,\si{\ohm} resistive heater element}.
+    \item The heater (resistor) wams and is monitored by a \textbf{Type K thermocouple}.
+    \item The thermocouple signal is conditioned by a \textbf{ProSense XTD2\_TT} temperature transmitter, which converts it to a 4--20\,mA current loop signal proportional to temperature.
+    \item The 4--20\,mA signal feeds an analog input channel on the PLC (5069-IY4), where it is scaled to engineering units.
+    \item The PLC executes a control algorithm (on/off, P, PI, or PID) and modulates the heater relay output accordingly.
+    \item A \textbf{fan}, controllable via a separate PLC digital output, can be activated to introduce a thermal disturbance or to accelerate cooling, providing students with a means to test disturbance rejection.
+\end{enumerate}
+
+\subsection{Operator Interface Elements}
+
+The front panel provides the following elements for student interaction and process visualization:
+
+\begin{table}[H]
+\centering
+\caption{Heater Box Front Panel Elements}
+\label{tab:front-panel}
+\begin{tabularx}{\textwidth}{l l X}
+\hline
+\textbf{Element} & \textbf{Quantity} & \textbf{Function} \\
+\hline
+Indicator LEDs & 5 (2$\times$ Green, Yellow, 2$\times$ Red) & Status indication driven by PLC digital outputs (e.g., heater on, alarm, run/stop) \\
+Pushbuttons & 2 & Operator inputs to PLC digital inputs (e.g., start/stop, acknowledge) \\
+Potentiometer & 1 & Analog setpoint input (voltage divider providing 0--10\,V to PLC analog input) \\
+Fan & 1 & Thermal disturbance element, driven by PLC digital output \\
+Analog Voltmeter & 1 & Visual display of a PLC analog output (e.g., process variable or control output) \\
+\hline
+\end{tabularx}
+\end{table}
+
+\end{document}

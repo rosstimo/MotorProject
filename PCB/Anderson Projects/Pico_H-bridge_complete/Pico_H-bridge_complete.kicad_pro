@@ -552,7 +552,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Pico_H-bridge_complete.net",
-      "plot": "Gerber_v3/",
+      "plot": "Gerber_v3_test/",
       "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
@@ -563,7 +563,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "BOM_${PROJECTNAME}_v2.csv",
+    "bom_export_filename": "production\\BOM_Pico_H-Bridge_complete_v3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -594,7 +594,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -624,7 +624,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

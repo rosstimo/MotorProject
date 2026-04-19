@@ -1,0 +1,15 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Encoder Feedback Configuration}
+
+The values from the encoder have to be converted into a form that can be easily transmitted to the PLC. Specifically for this project, the goal is to provide feedback using 0-10v signals. It was determined that the easiest way to accomplish that was to output PWM signals from the Pico microcontroller that could then be integrated into a voltage signal. \\
+
+\noindent The speed feedback was the most straight forward. The PWM duty cycle was set to match the speed as a percentage from 0\% to 100\%. The maximum expected speed has to be programmed into the controller.
+
+The position feedback system uses PWM duty cycle to represent the percentage of a revolution. For example, a 180° rotation corresponds to a 50\% duty cycle. This method provides high-resolution position feedback within a single revolution for the gear motor. However, for the non-geared motor, the resolution within a single revolution is poor.\\
+
+\noindent To enhance the position feedback capability, the position is scaled by a factor of ten, providing feedback across ten revolutions of the motor. This approach allows for a broader indication of motor position with lower resolution over a larger rotation range, while still maintaining fine resolution within a single rotation, based on the PLC's analog input resolution.
+
+\end{document}

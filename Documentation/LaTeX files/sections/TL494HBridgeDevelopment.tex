@@ -1,0 +1,108 @@
+\documentclass[main.tex]{subfiles}
+
+\usepackage{pdfpages}
+
+\fancypagestyle{pdfpagestyle}{
+  \fancyhf{}
+  \rfoot{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\begin{document}
+
+    \section{TL494 with H-Bridge Development}
+
+\subsection{TL494 Data Sheet Description}
+\begin{quote}
+    The TL494 device incorporates all the functions required in the construction of a pulse-width modulation (PWM) control circuit on a single chip. - \href{https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl494}{TL494 Data Sheet}\\
+
+    \noindent The supply voltage for the TL494 is a minimum of 7V to a maximum of 40V. 
+
+\end{quote}
+
+\subsection{Voltage Level Adj. and PWM Circuit}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.8\textwidth]{images/IMG_VoltageADJandPWM.jpg}
+        \vspace{0pt}
+        \caption{Voltage Level Adjust and PWM Circuit} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\noindent The MCP6002 U5A is a rail-to-rail operational amplifier - \href{https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf}{MCP6002 Data Sheet}. U5A is configured as a buffer between the analog voltage in "PLC\_IN" and the FB (Feedback) input of the TL494. The FB input pin of the TL494 will have a maximum threshold voltage of 4.5VDC and the PLC analog input will have a maximum voltage of 10VDC. The MCP6002 U5A having a rail voltage of 5VDC will prevent the FB input from ever going above 5VDC. RV1 and R6 will provide a voltage divider allowing for calibration of the TL494 PWM and can be adjusted for either a PLC (0 to 10V) input or a 0 to 5V input depending on the application.\\ 
+
+\noindent R2 and C1 determine the frequency of the PWM waveform. 
+
+\begin{itemize}
+    \item [] $F_{OSC}=\frac{1}{R_T \times C_T}$
+    \item [] $F_{OSC}=\frac{1}{47K\Omega \times 0.001\mu F}$
+    \item [] $F_{OSC}=\frac{1}{47K\Omega \times 0.001\mu F}$
+    \item [] $F_{OSC}=21.28Khz$
+\end{itemize} 
+
+\subsubsection{RV1 Calibration Proceedure}
+
+\begin{enumerate}
+    \item For PLC input, set the input voltage to 5V. For a 5V input, set the input voltage to 2.5V. 
+    \item Adjust RV1 until the PWM waveform is at 50\% duty cycle. 
+\end{enumerate}
+
+\newpage
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.41\textwidth]{images/IMG_PWM0.jpg}
+        \vspace{0pt}
+        \caption{PWM with TL494 Feedback Voltage set to 0V} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.41\textwidth]{images/IMG_PWM50.jpg}
+        \vspace{0pt}
+        \caption{PWM with TL494 Feedback Voltage set to mid-voltage} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.41\textwidth]{images/IMG_PWM100.jpg}
+        \vspace{0pt}
+        \caption{PWM with TL494 Feedback Voltage set to max-voltage} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\clearpage
+\subsubsection{Circuit Modification}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.7\textwidth]{images/VoltageLevelAdjPWM.jpg}
+        %\vspace{0pt}
+        \caption{Circuit Modification - R20 \& R21} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    The TL494 has a 4.5V maximum on the Feedback input pin 3. The rail-to-rail operational amplifier MCP6002 has a 0 to 5v output. The voltage divider network, resistors R20 and R21, ensure that the FB voltage remains below 4.5 volts. 
+
+\subsubsection{On-board Voltage Regulation}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.5\textwidth]{images/VoltageRegulation.jpg}
+        %\vspace{0pt}
+        \caption{On-board voltage regulation} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    The input motor voltage must be between 12V and 24V. Below 12V will cause the 10V regulator to drop out and exceeding 30V will damage the 5V regulator. 
+\newpage
+\subsubsection{Control Logic}
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.9\textwidth]{images/ControlLogic.jpg}
+        %\vspace{0pt}
+        \caption{Control Logic} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+%\clearpage
+\subsection{New Schematic}
+    \includepdf[pages=-, angle=180, pagecommand={\thispagestyle{pdfpagestyle}}]{images/SchematicV2.pdf}
+
+\end{document}

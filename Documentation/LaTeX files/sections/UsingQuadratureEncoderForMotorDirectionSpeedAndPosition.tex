@@ -1,0 +1,52 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\subsection{Using a Quadrature Encoder for Motor Direction, Speed, and Position}
+
+A quadrature encoder is a type of incremental encoder used to measure the direction, speed, and position of a rotating shaft. It provides two output signals, typically labeled A and B, which are 90 degrees out of phase. By analyzing these signals, the system can determine the shaft's state changes, allowing for precise measurement of its movement. Here's a detailed explanation of how state changes are used to determine direction, speed, and position with a quadrature encoder:
+
+\subsubsection{Direction}
+
+The direction of rotation is determined by the phase relationship between the A and B signals. There are four possible state transitions that occur when the encoder rotates:
+
+\begin{enumerate}
+    \item \textbf{A leads B}: If the signal on channel A transitions before the signal on channel B, the encoder is rotating in one direction (e.g., clockwise).
+    \item \textbf{B leads A}: If the signal on channel B transitions before the signal on channel A, the encoder is rotating in the opposite direction (e.g., counterclockwise).
+\end{enumerate}
+
+\noindent By continuously monitoring which channel leads the other, the system can accurately determine the direction of rotation.
+
+\subsubsection{Speed}
+
+The speed of rotation is calculated by measuring the frequency of the state changes (transitions) in the A and B signals. Since each transition represents a specific amount of shaft movement, a higher frequency of transitions indicates a higher speed of rotation. There are two primary methods to measure speed:
+
+\begin{enumerate}
+    \item \textbf{Counting Transitions}: By counting the number of transitions in a given time period, the system can determine the speed. More transitions in a shorter time indicate higher speed.
+    \item \textbf{Time Between Transitions}: By measuring the time interval between consecutive transitions, the system can calculate speed. Shorter intervals between transitions indicate higher speed.
+\end{enumerate}
+
+\subsubsection{Position}
+The position is determined by counting the number of state changes or pulses from the encoder. Each full cycle of the A and B signals represents a fixed increment of rotation (usually a fraction of a degree or a millimeter, depending on the encoder's resolution). The position can be tracked by incrementing or decrementing a counter based on the direction of rotation.
+    \begin{enumerate}
+        \item \textbf{Incremental Counting}: Every transition (rising or falling edge) of both A and B signals is counted. Since there are four transitions per cycle (A rising, A falling, B rising, B falling), the system can achieve high resolution by counting each transition.
+        \item \textbf{Quadrature Decoding}: This method considers all four possible states (00, 01, 11, 10) in each cycle. By tracking the sequence of these states, the system can detect and count each increment of rotation.
+    \end{enumerate}
+
+\subsubsection{Example of State Transitions and Counting:}
+
+Assume the initial state is 00 (A low, B low):
+
+\begin{enumerate}
+    \item \textbf{00 to 01} (A low, B rising): One transition.
+    \item \textbf{01 to 11} (A rising, B high): Another transition.
+    \item \textbf{11 to 10} (A high, B falling): Another transition.
+    \item \textbf{10 to 00} (A falling, B low): Another transition.
+\end{enumerate}
+
+\noindent This sequence repeats, and by tracking these transitions, the system determines the position by incrementing or decrementing a counter based on the direction of rotation.\\
+
+\noindent In summary, by monitoring the state changes between the A and B signals, a quadrature encoder can accurately determine the direction, speed, and position of a rotating shaft. This information is crucial for precise control in various applications such as robotics, industrial automation, and motor control.
+
+
+\end{document}

@@ -1,0 +1,338 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+    \section{Discrete H-Bridge Development}
+    \subsection{Switching Ground (N-Channel MosFET)}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.5\textwidth]{images/IMG_PWM_TestCircuit.jpg}
+        \vspace{0pt}
+        \caption{PWM Test Circuit (N-Channel MosFET)} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{N-Channel PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{RS-775126000E7 RPM} & \textbf{TS-25GA370H-20 RPM}  \\
+            \hline
+            5Khz & 4V & 0V & 99\% & 5454 RPM & 284 RPM \\
+            \hline   
+            5Khz & 4V & 0V & 90\% & 4792 RPM & 270 RPM \\
+            \hline   
+            5Khz & 4V & 0V & 80\% & 4365 RPM & 234 RPM \\
+            \hline 
+            5Khz & 4V & 0V & 70\% & 3887 RPM & 178 RPM \\
+            \hline 
+            5Khz & 4V & 0V & 60\% & 3220 RPM & 113 RPM \\
+            \hline 
+            5Khz & 4V & 0V & 50\% & 2420 RPM & 55 RPM \\
+            \hline
+            5Khz & 4V & 0V & 40\% & 1400 RPM & 22 RPM \\
+            \hline     
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1} 
+
+\newpage
+\subsection{ Opto-Isolation, Switching 12V (P-Channel MosFET)}
+
+\begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.7\textwidth]{images/IMG_PWM_TestCircuit2.jpg}
+        \vspace{0pt}
+        \caption{PWM Test Circuit (Opto-Isolated P-Channel MosFET)} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{Opto-Isolated, P-Channel PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{RS-775126000E7 RPM} & \textbf{TS-25GA370H-20 RPM}  \\
+            \hline
+            5Khz & 5V & 0V & 99\% & 5547 RPM & 283 RPM \\
+            \hline   
+            5Khz & 5V & 0V & 90\% & 5471 RPM & 283 RPM \\
+            \hline   
+            5Khz & 5V & 0V & 80\% & 4921 RPM & 276RPM \\
+            \hline 
+            5Khz & 5V & 0V & 70\% & 4615 RPM & 249 RPM \\
+            \hline 
+            5Khz & 5V & 0V & 60\% & 4226 RPM & 203 RPM \\
+            \hline 
+            5Khz & 5V & 0V & 50\% & 3728 RPM & 142 RPM \\
+            \hline
+            5Khz & 5V & 0V & 40\% & 3072 RPM & 82 RPM \\
+            \hline
+            5Khz & 5V & 0V & 30\% & 2177 RPM & 32 RPM \\
+            \hline
+            5Khz & 5V & 0V & 20\% & 1010 RPM & 0 RPM \\
+            \hline
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1} 
+
+\newpage
+\subsection{ Opto-Isolation, Switching 12V (N-Channel MosFET)}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.7\textwidth]{images/IMG_PWM_TestCircuit3.jpg}
+        \vspace{0pt}
+        \caption{PWM Test Circuit (Opto-Isolated N-Channel MosFET)} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{Opto-Isolated N-Channel PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{RS-775126000E7 RPM} & \textbf{TS-25GA370H-20 RPM}  \\
+            \hline
+            5Khz & 5V & 0V & 99\% & 5525 RPM & 280 RPM \\
+            \hline   
+            5Khz & 5V & 0V & 90\% & 5520 RPM & 280 RPM \\
+            \hline   
+            5Khz & 5V & 0V & 80\% & 4720 RPM & 268 RPM \\
+            \hline 
+            5Khz & 5V & 0V & 70\% & 4335 RPM & 233 RPM \\
+            \hline 
+            5Khz & 5V & 0V & 60\% & 3909 RPM & 179 RPM \\
+            \hline 
+            5Khz & 5V & 0V & 50\% & 3395 RPM & 113 RPM \\
+            \hline
+            5Khz & 5V & 0V & 40\% & 2669 RPM & 55 RPM \\
+            \hline
+            5Khz & 5V & 0V & 30\% & 1688 RPM & 18 RPM \\
+            \hline
+            5Khz & 5V & 0V & 20\% & 380 RPM & 0 RPM \\
+            \hline
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1}
+
+\newpage
+\subsection{ Opto-Isolation, Switching 12V (N-Channel and P-Channel MosFETs)}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.44\textwidth]{images/IMG_PWM_TestCircuit4.jpg}
+        \vspace{0pt}
+        \caption{PWM Test Circuit (Opto-Isolated N-Channel and P-Channel MosFETs)} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{Opto-Isolated N-Channel and P-Channel PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{RS-775126000E7 RPM} & \textbf{TS-25GA370H-20 RPM}  \\
+            \hline
+            2Khz & 5V & 0V & 99\% & 5563 RPM & 275 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 90\% & 5264 RPM & 272 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 80\% & 4939 RPM & 260 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 70\% & 4800 RPM & 232 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 60\% & 4508 RPM & 186 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 50\% & 4033 RPM & 128 RPM \\
+            \hline
+            2Khz & 5V & 0V & 40\% & 3396 RPM & 73 RPM \\
+            \hline
+            2Khz & 5V & 0V & 30\% & 2467 RPM & 31 RPM \\
+            \hline
+            2Khz & 5V & 0V & 20\% & 980 RPM & 0 RPM \\
+            \hline
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1}
+
+\newpage
+\subsection{ H-Bridge}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.8\textwidth]{images/IMG_PWM_TestCircuit5.jpg}
+        \vspace{0pt}
+        \caption{Clockwise Test Circuit} \label{Fig:Clockwise Test}
+    \end{figure}
+\subsubsection{Clockwise Test}
+    See Figure \ref{Fig:Clockwise Test} verified. With U1B and U1C inputs tied to ground (GND), Q2 and Q3 will be off. With U1D's input tied high, Q4 is on. Applying PWM to U1A provides speed control to the motor via Q1. This configuration will provide speed and direction control "clockwise" or forward.
+\subsubsection{Counter-Clockwise Test}
+    Re-configuring or swapping inputs U1A with U1C and U1B with U1D. The motor turns in the opposite orientation "Counter-Clockwise" or reverse. 
+
+ \renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{RS-775126000E7 Discrete H-Bridge PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{CW \  \ Forward} & \textbf{CCW Reverse}  \\
+            \hline
+            2Khz & 5V & 0V & 99\% & 5645 RPM & 5525 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 90\% & 4941 RPM & 4891 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 80\% & 4965 RPM & 4799 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 70\% & 4630 RPM & 4530 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 60\% & 4310 RPM & 4155 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 50\% & 3760 RPM & 3643 RPM \\
+            \hline
+            2Khz & 5V & 0V & 40\% & 3000 RPM & 2795 RPM \\
+            \hline
+            2Khz & 5V & 0V & 30\% & 1922 RPM & 1535 RPM \\
+            \hline
+            2Khz & 5V & 0V & 20\% & 480 RPM & 0 RPM \\
+            \hline
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1}
+
+\renewcommand{\arraystretch}{1.5} 
+    \begin{table}[h]
+        \begin{center}
+        \caption{TS-25GA370H-20 Discrete H-Bridge PWM Test Data}
+            \begin{tabularx}{0.9\textwidth} { 
+            | >{\centering\arraybackslash}X 
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X | }
+            \hline
+            \textbf{PWM Frequency} & \textbf{PWM ON Voltage} & \textbf{PWM OFF Voltage} & \textbf{PWM Duty-Cycle} & \textbf{CW \  \ Forward} & \textbf{CCW Reverse}  \\
+            \hline
+            2Khz & 5V & 0V & 99\% & 288 RPM & 290 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 90\% & 284 RPM & 282 RPM \\
+            \hline   
+            2Khz & 5V & 0V & 80\% & 268 RPM & 262 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 70\% & 238 RPM & 226 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 60\% & 191 RPM & 174 RPM \\
+            \hline 
+            2Khz & 5V & 0V & 50\% & 132 RPM & 113 RPM \\
+            \hline
+            2Khz & 5V & 0V & 40\% & 70 RPM & 57 RPM \\
+            \hline
+            2Khz & 5V & 0V & 30\% & 32 RPM & 23 RPM \\
+            \hline
+            2Khz & 5V & 0V & 20\% & 0 RPM & 0 RPM \\
+            \hline
+            \end{tabularx}
+        \end{center}
+    \end{table}
+    \renewcommand{\arraystretch}{1}
+
+\clearpage
+\subsection{ Control Logic and H-Bridge}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=1\textwidth]{images/IMG_HBridgeControlLogic.jpg}
+        \vspace{0pt}
+        \caption{H-Bridge and Control Logic Schematic} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\noindent The control inputs S0 and S1 will provide TTL voltage level inputs to control the H-Bridge. 
+
+\subsubsection*{SO \& S1 = 0} When both SO and S1 are both equal to 0V, the H-Bridge will be disabled and the motor will be in Coast mode.
+
+\subsubsection*{SO = 0 \& S1 = 1} When  SO is equal to 0V and S1 is equal to a TTL High ($\approx 5V)$ the H-Bridge turn on Q1 and Q4 and the motor will move full speed in a "Clockwise" direction.
+
+\subsubsection*{SO = 1 \& S1 = 0} When  SO is equal to a TTL High ($\approx 5V)$ and S1 is equal to 0V the H-Bridge turn on Q2 and Q3 and the motor will move full speed in a "Counter Clockwise" direction.
+
+\subsubsection*{SO = 1 \& S1 = 1} When  SO and S1 are both equal to a TTL High ($\approx 5V)$ the H-Bridge turn on Q2 and Q4 and the motor will be in Brake mode.
+
+\newpage
+\subsection{H-Bridge PCB}
+
+\begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.226\textwidth]{images/IMG_HBridgePCBLayout.JPG}
+        \vspace{0pt}
+        \includegraphics[width=0.25\textwidth]{images/IMG_HBridgePCB.JPG}
+        \caption{H-Bridge PCB KiCAD} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\subsection{H-Bridge PCB Build and Test}
+
+There were no issues with the assembly of the PCB. The H-Bridge PCB operated as expected. The rotational speed was measured at approximately 5,500 RPM in both directions using the RS-775126000E7 motor. 
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.55\textwidth]{images/IMG_CW.jpg}
+        \vspace{0pt}
+        
+        \caption{H-Bridge PCB Clockwise test} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.55\textwidth]{images/IMG_CCW.jpg}
+        \vspace{0pt}
+        
+        \caption{H-Bridge PCB Counter Clockwise test} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+    \begin{figure}[h]
+        \centering  
+        \includegraphics[width=0.55\textwidth]{images/IMG_Brake.jpg}
+        \vspace{0pt}
+        
+        \caption{H-Bridge PCB Brake test} %\label{Fig:BluetoothSpeaker}
+    \end{figure}
+
+\subsection{Problems with the H-Bridge PCB}
+The H-Bridge PCB can operate in both clockwise and counterclockwise modes along with coast and brake. However, the circuit cannot control speed. An external circuit was used to provide PWM for the motor speed control. Additionally, the H-Bridge circuit requires both motor voltage and TTL voltage inputs. A 5V regulator could be implemented to minimize the number of voltage inputs required to operate the PCB.
+
+\end{document}
+

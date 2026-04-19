@@ -1,0 +1,53 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{System Architecture}
+
+\subsection{DB37 Passthrough Interface Board}
+
+The DB37 passthrough board serves as the universal interface between the PLC rack and whichever lab trainer box is connected. The board accepts a DB37 cable from the PLC wiring panel on the AMPHENOL connector (J3) and breaks out all 37 conductors to two banks of Phoenix Contact screw terminal blocks (J1 and J2) on the wiring side. This design allows each trainer box to be wired to the terminal blocks and swapped without disturbing the PLC-side cabling.
+
+The board layout (ver.\ 2, January 2025) arranges the terminals as follows: the left bank carries DB37 pins 11--19 and 37 (ground) on the top row, and pins 28--37 on the bottom row. The right bank carries pins 1--10 on the top row (with pin 1 designated V1 and pin 2 designated V2 for power distribution) and pins 1--2 and 20--27 on the bottom row. Two dedicated pins (V1, V2) are reserved for +24\,V and +12\,V power distribution to the trainer boxes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{"images/DB37 to Phoenix Contact TB.png"}
+    \caption{DB37 to Phoenix Contact terminal block wire map (board ver.\ 2).}
+    \label{fig:db37-wiremap}
+\end{figure}
+
+\subsection{PLC Modules}
+
+The CompactLogix PLC rack is configured with the following I/O modules, whose channels are mapped through the DB37 interface:
+
+\begin{table}[htbp]
+\centering
+\caption{PLC I/O Module Configuration}
+\label{tab:plc-modules}
+\begin{tabularx}{\textwidth}{l l X}
+\hline
+\textbf{Module} & \textbf{Type} & \textbf{Description} \\
+\hline
+5069-IB16 & Digital Input & 16-channel, 24\,V DC sink/source input \\
+5069-OB16 & Digital Output & 16-channel, 0.5\,A per channel, 8\,A per module \\
+5069-OF4 & Analog Output & 4-channel voltage/current output \\
+5069-IY4 & Analog Input & 4-channel voltage/current input \\
+\hline
+\end{tabularx}
+\end{table}
+
+\subsection{DB37 Pin Allocation}
+
+The 37-pin connector is partitioned across the four PLC modules as shown in the schematic. The digital output module (OB16) occupies DB37 pins 11--18 (channels Dout0--Dout7). The digital input module (IB16) occupies pins 1--10 (channels Din0--Din9, with pins 1--2 also carrying V1/V2 power). The analog output module (OF4) occupies pins 28--35 (differential pairs for channels Aout0--Aout3). The analog input module (IY4) occupies pins 20--27 (differential pairs for channels Ain0--Ain3). Pin 37 is system ground.
+
+\subsection{Power Distribution}
+
+The system distributes two DC supply rails through the DB37 cable:
+\begin{itemize}
+    \item \textbf{+24\,V DC} --- Primary power for PLC digital I/O, relay coils, and indicator LEDs.
+    \item \textbf{+12\,V DC} --- Secondary power for analog signal conditioning and fan.
+\end{itemize}
+A common ground bus (TB-Gnd) provides the return path for all signals and power, distributed via a dedicated terminal block on the passthrough board.
+
+\end{document}

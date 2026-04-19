@@ -1,0 +1,13 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Project Overview}
+
+This document describes the PLC Lab Trainer System, a modular educational platform developed at Idaho State University for teaching programmable logic controller (PLC) programming and process control. The system comprises two swappable lab trainer boxes---a Heater Control Box and a Motor Control Box---that connect to an Allen-Bradley CompactLogix PLC rack via a common DB37 passthrough interface board. Each box presents a different process control challenge while sharing the same electrical interface, allowing students to progress from basic to advanced control concepts without rewiring the PLC.
+
+The \textbf{Heater Control Box} is the introductory module. It provides a simple thermal control loop: the PLC energizes a relay-driven 150\,\si{\ohm} heater element, reads temperature feedback from a thermocouple via a ProSense XTD2 TC transmitter (4--20\,mA), and regulates temperature using PID or on/off control. The front panel includes indicator LEDs, pushbuttons, a potentiometer for setpoint input, a fan for disturbance injection, and an analog voltmeter for visual feedback. This box teaches fundamental concepts: digital I/O, analog input scaling, and closed-loop temperature control.
+
+The \textbf{Motor Control Box} is the advanced module. It uses an H-Bridge motor driver controlled by the Raspberry Pi Pico to drive a DC brushed motor with quadrature encoder feedback. The PLC commands motor power and direction via analog and digital outputs, and receives speed, position, and direction feedback signals. This box introduces students to motion control, encoder interfacing, and multi-variable feedback systems. Both boxes are documented in detail in the sections that follow.
+
+\end{document}

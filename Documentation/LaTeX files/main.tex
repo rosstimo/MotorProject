@@ -1,0 +1,114 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\geometry{a4paper, left=2cm, right=2cm, top=1.5cm, bottom=3cm }
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{hyperref}
+    \hypersetup{
+        colorlinks=true,
+        linkcolor={black!50!black},
+        citecolor={blue!50!black},
+        urlcolor=blue, %{blue!80!blue}
+        }
+
+\urlstyle{same}
+
+\usepackage{pdfpages}
+
+\fancypagestyle{pdfpagestyle}{
+  \fancyhf{}
+  \rfoot{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\usepackage{natbib}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{subfiles}
+
+\definecolor{roarange_lt}{RGB}{246, 146, 64}
+\usepackage{etoolbox,fancyhdr,xcolor}
+\newcommand{\headrulecolor}[1]{\patchcmd{\headrule}{\hrule}{\color{#1}\hrule}{}{}}
+\newcommand{\footrulecolor}[1]{\patchcmd{\footrule}{\hrule}{\color{#1}\hrule}{}{}}
+\renewcommand{\headrulewidth}{1pt}
+\headrulecolor{roarange_lt!100}%
+\renewcommand{\footrulewidth}{1pt}
+\footrulecolor{roarange_lt!100}%
+
+\fancyhf{}
+\fancyhead[R]{\includegraphics[width=0.25\textwidth]{images/ISU_Logo.JPG}}
+
+\fancyfoot[L]{Project: PLC Lab Trainer System}
+\fancyfoot[C]{College of Technology}
+\fancyfoot[R]{\thepage}
+
+\setlength{\headheight}{15mm}
+\pagestyle{fancy}
+
+\bibliographystyle{apalike}
+
+\usepackage{times}
+\begin{document}
+
+\noindent
+\begin{center}
+\textbf{{\Large PLC LAB TRAINER SYSTEM --- TECHNICAL MANUAL}} \\
+\vspace{4pt}
+\textit{Heater Control Box \& Motor Control Box}
+\end{center}
+
+\noindent
+\textbf{Authors: B. Anderson, T. Leishman, T. Rossiter} \textit{Idaho State University, Pocatello, Id.}
+
+\subfile{sections/ProjectOverview}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+%% ---- Part I: System Overview ----
+\part{System Overview}
+\subfile{sections/SystemArchitecture}
+\clearpage
+
+%% ---- Part II: Heater Control Box ----
+\part{Heater Control Box}
+\subfile{sections/HeaterBoxOverview}
+\clearpage
+\subfile{sections/HeaterBoxComponents}
+\clearpage
+\subfile{sections/HeaterBoxPLCInterface}
+\clearpage
+
+%% ---- Part III: Motor Control Box ----
+\part{Motor Control Box}
+\subfile{sections/Introduction}
+\clearpage
+\subfile{sections/MotorSpecifications}
+\clearpage
+\subfile{sections/InitialTests}
+\clearpage
+\subfile{sections/HBridgeDevelopment}
+\clearpage
+\subfile{sections/TL494HBridgeDevelopment}
+\clearpage
+\section{Pico Encoder Documentation}
+\subfile{sections/UsingQuadratureEncoderForMotorDirectionSpeedAndPosition}
+\clearpage
+\subfile{sections/EncoderImplementation}
+\subfile{sections/EncoderFeedbackConfiguration}
+\clearpage
+\subfile{sections/EncoderTestingResults}
+
+\fontsize{8}{9}\selectfont
+\bibliography{ResearchPaperBib}
+
+\end{document}
