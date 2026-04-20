@@ -8,6 +8,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{tabularx}
+\usepackage{longtable}
 \usepackage{siunitx}
 \usepackage{hyperref}
     \hypersetup{
@@ -92,13 +93,9 @@
 \part{Motor Control Box}
 \subfile{sections/Introduction}
 \clearpage
-\subfile{sections/MotorSpecifications}
+\subfile{sections/MotorSpecsSummary}
 \clearpage
-\subfile{sections/InitialTests}
-\clearpage
-\subfile{sections/HBridgeDevelopment}
-\clearpage
-\subfile{sections/TL494HBridgeDevelopment}
+\subfile{sections/SchematicDescription}
 \clearpage
 \section{Pico Encoder Documentation}
 \subfile{sections/UsingQuadratureEncoderForMotorDirectionSpeedAndPosition}
@@ -106,9 +103,31 @@
 \subfile{sections/EncoderImplementation}
 \subfile{sections/EncoderFeedbackConfiguration}
 \clearpage
+\subfile{sections/PicoSetupGuide}
+
+%% ---- Appendices ----
+\clearpage
+\appendix
+\part*{Appendices}
+\addcontentsline{toc}{part}{Appendices}
+
+\section{Motor Characterization Test Data}
+\label{app:motor_testing}
+\subfile{sections/MotorSpecifications}
+\clearpage
+\subfile{sections/InitialTests}
+\clearpage
 \subfile{sections/EncoderTestingResults}
 \clearpage
-\subfile{sections/PicoSetupGuide}
+
+\section{Circuit Development History}
+\label{app:circuit_dev}
+\subfile{sections/HBridgeDevelopment}
+\clearpage
+\subfile{sections/TL494HBridgeDevelopment}
+\clearpage
+
+\subfile{sections/AppendixBOM}
 
 \fontsize{8}{9}\selectfont
 \bibliography{ResearchPaperBib}

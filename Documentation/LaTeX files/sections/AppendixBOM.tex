@@ -1,0 +1,96 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Bill of Materials}
+\label{app:bom}
+
+Table~\ref{tab:bom} lists all components on the Pico H-Bridge motor control board v3.
+
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{l l l l p{4.2cm}}
+\caption{Pico H-Bridge Complete v3 Bill of Materials} \label{tab:bom} \\
+\hline
+\textbf{Ref} & \textbf{Value} & \textbf{Footprint} & \textbf{LCSC} & \textbf{Description} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Ref} & \textbf{Value} & \textbf{Footprint} & \textbf{LCSC} & \textbf{Description} \\
+\hline
+\endhead
+\hline
+\endfoot
+
+\multicolumn{5}{l}{\textit{Integrated Circuits}} \\
+\hline
+U1 & Pico & Custom & --- & Raspberry Pi Pico microcontroller \\
+U5 & OPA4197 & SO-14 & C2058532 & Quad precision op-amp (output buffering) \\
+U6 & LM7810 & SOT-89-3 & C122848 & 10V voltage regulator \\
+U7 & LM78L05 & SOT-89-3 & C347258 & 5V voltage regulator \\
+U8, U9 & 74LVC1G08 & SOT-23-5 & C19829591 & Single 2-input AND gate \\
+U10 & SN74LVC1G14 & SOT-23-5 & C7835 & Single Schmitt trigger inverter \\
+U11 & MCP6001R & SOT-23-5 & C154973 & Rail-to-rail op-amp (speed input buffer) \\
+\hline
+
+\multicolumn{5}{l}{\textit{Transistors}} \\
+\hline
+Q1, Q2 & AO3400A & SOT-23 & C20917 & N-channel MOSFET (H-Bridge low side) \\
+Q3, Q4 & DMP3099L-7 & SOT-23 & C155244 & P-channel MOSFET (H-Bridge high side) \\
+Q5--Q8 & MMBT3904 & SOT-23 & C20526 & NPN transistor (MOSFET gate driver) \\
+\hline
+
+\multicolumn{5}{l}{\textit{Resistors (all 0805)}} \\
+\hline
+R1, R2 & 330$\Omega$ & 0805 & C17630 & LED current limiting (direction LEDs) \\
+R3, R5 & 1.8\,k$\Omega$ & 0805 & C17398 & Encoder signal series resistor \\
+R4, R6 & 3.9\,k$\Omega$ & 0805 & C17614 & PLC input series resistor (zener clamp) \\
+R7, R9 & 2.7\,k$\Omega$ & 0805 & C17530 & H-Bridge gate resistor \\
+R8, R26, R27, R31, R33, R34 & 22\,k$\Omega$ & 0805 & C17560 & Voltage divider / pull-down \\
+R10, R32 & 82\,k$\Omega$ & 0805 & C17840 & PLC input voltage divider (high side) \\
+R11, R17 & 5.1\,k$\Omega$ & 0805 & C27834 & Output buffer filter resistor \\
+R12, R13, R15, R16, R18, R19, R28, R35 & 10\,k$\Omega$ & 0805 & C17414 & Op-amp gain / bias resistor \\
+R14 & 47\,k$\Omega$ & 0805 & C17713 & Speed output filter resistor \\
+R20, R21 & 3.3\,k$\Omega$ & 0805 & C26010 & Encoder signal pull-down (voltage divider) \\
+R22, R29 & 150$\Omega$ & 0805 & C17471 & H-Bridge gate pull-up \\
+R23, R30 & 1\,k$\Omega$ & 0805 & C17513 & H-Bridge gate pull-up \\
+R24 & 6.2\,k$\Omega$ & 0805 & C17767 & Speed input divider (low side) \\
+R25 & 13\,k$\Omega$ & 0805 & C17455 & Speed input divider (high side) \\
+\hline
+
+\multicolumn{5}{l}{\textit{Capacitors}} \\
+\hline
+C1, C2, C3 & 1\,$\mu$F & 1206 & C2167419 & Output buffer integration capacitor \\
+C4, C8, C12 & 100\,$\mu$F & 1210 & C23742 & Bulk decoupling (power rails) \\
+C5 & 680\,pF & 0603 & C1630 & H-Bridge snubber capacitor \\
+\hline
+
+\multicolumn{5}{l}{\textit{Diodes and LEDs}} \\
+\hline
+D1 & LED (red) & 0805 & C84256 & Forward direction indicator \\
+D2, D8, D9 & LED (white) & 0603/0805 & C2290 & Reverse direction / flyback indicator \\
+D3, D4 & LED (yellow) & 0603 & C2286 & H-Bridge active direction indicator \\
+D5 & Diode & SMA & C8678 & Reverse polarity protection (power input) \\
+D6, D7 & 3.3V Zener & SOD-323 & C19077437 & PLC input voltage clamp (GPIO protection) \\
+\hline
+
+\multicolumn{5}{l}{\textit{Connectors and Mechanical}} \\
+\hline
+J1 & Screw Terminal & Phoenix 10-pos & --- & PLC interface (power, I/O, feedback) \\
+J2 & JST XH 6-pin & JST XH B6B & --- & Motor encoder connector \\
+J3 & Screw Terminal & Phoenix 2-pos & --- & Motor power connector \\
+J4 & 2.54\,mm Header & 1$\times$2 pin & --- & Motor connection header \\
+RV1 & 10\,k$\Omega$ pot & Bourns 3314J & C36376 & Speed calibration potentiometer \\
+SW1 & DIP Switch & 1-pos DIP & C600988 & Motor type selection switch \\
+\hline
+
+\multicolumn{5}{l}{\textit{Test Points}} \\
+\hline
+TP1 & Spd & Plated hole & --- & Speed command test point \\
+TP2 & 10V & Plated hole & --- & 10V rail test point \\
+TP3 & 5V & Plated hole & --- & 5V rail test point \\
+TP6 & GND & Loop & --- & Ground test point \\
+
+\end{longtable}
+\renewcommand{\arraystretch}{1}
+
+\end{document}

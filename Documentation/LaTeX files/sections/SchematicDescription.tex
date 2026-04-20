@@ -1,0 +1,170 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Motor Control Board Schematic}
+
+This section describes the final schematic design of the Pico H-Bridge motor control board (v3). The board integrates a Raspberry Pi Pico, an H-Bridge motor driver, signal conditioning, and a PLC interface onto a single PCB. The schematic is divided into functional blocks described below.
+
+\subsection{Voltage Regulation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Current Design/Voltage regulation.png}
+    \caption{Voltage regulation circuit}
+\end{figure}
+
+The board accepts a 12V DC power input and generates two regulated supply rails:
+
+\begin{itemize}
+    \item \textbf{U6 (LM7810)} --- regulates the 12V input down to \textbf{+10V}, which powers the output buffering op-amps and provides the reference for 0--10V analog output scaling.
+    \item \textbf{U7 (LM78L05)} --- regulates the 10V rail down to \textbf{+5V}, which powers the control logic ICs, the Raspberry Pi Pico, and the encoder.
+\end{itemize}
+
+\noindent C4 and C8 (100\,$\mu$F each) provide bulk decoupling at the input and between stages. Test points TP2, TP3, and TP6 provide access to the 10V, 5V, and GND rails for troubleshooting.
+
+\subsection{PLC Interface Terminals}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/Current Design/IO Terminals.png}
+    \caption{PLC interface terminal block and input conditioning}
+\end{figure}
+
+J1 is a 10-position Phoenix Contact screw terminal that provides the external interface to the PLC and power supply:
+
+\begin{tabularx}{\textwidth}{c l X}
+\textbf{Pin} & \textbf{Signal} & \textbf{Description} \\
+\hline
+10 & +12V Power & Board power input, protected by D5 (reverse polarity diode) \\
+9 & GND & Power ground \\
+8 & Analog Speed & 0--10V speed feedback output to PLC \\
+7 & Analog Position & 0--10V position feedback output to PLC \\
+6 & Analog Position $\times$10 & 0--10V position $\times$10 feedback output to PLC \\
+5 & Limit Switch & Home limit switch input, clamped to 3.3V by D7 via R6 \\
+4 & Home/Zero & Home/zero command from PLC, clamped to 3.3V by D6 via R4 \\
+3 & Speed Set & 0--10V analog speed command from PLC, scaled to 0--3.3V by U11 op-amp buffer \\
+2 & External PWM & External PWM speed input from PLC (24V), voltage divider scaled \\
+1 & Fwd/Rev & Forward/Reverse direction command from PLC (24V), voltage divider scaled \\
+\end{tabularx}
+
+\vspace{6pt}
+\noindent The Fwd/Rev and External PWM inputs use resistor voltage dividers to scale 24V PLC signals to 3.3V. These inputs are expected to always come from the PLC at a known voltage level. The Home and Limit Switch inputs use 3.3V zener diode clamps (D6, D7) instead, because these signals may originate from sources other than the PLC --- for example, a panel-mounted button or a limit switch powered from 12V --- so the zener clamp safely handles a range of input voltages. The Speed Set analog input is buffered by U11 (MCP6001R), a rail-to-rail op-amp configured with a resistor divider (R25/R24) to scale the 0--10V PLC signal to the Pico's 0--3.3V ADC range.
+
+\subsection{PWM Control Logic}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/Current Design/PWM Control Logic.png}
+    \caption{H-Bridge control logic}
+\end{figure}
+
+The control logic generates the four gate drive signals (CW0, CW1, CCW0, CCW1) for the H-Bridge from two inputs: Fwd/Rev (direction) and a PWM speed signal.
+
+\begin{itemize}
+    \item \textbf{U10 (SN74LVC1G14)} --- Schmitt trigger inverter on the Fwd/Rev signal, providing a clean inverted direction signal.
+    \item \textbf{U8, U9 (74LVC1G08)} --- AND gates that combine the direction and PWM signals to produce the CW0 and CCW0 drive signals.
+    \item \textbf{JP1} --- A 3-position jumper selects between the Pico's Speed\_set PWM output (on-board speed control) and an External PWM input from the PLC.
+\end{itemize}
+
+\noindent The CW1 and CCW1 outputs use inverted logic (0V = ON, 5V = OFF) to drive the P-channel high-side MOSFETs. The truth table is:
+
+\begin{center}
+\begin{tabular}{cc|cccc}
+\textbf{Fwd/Rev} & \textbf{PWM} & \textbf{CW0} & \textbf{CW1} & \textbf{CCW0} & \textbf{CCW1} \\
+\hline
+0 & 0 & OFF & OFF (1) & OFF & ON (0) \\
+0 & 1 & OFF & OFF (1) & ON & ON (0) \\
+1 & 1 & ON & ON (0) & OFF & OFF (1) \\
+\end{tabular}
+\end{center}
+
+\subsection{H-Bridge}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{images/Current Design/H-Bridge.png}
+    \caption{H-Bridge motor driver circuit}
+\end{figure}
+
+The H-Bridge uses discrete MOSFETs to drive the motor in both directions:
+
+\begin{itemize}
+    \item \textbf{Q3, Q4 (DMP3099L-7)} --- P-channel MOSFETs on the high side, switching +12V to the motor.
+    \item \textbf{Q1, Q2 (AO3400A)} --- N-channel MOSFETs on the low side, switching the motor to ground.
+    \item \textbf{Q5--Q8 (MMBT3904)} --- NPN transistors used as gate drivers, providing the voltage levels needed to fully switch the MOSFETs.
+\end{itemize}
+
+\noindent D3 and D4 (yellow LEDs) indicate which direction the H-Bridge is active. D8 and D9 (white LEDs) serve as flyback indicators. C5 (680\,pF) is a snubber capacitor across the motor terminals to suppress switching transients. The motor connects via J4 (2.54\,mm header).
+
+\subsection{Output Buffering}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Current Design/Output buffering.png}
+    \caption{PWM to analog output buffering}
+\end{figure}
+
+The Pico outputs 3.3V PWM signals for speed and position feedback. These must be converted to 0--10V analog signals for the PLC. U5 (OPA4197) is a quad precision op-amp powered from the +10V rail, providing three buffered output channels:
+
+\begin{itemize}
+    \item \textbf{U5A} --- Position $\times$10 feedback (R11 = 5.1\,k$\Omega$, C1 = 1\,$\mu$F)
+    \item \textbf{U5B} --- Speed feedback (R14 = 47\,k$\Omega$, C2 = 1\,$\mu$F)
+    \item \textbf{U5C} --- Position feedback (R17 = 5.1\,k$\Omega$, C3 = 1\,$\mu$F)
+    \item \textbf{U5D} --- Not used
+\end{itemize}
+
+\noindent Each channel uses the op-amp as a non-inverting buffer with an RC low-pass filter on the output. The filter integrates the PWM signal into a smooth DC voltage proportional to the duty cycle. The 10V op-amp rail voltage provides the full 0--10V output swing. The 10\,k$\Omega$ resistor pairs (R12/R13, R15/R16, R18/R19) at each input set the gain to provide level translation from 3.3V PWM to the 10V output range.
+
+\subsection{Raspberry Pi Pico Connections}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/Current Design/RasPi Pico connections.png}
+    \caption{Raspberry Pi Pico pin connections}
+\end{figure}
+
+The Raspberry Pi Pico (U1) is the central controller. Key connections:
+
+\begin{tabularx}{\textwidth}{l l X}
+\textbf{GPIO} & \textbf{Signal} & \textbf{Function} \\
+\hline
+GPIO2, GPIO3 & Encoder A, B & Quadrature encoder inputs (PIO state machine) \\
+GPIO13 & Motor Select & DIP switch (SW1) for motor type selection \\
+GPIO14 & Limit Switch & Home limit switch input \\
+GPIO15 & Home & Home command input from PLC \\
+GPIO16 & LED\_R (D1) & Forward direction indicator (red LED, R1 = 330$\Omega$) \\
+GPIO17 & LED\_W (D2) & Reverse direction indicator (white LED, R2 = 330$\Omega$) \\
+GPIO18 & PWM Position & Position feedback PWM output \\
+GPIO19 & PWM Speed & Speed feedback PWM output \\
+GPIO20 & PWM Position $\times$10 & Position $\times$10 feedback PWM output \\
+GPIO21 & Speed\_set PWM & Speed command PWM output to H-Bridge control logic \\
+GPIO26 (ADC0) & Speed\_set & Analog speed command input from PLC (via U11) \\
+GPIO27 (ADC1) & Speed Cal & Speed calibration potentiometer (RV1, 10\,k$\Omega$) \\
+\end{tabularx}
+
+\vspace{6pt}
+\noindent The Pico is powered from the +5V rail via VSYS, with C12 (100\,$\mu$F) for bulk decoupling. The 3.3V rail is generated internally by the Pico's on-board regulator and provides the ADC reference voltage.
+
+\subsection{Motor and Encoder Connector}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{images/Current Design/Encoder Connector.png}
+    \caption{Motor and encoder connector}
+\end{figure}
+
+The motor and encoder connect through two connectors:
+
+\begin{itemize}
+    \item \textbf{J3} (screw terminal) --- Motor power connections (M+ and M-), connected to the H-Bridge output.
+    \item \textbf{J2} (JST XH 6-pin) --- Encoder connections providing +5V, GND, and the two encoder channels (A and B).
+\end{itemize}
+
+\noindent The encoder outputs 5V signals which must be level-shifted to 3.3V for the Pico. This is accomplished with voltage dividers formed by R3/R21 and R5/R20 (1.8\,k$\Omega$ / 3.3\,k$\Omega$), which divide the 5V encoder signal down to approximately:
+
+$$V_{out} = 5V \times \frac{3.3k}{1.8k + 3.3k} = 3.24V$$
+
+\noindent This is within the Pico's 3.3V input tolerance.
+
+\end{document}

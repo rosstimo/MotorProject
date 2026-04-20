@@ -1,0 +1,67 @@
+\documentclass[main.tex]{subfiles}
+
+\begin{document}
+
+\section{Motor Specifications}
+
+Two motors are used with this system. The TS-25GA370H-20 gear motor is the primary motor for position and speed control applications. The RS-775126000E7 is a larger bare motor suited for speed control applications. Both motors include built-in quadrature encoders for feedback.
+
+\subsection{TS-25GA370H-20 Gear Motor}
+
+The TS-25GA370H-20 is a 12V DC gear motor with a two-channel Hall effect encoder, purchased from \href{https://www.amazon.com/Bemonoc-Encoder-Gearmotor-Two-Channel-Effect/dp/B07GNGCNK1?th=1}{Amazon}.
+
+\begin{tabularx}{\textwidth}{l X}
+\textbf{Parameter} & \textbf{Value} \\
+\hline
+Rated Voltage & 12V DC \\
+No-Load Speed & 300 RPM \\
+No-Load Current & $\leq$ 0.15A \\
+Rated Torque & 0.5 kg$\cdot$cm \\
+Gear Reduction Ratio & 1:20 \\
+Encoder Pulses Per Revolution & 240 PPR (12 PPR $\times$ 20:1 gear ratio) \\
+Body Dimensions & 66 $\times$ 25 mm \\
+Output Shaft & 11 $\times$ 4 mm with flat \\
+\end{tabularx}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{images/IMG_MotorTS_Wiring.jpg}
+    \caption{TS-25GA370H-20 wiring diagram}
+\end{figure}
+
+\subsubsection{Encoder Characterization Results}
+
+Through testing, the gear motor was found to produce \textbf{980 state changes per revolution} when read using quadrature decoding (4$\times$ the single-channel pulse count). This corresponds to a position resolution of:
+
+$$\frac{360^{\circ}}{980} = 0.367^{\circ} \text{ per state change}$$
+
+This high resolution makes the gear motor ideal for position control applications. A maximum speed of \textbf{4700 state changes per second} was recorded. See Appendix~\ref{app:motor_testing} for detailed test data and calibration methodology.
+
+\subsection{RS-775126000E7 Motor}
+
+The RS-775126000E7 is a bare 12V DC motor with encoder, purchased from \href{https://www.andymark.com/products/rs775-125-motor-with-encoder-for-pg27-gearbox}{AndyMark}.
+
+\begin{tabularx}{\textwidth}{l X}
+\textbf{Parameter} & \textbf{Value} \\
+\hline
+Rated Voltage & 12V DC \\
+No-Load Speed & $\approx$5,500 RPM \\
+No-Load Current & $\approx$680 mA \\
+Encoder Pulses Per Revolution & 7 PPR \\
+\end{tabularx}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.57\textwidth]{images/IMG_MotorRS_Dimensions.jpg}
+    \caption{RS-775126000E7 dimensions}
+\end{figure}
+
+\subsubsection{Encoder Characterization Results}
+
+With quadrature decoding, this motor produces \textbf{28 state changes per revolution}, yielding a position resolution of:
+
+$$\frac{360^{\circ}}{28} = 12.9^{\circ} \text{ per state change}$$
+
+Due to this low resolution, the RS-775 motor is better suited for \textbf{speed control} applications rather than position control. A maximum speed of \textbf{2600 state changes per second} was recorded. See Appendix~\ref{app:motor_testing} for detailed test data.
+
+\end{document}
