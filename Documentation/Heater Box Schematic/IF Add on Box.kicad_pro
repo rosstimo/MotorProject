@@ -593,6 +593,22 @@
     [
       "24b02cc4-65e0-4eb0-afbb-5ca60f371d9e",
       "Root"
+    ],
+    [
+      "a9297008-c10a-4261-8299-17c0ca1c231b",
+      "Digital Inputs"
+    ],
+    [
+      "4afe8f78-d722-4241-a31f-d67416e89fc9",
+      "Digital Outputs"
+    ],
+    [
+      "ef53043d-7c3f-4a01-a956-8c6cc057be08",
+      "Analog Inputs"
+    ],
+    [
+      "1c7deae2-d119-4d81-83cc-678cc79d1b3d",
+      "Analog Outputs"
     ]
   ],
   "text_variables": {}

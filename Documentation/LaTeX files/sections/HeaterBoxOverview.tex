@@ -10,9 +10,30 @@ The Heater Control Box is an introductory process control trainer designed to te
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{"images/Heater Box Schematic.png"}
-    \caption{Heater Control Box schematic.}
-    \label{fig:heaterbox-schematic}
+    \includegraphics[width=\textwidth]{"images/Current Design/Htr box Din.png"}
+    \caption{Digital input sheet. The 5069-IB16 module reads up to 16 discrete 24\,VDC inputs (channels 0--9 used) through a DB37 adapter. Two pushbuttons and the Green1/Red1 indicator LEDs are wired to the first input channels.}
+    \label{fig:heaterbox-din}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{"images/Current Design/Htr box Dout.png"}
+    \caption{Digital output sheet. The 5069-OB16 module provides 16 discrete outputs (0.5\,A per channel, 8\,A per module) through a DB37 adapter. Outputs drive the Green, Yellow, and Red indicator LEDs, a fan relay, and a heater relay switching current through the 150\,\si{\ohm} resistive heater element.}
+    \label{fig:heaterbox-dout}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{"images/Current Design/Htr box Ain.png"}
+    \caption{Analog input sheet. The 5069-IY4 module provides four differential analog input channels routed through a DB37 adapter. Channel\,0 reads the front-panel potentiometer (0--10\,V setpoint) and channel\,1 receives the 4--20\,mA signal from the ProSense thermocouple transmitter.}
+    \label{fig:heaterbox-ain}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{"images/Current Design/Htr box Aout.png"}
+    \caption{Analog output sheet. The 5069-OF4 module provides four analog output channels through a DB37 adapter. One channel drives the front-panel analog voltmeter for process variable or control output visualization.}
+    \label{fig:heaterbox-aout}
 \end{figure}
 
 \subsection{Theory of Operation}

@@ -62,7 +62,7 @@ J1 is a 10-position Phoenix Contact screw terminal that provides the external in
 The control logic generates the four gate drive signals (CW0, CW1, CCW0, CCW1) for the H-Bridge from two inputs: Fwd/Rev (direction) and a PWM speed signal.
 
 \begin{itemize}
-    \item \textbf{U10 (SN74LVC1G14)} --- Schmitt trigger inverter on the Fwd/Rev signal, providing a clean inverted direction signal.
+    \item \textbf{U10 (SN74LVC1G14)} --- Schmitt trigger inverter on the Fwd/Rev signal, providing a clean inverted direction signal for the CW1 and CCW1 outputs. In reverse (0), the CCW1 output is ON allowing CCW motion based on the PWM signal. In forward (1), the CW1 output is ON allowing CW motion based on the PWM signal.
     \item \textbf{U8, U9 (74LVC1G08)} --- AND gates that combine the direction and PWM signals to produce the CW0 and CCW0 drive signals.
     \item \textbf{JP1} --- A 3-position jumper selects between the Pico's Speed\_set PWM output (on-board speed control) and an External PWM input from the PLC.
 \end{itemize}
@@ -75,6 +75,7 @@ The control logic generates the four gate drive signals (CW0, CW1, CCW0, CCW1) f
 \hline
 0 & 0 & OFF & OFF (1) & OFF & ON (0) \\
 0 & 1 & OFF & OFF (1) & ON & ON (0) \\
+1 & 0 & OFF & ON (0) & OFF & OFF (1) \\
 1 & 1 & ON & ON (0) & OFF & OFF (1) \\
 \end{tabular}
 \end{center}
@@ -93,9 +94,10 @@ The H-Bridge uses discrete MOSFETs to drive the motor in both directions:
     \item \textbf{Q3, Q4 (DMP3099L-7)} --- P-channel MOSFETs on the high side, switching +12V to the motor.
     \item \textbf{Q1, Q2 (AO3400A)} --- N-channel MOSFETs on the low side, switching the motor to ground.
     \item \textbf{Q5--Q8 (MMBT3904)} --- NPN transistors used as gate drivers, providing the voltage levels needed to fully switch the MOSFETs.
-\end{itemize}
-
-\noindent D3 and D4 (yellow LEDs) indicate which direction the H-Bridge is active. D8 and D9 (white LEDs) serve as flyback indicators. C5 (680\,pF) is a snubber capacitor across the motor terminals to suppress switching transients. The motor connects via J4 (2.54\,mm header).
+    \item \textbf{D3, D4, D8, D9 (LEDs)} --- indicate which direction the H-Bridge is active. 
+    \item \textbf{C5 (680\,pF)} --- snubber capacitor across the motor terminals to suppress switching transients.
+    \item \textbf{J4 (2.54\,mm header)} --- header available to add capacitance across the motor if needed.
+ \end{itemize}
 
 \subsection{Output Buffering}
 

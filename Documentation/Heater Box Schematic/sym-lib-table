@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Multi Unit connector")(type "KiCad")(uri "${KIPRJMOD}/Multi Unit connector.kicad_sym")(options "")(descr ""))
+)
