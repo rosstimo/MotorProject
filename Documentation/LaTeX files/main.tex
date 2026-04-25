@@ -7,6 +7,7 @@
 \geometry{a4paper, left=2cm, right=2cm, top=1.5cm, bottom=3cm }
 \usepackage{caption}
 \usepackage{subcaption}
+\captionsetup[figure]{labelfont=bf}
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{siunitx}
@@ -57,26 +58,47 @@
 \usepackage{times}
 \begin{document}
 
-\noindent
-\begin{center}
-\textbf{{\Large PLC LAB TRAINER SYSTEM --- TECHNICAL MANUAL}} \\
-\vspace{4pt}
-\textit{Heater Control Box \& Motor Control Box}
-\end{center}
+%% ---- Cover Page ----
+\begin{titlepage}
+\centering
 
-\noindent
-\textbf{Authors: B. Anderson, T. Leishman, T. Rossiter} \textit{Idaho State University, Pocatello, Id.}
+\vspace*{2cm}
 
-\subfile{sections/ProjectOverview}
+\includegraphics[width=0.45\textwidth]{images/ISU_Logo.JPG}\\[2cm]
 
-\newpage
+{\color{roarange_lt}\rule{\textwidth}{2pt}}\\[0.6cm]
 
+{\fontsize{28}{34}\selectfont \textbf{PLC LAB TRAINER SYSTEM}}\\[0.5cm]
+
+{\fontsize{20}{24}\selectfont TECHNICAL MANUAL}\\[0.6cm]
+
+{\color{roarange_lt}\rule{\textwidth}{2pt}}\\[1.2cm]
+
+{\Large \textit{Heater Control Box \& Motor Control Box}}\\[3cm]
+
+{\large \textbf{Authors}}\\[0.4cm]
+{\large B. Anderson \quad T. Leishman \quad T. Rossiter}\\[2cm]
+
+{\large Idaho State University}\\
+{\large College of Technology}\\
+{\large Pocatello, Idaho}\\[1cm]
+
+{\large \today}
+
+\vfill
+
+\end{titlepage}
+
+%% ---- Table of Contents ----
 \tableofcontents
+\clearpage
 
-\newpage
+%% ---- Introduction / Project Overview ----
+\subfile{sections/ProjectOverview}
+\clearpage
 
-%% ---- Part I: System Overview ----
-\part{System Overview}
+%% ---- Part I: System Interfaces ----
+\part{System Interfaces}
 \subfile{sections/SystemArchitecture}
 \clearpage
 

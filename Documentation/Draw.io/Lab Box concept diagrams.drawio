@@ -1,0 +1,386 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Overall Concept" id="overall_concept">
+    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ov_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="&lt;b&gt;PLC Lab Trainer System --- Overall Concept&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_cable" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2" value="DB37 cable&#xa;(37 conductors:&#xa;DI, DO, AI, AO,&#xa;+24V, +12V, GND)" vertex="1">
+          <mxGeometry height="80" width="120" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hzLb-E3vWPvfuRTPPN1y-3" edge="1" parent="1" source="ov_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="ov_plc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_or_lbl" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;i&gt;&lt;b&gt;swappable&lt;/b&gt;: only one box&lt;br&gt;is connected at a time&lt;/i&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="430" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_heater" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=bottom;fontSize=11;fontColor=#000000;" value="&lt;b&gt;Heater Control Box&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Introductory module&lt;/i&gt;&lt;br&gt;&lt;br&gt;Resistive heater + Type-K&#xa;thermocouple + ProSense&#xa;transmitter. Teaches digital&#xa;I/O, analog scaling, and&#xa;PID temperature control." vertex="1">
+          <mxGeometry height="175" width="180" x="250" y="349.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_motor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#82b366;verticalAlign=bottom;fontSize=11;fontColor=#000000;align=center;" value="&lt;b&gt;Motor Control Box&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Advanced module&lt;/i&gt;&lt;br&gt;&lt;br&gt;Pico MCU + H-Bridge driving&#xa;a DC brushed motor with&#xa;quadrature encoder feedback.&#xa;Teaches motion control and&#xa;multi-variable feedback." vertex="1">
+          <mxGeometry height="175" width="180" x="630" y="349.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hzLb-E3vWPvfuRTPPN1y-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="260" x="400" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_plc" parent="hzLb-E3vWPvfuRTPPN1y-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;fontSize=12;fontColor=#000000;" value="&lt;b&gt;CompactLogix PLC Rack&lt;/b&gt;" vertex="1">
+          <mxGeometry height="170" width="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_di" parent="hzLb-E3vWPvfuRTPPN1y-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;rotation=-90;" value="5069-IB16&#xa;Digital Input (16ch)" vertex="1">
+          <mxGeometry height="50" width="130" x="-20" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_do" parent="hzLb-E3vWPvfuRTPPN1y-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;rotation=-90;" value="5069-OB16&#xa;Digital Output (16ch)" vertex="1">
+          <mxGeometry height="50" width="130" x="38" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_ai" parent="hzLb-E3vWPvfuRTPPN1y-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;rotation=-90;" value="5069-IY4&#xa;Analog Input (4ch)" vertex="1">
+          <mxGeometry height="50" width="130" x="97" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_ao" parent="hzLb-E3vWPvfuRTPPN1y-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontColor=#000000;rotation=-90;" value="5069-OF4&#xa;Analog Output (4ch)" vertex="1">
+          <mxGeometry height="50" width="130" x="155" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hzLb-E3vWPvfuRTPPN1y-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;b style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;DB37 Passthrough&lt;br&gt;Interface Board&lt;/b&gt;&lt;br style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;&lt;br style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;Breaks out 37 conductors&lt;/span&gt;&lt;br style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;to Terminals&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="455" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="ov_db37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#d6b656;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="DB37 Passthrough" vertex="1">
+          <mxGeometry height="45" width="120" x="320" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="hzLb-E3vWPvfuRTPPN1y-6" edge="1" parent="1" source="hzLb-E3vWPvfuRTPPN1y-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="ov_plc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hzLb-E3vWPvfuRTPPN1y-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#d6b656;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="DB37 Passthrough" vertex="1">
+          <mxGeometry height="45" width="120" x="620" y="337" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Heater Box" id="heater_box">
+    <mxGraphModel dx="1664" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;br style=&quot;font-size: 12px; text-align: left; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b style=&quot;text-align: left; color: rgb(184, 84, 80); font-size: 13px; background-color: rgb(236, 236, 236);&quot;&gt;HEATER CONTROL BOX&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="440" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;strokeWidth=2;dashed=1;align=left;verticalAlign=bottom;" value="" vertex="1">
+          <mxGeometry height="480" width="590" x="450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="240" x="780" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_ain" parent="Zwl2_BiPiT3M2WLmTmkT-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=11;" value="&lt;b&gt;PLC Analog Inputs (IY4)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_pot" parent="Zwl2_BiPiT3M2WLmTmkT-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Potentiometer (0--10 V)&#xa;Setpoint" vertex="1">
+          <mxGeometry height="40" width="200" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_xmtr" parent="Zwl2_BiPiT3M2WLmTmkT-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="ProSense XTD2&lt;br&gt;(4--20 mA, T proportional)" vertex="1">
+          <mxGeometry height="40" width="200" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="160" width="240" x="470" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_dout" parent="Zwl2_BiPiT3M2WLmTmkT-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontSize=11;" value="&lt;b&gt;PLC Digital Outputs (OB16)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="150" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_leds" parent="Zwl2_BiPiT3M2WLmTmkT-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Indicator LEDs&#xa;(2x Green, Yellow, 2x Red)" vertex="1">
+          <mxGeometry height="30" width="200" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_htr_relay" parent="Zwl2_BiPiT3M2WLmTmkT-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Heater Relay  &amp;#8594;  150&amp;#8486; heater" vertex="1">
+          <mxGeometry height="30" width="200" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_fan_relay" parent="Zwl2_BiPiT3M2WLmTmkT-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Fan Relay  &amp;#8594;  Fan (disturbance)" vertex="1">
+          <mxGeometry height="30" width="200" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="&lt;b&gt;Heater Control Box --- System Diagram&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="325" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_plc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;CompactLogix PLC&lt;/b&gt;&#xa;IB16 / OB16 / IY4 / OF4" vertex="1">
+          <mxGeometry height="80" width="200" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-15" edge="1" parent="1" source="hb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.41;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="hb_leds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-16" edge="1" parent="1" source="hb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.59;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="hb_pot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-17" edge="1" parent="1" source="hb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="hb_xmtr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-21" edge="1" parent="1" source="hb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="hb_fan_relay">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_db37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;fontSize=12;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.36,1,0,0,0],[0.41,1,0,0,0],[0.46,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.55,1,0,0,0],[0.59,1,0,0,0],[0.65,1,0,0,0],[0.75,0,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" value="&lt;b&gt;DB37 Passthrough&lt;/b&gt;&#xa;Phoenix Contact TBs" vertex="1">
+          <mxGeometry height="60" width="200" x="640" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_plant" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;verticalAlign=top;fontSize=11;" value="&lt;b&gt;THERMAL PLANT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="370" x="620" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_heater" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="150 &amp;#8486; resistive&#xa;heater element" vertex="1">
+          <mxGeometry height="60" width="160" x="640" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_tc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Type-K&#xa;Thermocouple" vertex="1">
+          <mxGeometry height="60" width="160" x="820" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_thermal_arrow" edge="1" parent="1" source="hb_heater" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=1;dashed=1;" target="hb_tc" value="heat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_loop_note" parent="1" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;points=[[0,0,0,0,0],[0,0.19,0,0,0],[0,0.5,0,0,0],[0,0.59,0,-2,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" value="&lt;b&gt;Closed-loop control&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;PLC commands heater relay&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;→ resistor warms&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;→ thermocouple senses T&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;→ ProSense outputs 4--20 mA&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ PLC IY4 reads PV&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;→ control algorithm (on/off, P, PI, PID) modulates heater output.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fan injects a thermal disturbance for tuning practice.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="260" x="150" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-2" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="240" x="470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_din" parent="Zwl2_BiPiT3M2WLmTmkT-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#82b366;verticalAlign=top;fontSize=11;" value="&lt;b&gt;PLC Digital Inputs (IB16)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_pbs" parent="Zwl2_BiPiT3M2WLmTmkT-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="2x Pushbuttons&lt;br&gt;(start/stop)" vertex="1">
+          <mxGeometry height="40" width="200" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="240" x="780" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_aout" parent="Zwl2_BiPiT3M2WLmTmkT-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#9673a6;verticalAlign=top;fontSize=11;" value="&lt;b&gt;PLC Analog Output (OF4)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hb_voltmeter" parent="Zwl2_BiPiT3M2WLmTmkT-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Front-panel analog Voltmeter&#xa;(displays PV or control output)" vertex="1">
+          <mxGeometry height="40" width="200" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-5" parent="1" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid2misc.fan;fanType=common;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;points=[[0,0.5,0,0,0],[0.5,0,0,0,0]];" value="" vertex="1">
+          <mxGeometry height="110" width="110" x="500" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-7" edge="1" parent="1" source="hb_htr_relay" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;strokeWidth=2;" target="hb_heater">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-9" edge="1" parent="1" source="hb_fan_relay" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;strokeWidth=2;" target="Zwl2_BiPiT3M2WLmTmkT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-10" edge="1" parent="1" source="hb_xmtr" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;strokeWidth=2;" target="hb_tc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-13" edge="1" parent="1" source="hb_pbs" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.36;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;entryPerimeter=0;" target="hb_db37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-14" edge="1" parent="1" source="hb_voltmeter" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.67;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;entryPerimeter=0;" target="hb_db37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-20" edge="1" parent="1" source="hb_htr_relay" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.46;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="hb_db37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-22" edge="1" parent="1" source="hb_plc" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;strokeWidth=4;" target="hb_db37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwl2_BiPiT3M2WLmTmkT-23" edge="1" parent="1" source="hb_loop_note" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.59;exitDx=-2;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classicThin;endFill=1;" target="hb_loop_note">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="350" />
+              <mxPoint x="120" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Motor Box" id="motor_box">
+    <mxGraphModel dx="2020" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mb_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#82b366;strokeWidth=2;dashed=1;" value="" vertex="1">
+          <mxGeometry height="530" width="640" x="380" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-46" edge="1" parent="1" source="mb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" target="mb_cmds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-47" edge="1" parent="1" source="mb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" target="mb_fb">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="187" />
+              <mxPoint x="1010" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-48" edge="1" parent="1" source="mb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="0IMVftvSetoH7EnXN2pV-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="220" />
+              <mxPoint x="535" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-49" edge="1" parent="1" source="mb_db37" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" target="0IMVftvSetoH7EnXN2pV-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mb_db37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;fontSize=12;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.2,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.4,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.6,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[0.8,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.7,0,0,0],[1,0.85,0,0,0],[1,1,0,0,0]];" value="&lt;b&gt;DB37 Passthrough&lt;/b&gt;&#xa;Phoenix Contact TBs" vertex="1">
+          <mxGeometry height="60" width="200" x="600" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#CCFFCC;" value="" vertex="1">
+          <mxGeometry height="290" width="550" x="400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" value="&lt;b&gt;Motor Control Box --- System Diagram&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_plc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;fontSize=12;" value="&lt;b&gt;CompactLogix PLC&lt;/b&gt;&#xa;IB16 / OB16 / IY4 / OF4" vertex="1">
+          <mxGeometry height="80" width="200" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_box_label" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#82b366;" value="&lt;b&gt;MOTOR CONTROL BOX&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="350" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-35" edge="1" parent="1" source="mb_cmds" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" target="mb_pico">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-37" edge="1" parent="1" source="mb_pico" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" target="mb_fb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_pico" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;Raspberry Pi Pico&lt;/b&gt;&#xa;PIO quadrature decode&#xa;PWM I/O conversion" vertex="1">
+          <mxGeometry height="80" width="150" x="500" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_hb" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;H-Bridge Driver&lt;/b&gt;&lt;br&gt;(forward / reverse)" vertex="1">
+          <mxGeometry height="60" width="150" x="500" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-33" edge="1" parent="1" source="mb_motor" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="mb_pico" value="encoder A/B">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="664" />
+              <mxPoint x="440" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mb_motor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;fontSize=11;" value="&lt;b&gt;DC Brushed Motor&lt;/b&gt;&#xa;with quadrature encoder" vertex="1">
+          <mxGeometry height="50" width="150" x="500" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_pico_to_hb" edge="1" parent="1" source="mb_pico" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;" target="mb_hb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_hb_to_motor" edge="1" parent="1" source="mb_hb" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;" target="mb_motor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_loop_note" parent="1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Motion control loop&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;PLC issues 0 - 10 V power command and 24 V direction signals&amp;nbsp;&lt;/li&gt;&lt;li&gt;Pico interprets, controls H-Bridge state&amp;nbsp;&lt;/li&gt;&lt;li&gt;H-Bridge drives motor&amp;nbsp;&lt;/li&gt;&lt;li&gt;quadrature encoder returns pulses&amp;nbsp;&lt;/li&gt;&lt;li&gt;Pico counts pulses, calculates speed and position&lt;/li&gt;&lt;li&gt;Pico returns to 0 - 10 V analog speed and position signals to the PLC.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="260" x="90" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-34" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="280" x="700" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_fb" parent="0IMVftvSetoH7EnXN2pV-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;fontSize=11;" value="&lt;b&gt;Feedback to PLC&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_fb1" parent="0IMVftvSetoH7EnXN2pV-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontSize=10;" value="0--10 V speed (analog)" vertex="1">
+          <mxGeometry height="25" width="240" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_fb2" parent="0IMVftvSetoH7EnXN2pV-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontSize=10;" value="0--10 V position (analog)" vertex="1">
+          <mxGeometry height="25" width="240" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-36" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="130" width="280" x="700" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_cmds" parent="0IMVftvSetoH7EnXN2pV-36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;fontSize=11;" value="&lt;b&gt;Commands from PLC&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_cmd1" parent="0IMVftvSetoH7EnXN2pV-36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontSize=10;" value="0--10 V analog (motor power command)" vertex="1">
+          <mxGeometry height="25" width="240" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_cmd2" parent="0IMVftvSetoH7EnXN2pV-36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontSize=10;" value="24 V PWM forward / reverse (digital)" vertex="1">
+          <mxGeometry height="25" width="240" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mb_cmd4" parent="0IMVftvSetoH7EnXN2pV-36" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;fontSize=10;" value="Position-zero / homing input (digital)" vertex="1">
+          <mxGeometry height="25" width="240" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-38" edge="1" parent="1" source="mb_plc" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;strokeWidth=4;" target="mb_db37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.09000000000003" y="130" as="sourcePoint" />
+            <mxPoint x="810.09" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-40" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="240" x="400" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-41" parent="0IMVftvSetoH7EnXN2pV-40" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#82b366;verticalAlign=top;fontSize=11;" value="&lt;b&gt;Digital Inputs / Outputs&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="180" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-42" parent="0IMVftvSetoH7EnXN2pV-40" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Same as Heater Box" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-43" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="240" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-44" parent="0IMVftvSetoH7EnXN2pV-43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#9673a6;verticalAlign=top;fontSize=11;" value="&lt;b&gt;Analog Inputs / Outputs&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0IMVftvSetoH7EnXN2pV-45" parent="0IMVftvSetoH7EnXN2pV-43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="Same as Heater Box" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FzoFQdaa8IahlPMsXDna" name="Closed Loop Diag.">
+    <mxGraphModel dx="1768" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FDDDQzRRIeNad9__JTYR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;dashed=1;dashPattern=8 8;verticalAlign=top;" value="Heater Box" vertex="1">
+          <mxGeometry height="140" width="236" x="414" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-1" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-5" value="CV">
+          <mxGeometry relative="1" y="13" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Control&lt;div&gt;Algorithm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="60" x="320" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="Error" vertex="1">
+          <mxGeometry height="15" width="20" x="290" y="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-4" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Relay&lt;div&gt;on/off&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="60" x="424" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-6" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FDDDQzRRIeNad9__JTYR-2" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="FDDDQzRRIeNad9__JTYR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;R&lt;/div&gt;(150 Ω)" vertex="1">
+          <mxGeometry height="35" width="60" x="504" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-8" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-9" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;div&gt;Prosense&lt;/div&gt;XTD2" vertex="1">
+          <mxGeometry height="35" width="60" x="424" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-10" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Setpoint&lt;div&gt;(SP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="230" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-12" edge="1" parent="1" source="v_hNJjDcg0mPGSePtHDH-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=openAsync;endFill=0;" target="v_hNJjDcg0mPGSePtHDH-3" value="PV">
+          <mxGeometry relative="1" x="0.3337" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_hNJjDcg0mPGSePtHDH-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="PLC&lt;div&gt;IY4&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="60" x="320" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="FDDDQzRRIeNad9__JTYR-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="Heat Output" vertex="1">
+          <mxGeometry height="30" width="40" x="600" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FDDDQzRRIeNad9__JTYR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;dashed=1;dashPattern=8 8;verticalAlign=top;" value="PLC" vertex="1">
+          <mxGeometry height="140" width="170" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="FDDDQzRRIeNad9__JTYR-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fontStyle=1" value="Closed Loop Control Diagram" vertex="1">
+          <mxGeometry height="30" width="190" x="340" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

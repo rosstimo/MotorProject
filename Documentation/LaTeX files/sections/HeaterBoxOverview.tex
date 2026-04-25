@@ -10,6 +10,13 @@ The Heater Control Box is an introductory process control trainer designed to te
 
 \begin{figure}[H]
     \centering
+    \includegraphics[width=\textwidth]{images/HeaterBoxConcept.png}
+    \caption{Heater Control Box system diagram. The PLC drives indicator LEDs, a heater relay, a fan relay, and an analog voltmeter through the DB37 passthrough; it reads pushbuttons, a setpoint potentiometer, and a temperature signal from the Type-K thermocouple via the ProSense XTD2\_TT 4--20\,mA transmitter. The 150\,\si{\ohm} heater warms the thermocouple to close the control loop.}
+    \label{fig:heaterbox-concept}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
     \includegraphics[width=\textwidth]{"images/Current Design/Htr box Din.png"}
     \caption{Digital input sheet. The 5069-IB16 module reads up to 16 discrete 24\,VDC inputs (channels 0--9 used) through a DB37 adapter. Two pushbuttons and the Green1/Red1 indicator LEDs are wired to the first input channels.}
     \label{fig:heaterbox-din}

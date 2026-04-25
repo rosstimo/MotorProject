@@ -12,6 +12,13 @@ The motor control board is equipped with feedback capabilities, providing 0-10V 
 
 Overall, this project will provide a versatile motor controller that will facilitate a diverse range of learning opportunities.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/MotorBoxConcept.png}
+    \caption{Motor Control Box system diagram. The PLC issues a 0--10\,V power command, 24\,V PWM forward/reverse signals, and a position-zero input. A Raspberry Pi Pico converts those industrial signals to logic-level commands for the H-Bridge driver, which powers the DC brushed motor. The motor's quadrature encoder is decoded by the Pico's PIO and returned to the PLC as 0--10\,V analog speed and position plus a digital direction signal.}
+    \label{fig:motorbox-concept}
+\end{figure}
+
 
 
 \end{document}
