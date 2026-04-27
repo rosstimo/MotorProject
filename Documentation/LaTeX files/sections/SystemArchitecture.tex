@@ -12,7 +12,7 @@ The board layout (ver.\ 2, January 2025) arranges the terminals as follows: the 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{"images/DB37 to Phoenix Contact TB.png"}
+    \includegraphics[width=0.7\textwidth]{"images/DB37 to Phoenix Contact TB.png"}
     \caption{DB37 to Phoenix Contact terminal block wire map (board ver.\ 2).}
     \label{fig:db37-wiremap}
 \end{figure}
@@ -25,21 +25,18 @@ The CompactLogix PLC rack is configured with the following I/O modules, whose ch
 \centering
 \caption{PLC I/O Module Configuration}
 \label{tab:plc-modules}
-\begin{tabularx}{\textwidth}{l l X}
+\begin{tabularx}{\textwidth}{l l c X}
 \hline
-\textbf{Module} & \textbf{Type} & \textbf{Description} \\
+\textbf{Module} & \textbf{Type} & \textbf{DB37 Pins} & \textbf{Description} \\
 \hline
-5069-IB16 & Digital Input & 16-channel, 24\,V DC sink/source input \\
-5069-OB16 & Digital Output & 16-channel, 0.5\,A per channel, 8\,A per module \\
-5069-OF4 & Analog Output & 4-channel voltage/current output \\
-5069-IY4 & Analog Input & 4-channel voltage/current input \\
+5069-IB16 & Digital Input  & 2--12  & 16-channel, 24\,V DC sink/source (Din0--Din9) \\
+5069-OB16 & Digital Output & 13--20 & 16-channel, 0.5\,A per channel, 8\,A per module (Dout0--Dout7) \\
+5069-IY4  & Analog Input   & 21--28 & 4-channel voltage/current input (differential Ain0--Ain3) \\
+5069-OF4  & Analog Output  & 29--36 & 4-channel voltage/current output (differential Aout0--Aout3) \\
+
 \hline
 \end{tabularx}
 \end{table}
-
-\subsection{DB37 Pin Allocation}
-
-The 37-pin connector is partitioned across the four PLC modules as shown in the schematic. The digital output module (OB16) occupies DB37 pins 11--18 (channels Dout0--Dout7). The digital input module (IB16) occupies pins 1--10 (channels Din0--Din9, with pins 1--2 also carrying V1/V2 power). The analog output module (OF4) occupies pins 28--35 (differential pairs for channels Aout0--Aout3). The analog input module (IY4) occupies pins 20--27 (differential pairs for channels Ain0--Ain3). Pin 37 is system ground.
 
 \subsection{Power Distribution}
 

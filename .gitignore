@@ -49,6 +49,9 @@ texcompile.sh
 *.fls
 *.fdb_latexmk
 
+#### Drawio autosave files ####
+*.bkp
+
 #### Claude Code local config ####
 .claude/
 

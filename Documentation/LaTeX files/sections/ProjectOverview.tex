@@ -20,13 +20,13 @@ Both boxes connect to the PLC through a shared \textbf{DB37 passthrough interfac
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{images/SystemConcept.png}
-    \caption{Overall system concept. The CompactLogix PLC drives a single DB37 cable to a passthrough interface board; either trainer box (or future boxes) plugs into the same Phoenix Contact terminal blocks. Only one box is connected at a time.}
+    \caption{Overall system concept. The CompactLogix PLC connects via a DB37 cable to a passthrough interface board; either trainer box (or future boxes) plug in and allow the PLC to interface. Only one box is connected at a time.}
     \label{fig:overall-concept}
 \end{figure}
 
 \subsection{Learning Progression}
 
-The two boxes are designed to be used in sequence. Students start with the Heater Control Box, where the plant dynamics are slow, signals are simple, and a textbook PID loop produces visibly correct behavior. Once they are comfortable with PLC programming, analog scaling, and tuning, they move to the Motor Control Box, where signals are faster, feedback is multi-variable (speed and position).
+The two boxes are designed to be used in sequence. Students start with the Heater Control Box, where the plant dynamics are slow, signals are simple, and a textbook PID loop produces rapid and obvious results. Once they are comfortable with PLC programming, analog scaling, and tuning, they move to the Motor Control Box, where signals are faster, feedback is multi-variable (speed and position).
 
 \subsection{Document Roadmap}
 
