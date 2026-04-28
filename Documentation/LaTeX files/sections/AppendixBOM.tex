@@ -5,7 +5,133 @@
 \section{Bill of Materials}
 \label{app:bom}
 
-Table~\ref{tab:bom} lists all components on the Pico H-Bridge motor control board v3.
+This appendix lists the BOMs for the PLC Lab Trainer System. The two trainer boxes share a common set of enclosure, cabling, and operator-interface parts (Section~\ref{sec:bom-common}); each box then adds its own subsystem-specific components (Sections~\ref{sec:bom-heater-specific} and~\ref{sec:bom-motor-specific}). Section~\ref{sec:bom-pico} lists the components on the Pico H-Bridge motor control board that mounts inside the Motor Control Box. Box-level quantities are listed per unit; the project deploys 16 of each box.
+
+\subsection{Common Box Components}
+\label{sec:bom-common}
+
+Table~\ref{tab:bom-common} lists the components installed in both the Heater Control Box and the Motor Control Box. Each box receives one set of these parts.
+
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{p{6.5cm} l l c}
+\caption{Common Box Bill of Materials (per box, applies to both Heater and Motor boxes)} \label{tab:bom-common} \\
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endhead
+\hline
+\endfoot
+
+\multicolumn{4}{l}{\textit{Enclosure and Cabling}} \\
+\hline
+Hinged outdoor junction box (enclosure) & ZH-121006 & PolyCase & 1 \\
+DB37 male shielded cable, 1\,m & Phoenix 2926580 & Digikey & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{Operator Interface}} \\
+\hline
+Potentiometer, 22\,mm panel mount, 4.7\,k\si{\ohm} & Schneider XB5AD912R4K7 & Grainger & 1 \\
+Pushbutton, 22\,mm green, momentary 1NO & Dayton 30G225 & Grainger & 1 \\
+Pushbutton, 22\,mm red, momentary 1NC & Dayton 30G230 & Grainger & 1 \\
+Pilot light, 22\,mm green LED, 24\,V & Schneider 55WU15 & Grainger & 1 \\
+Pilot light, 22\,mm yellow LED, 24\,V & Schneider 55WU17 & Grainger & 1 \\
+Pilot light, 22\,mm red LED, 24\,V & Schneider 55WU16 & Grainger & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{DB37 Passthrough Interface PCB}} \\
+\hline
+DB-37 male PCB-mount connector & Amphenol L717SDCH37POL2RM8C309 & Mouser & 1 \\
+Terminal block, 20-position (2 rows of 10), 3.5\,mm pitch & Phoenix 1841571 (SPTD 1,5/10-H-3,5) & Mouser & 2 \\
+Terminal block, 10-position (2 rows of 5), 3.5\,mm pitch & Phoenix 1841526 (SPTD 1,5/5-H-3,5) & Mouser & 1 \\
+
+\end{longtable}
+\renewcommand{\arraystretch}{1}
+
+\subsection{Heater Box Specific Components}
+\label{sec:bom-heater-specific}
+
+Table~\ref{tab:bom-heater} lists the components unique to the Heater Control Box, in addition to the common parts in Section~\ref{sec:bom-common}. Heater element, thermocouple wire, and fan are listed as generic items because they are typically pulled from existing lab inventory rather than purchased to a specific part number.
+
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{p{6.5cm} l l c}
+\caption{Heater Control Box Specific Bill of Materials (per box)} \label{tab:bom-heater} \\
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endhead
+\hline
+\endfoot
+
+\multicolumn{4}{l}{\textit{Heater and Sensing}} \\
+\hline
+Resistive heater element, 150\,\si{\ohm}, $\geq$\,5\,W & generic (lab inventory) & --- & 1 \\
+Type-K thermocouple extension wire & generic (lab inventory) & --- & 1 \\
+Universal temperature transmitter, 4--20\,mA loop output & ProSense XTD2-0-UNV-P & AutomationDirect & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{Thermal Disturbance}} \\
+\hline
+Axial fan, 12\,V DC & generic (lab inventory) & --- & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{Process Display}} \\
+\hline
+Analog panel voltmeter, 0--10\,V DC & Baomain 85C1 & Amazon & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{Power Switching}} \\
+\hline
+General-purpose relay, DPDT, 24\,V DC coil (heater relay) & OMRON G2R-2-S-DC24(S) & Grainger & 1 \\
+Relay socket, 8-pin DIN-rail / surface mount & OMRON P2RF-08-S & Grainger & 1 \\
+
+\end{longtable}
+\renewcommand{\arraystretch}{1}
+
+\subsection{Motor Box Specific Components}
+\label{sec:bom-motor-specific}
+
+Table~\ref{tab:bom-motor} lists the components unique to the Motor Control Box, in addition to the common parts in Section~\ref{sec:bom-common}. The Pico H-Bridge motor control board (Section~\ref{sec:bom-pico}) is mounted inside this enclosure. Motor selection varies per unit; either a gearmotor with encoder or a bare RS-775 may be installed depending on the lab exercise.
+
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{p{6.5cm} l l c}
+\caption{Motor Control Box Specific Bill of Materials (per box)} \label{tab:bom-motor} \\
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Description} & \textbf{Mfg.\ Part \#} & \textbf{Source} & \textbf{Qty} \\
+\hline
+\endhead
+\hline
+\endfoot
+
+\multicolumn{4}{l}{\textit{Motor (one of the following per box)}} \\
+\hline
+DC gearmotor with quadrature encoder, 12\,V & Amazon B07GNGCNK1 & Amazon & 1 \\
+PG27 RS-775-125 motor with encoder & AndyMark RS-775-125 & AndyMark & 1 \\
+RS-775 DC motor (no encoder, for open-loop labs) & --- & Amazon & 1 \\
+\hline
+
+\multicolumn{4}{l}{\textit{Motor Drive}} \\
+\hline
+Pico H-Bridge motor control board v3 (see Section~\ref{sec:bom-pico}) & --- & In-house & 1 \\
+
+\end{longtable}
+\renewcommand{\arraystretch}{1}
+
+\subsection{Motor Control PCB (Pico H-Bridge Complete v3)}
+\label{sec:bom-pico}
+
+Table~\ref{tab:bom} lists all components on the Pico H-Bridge motor control board v3. One assembled board is installed in each Motor Control Box.
 
 \renewcommand{\arraystretch}{1.3}
 \begin{longtable}{l l l l p{4.2cm}}
