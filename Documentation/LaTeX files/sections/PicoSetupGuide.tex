@@ -45,12 +45,21 @@ sudo apt update && sudo apt full-upgrade
 
 \noindent \textbf{Step 2: Install the build tools.} These are the programs needed to compile C code into firmware that the Pico can run.
 
+\vspace{6pt}
+\noindent \textit{Check first whether the build tools are already installed.} If the Pi has been used for Pico development before, these packages may already be present. To check, run:
+
+\begin{verbatim}
+cmake --version && arm-none-eabi-gcc --version && git --version
+\end{verbatim}
+
+\noindent If all three commands print a version number, the build tools are installed and you can skip to the next subsection. If any command reports ``command not found,'' run the install command below.
+
 \begin{verbatim}
 sudo apt install cmake gcc-arm-none-eabi build-essential git
 \end{verbatim}
 
 \begin{itemize}
-    \item \texttt{apt install} downloads and installs the listed packages.
+    \item \texttt{apt install} downloads and installs the listed packages. Any packages already installed will be skipped automatically.
     \item \texttt{cmake} --- a build system that reads the project's \texttt{CMakeLists.txt} and generates the instructions for compiling the code.
     \item \texttt{gcc-arm-none-eabi} --- the C compiler that produces code for the Pico's ARM processor. A regular compiler targets the Pi's CPU; this one targets the Pico's different CPU.
     \item \texttt{build-essential} --- a collection of standard development tools (compiler, linker, etc.) needed by most C projects.
@@ -163,6 +172,9 @@ cp build/pio_quadrature_encoder.uf2 /media/pi/RPI-RP2/
     \item \texttt{cp} --- the copy command. This copies the firmware file to the Pico's storage.
     \item \texttt{/media/pi/RPI-RP2/} --- this is where the Pi mounts the Pico's storage when it is in bootloader mode. It works just like copying a file to a USB flash drive.
 \end{itemize}
+
+\vspace{6pt}
+\noindent \textbf{Note:} The \texttt{cp} command above uses a relative path (\texttt{build/pio\_quadrature\_encoder.uf2}) and will only work if you run it from the project root folder \texttt{\textasciitilde/pico/pico-projects/Pico-Quad-Encoder}. If you are in a different folder, either \texttt{cd} back to the project root first, or supply the full path to the \texttt{.uf2} file.
 
 \noindent The Pico will automatically reboot and begin running the new firmware. The onboard LED will blink at 1\,Hz to indicate normal operation.
 
